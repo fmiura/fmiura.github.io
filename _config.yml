@@ -21,12 +21,12 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile_sakigake.png"
+  avatar           : "profile.png"
   name             : "Fumi"
   pronouns         : # example: "she/her"  
   bio              : "Scientific researcher interested in infectious disease dynamics"
   location         : "Netherlands/Japan"
-  employer         : "RIVM"
+  employer         : "RIVM/Ehime U"
   uri              : # URL
   email            : "none@example.org" 
 
