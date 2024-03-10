@@ -1,53 +1,98 @@
 ---
 permalink: /
-title: "Fumi's academic personal website"
+title: "Fumi's website"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
 
-New title
+Hi, I'm Fumi.
 =====
-This is an example
+I am a scientific researcher at the Dutch National Institute for Public Health and the Environment (RIVM). I have an academic appointment at Ehime University, Japan.
+オランダ国立公衆衛生環境研究所で主任研究員をしています。愛媛大学にも所属をしています。
 
-A data-driven personal website
+Recent Activity
 ======
-Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+**Note**
+This website is under construction. This activity list is not complete.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+**Previous updates**
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
-
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
-
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
-
-**Markdown generator**
-
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the academicpages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
-
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
-
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
-
-For more info
-------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+2022.06.24 Invited presentation at WHO calls for the MPX data analytics.
+WHOにて招待発表を行いました。サル痘の潜伏期間と曝露経路による感染様態の違いについて議論しました。
+2022.06.21 Invited seminar at 6th ECDC/EACS webinar on the monkeypox outbreak.
+ECDCにて招待セミナーを行いました。サル痘の潜伏期間および接触追跡調査について議論しました。
+2022.06.16 Paper accepted at Eurosurveillance. [Tweet]
+筆頭論文がEurosurveillanceに受理されました。オランダのサル痘感染者データを用いた潜伏期間の推定です。
+2022.06.06 EpiPose meeting in Antwerp. [Tweet]
+EpiPose​​の対面ミーティング＠Antwerpでした。共同研究アイディアの交換など、とても楽しい2日間でした！
+2022.06.02 Paper accepted in Water Research.
+​​共著論文がWater Researchに受理されました。ウイルス不活化と感受性のばらつきに関する続編です。共同研究として巻き込んでもらい、とても感謝しています。
+2022.05.16 Oral presentation at ISFEV7.
+​​口頭発表をISFEV7 (Santiago de Compostela)で行いました。久しぶりの対面学会はやはり楽しいです。
+2021.04.20 Invited talk at UMC Utrecht.
+​UMC Utrechtで招待セミナーを行いました。第一線の研究者とのディスカッションが刺激的でした。
+2022.04.01 Website updated.
+ホームページのデザインを更新しました。
+2022.03.18 Received 56th best presentation award (Kurita award) from Japan Society on Water Environment (as a co-author).
+（共著の）口頭発表がクリタ賞を受賞しました。ひとえに筆頭の学生さんの素晴らしい頑張りによるものです。
+2022.03.09 Published an article about wastewater in the Netherlands, on Japan Wastewater Newspaper for kids. 
+こども下水道新聞で「世界の水環境―オランダ編」を監修しました。きれいで楽しい誌面に仕上げて頂いています。
+2022.02.18 Published a Japanese textbook for primary school students on Sustainable science! I supervised Chap.8 (Pandemic).
+共同で監修した学研プラスさんの書籍が発刊されました。8章「パンデミック」を担当しています。
+2021.12.07 Paper accepted at PLOS Computational Biology. For details, please see this Twitter thread.
+​​筆頭論文がPLOS Comp Bioに受理されました。異なる効果をもつワクチンの配分アルゴリズムを提案しています。
+2021.12.02 Oral presentation at Epidemics8.
+​​口頭発表をEpidemics8 (online)で行いました。多くのフィードバックがあり、素晴らしい機会になりました。
+2021.11.18 Received award for Environmental Technology and Project from Japan Society of Civil Engineers’, the 58th Environmental Engineering Research Forum (as a co-author).
+​土木学会 第58回環境工学研究フォーラム環境技術・プロジェクト賞を受賞しました(共著者として)。
+2021.10.07 Grant proposal accepted (as co-PI, Fostering Joint International Research (B), supported by JSPS).
+​科研費・国際共同研究強化(B)に研究分担者として採択されました。蚊媒介感染症についてのプロジェクトです。
+2021.09.27 Invited talk at Tsukuba conference 2021.  
+​つくば会議2021で招待講演を行いました。
+2021.09.23 Invited talk at International symposium 2021: Leading-edge research of the impact of climate change on ecosystems and infectious diseases, Ecology and Civil Engineering Society (Japan).
+​応用生態工学会主催・国際シンポジウム「気候変動及び感染症研究の最前線」で招待講演を行いました。
+2021.09.01 Website updated.
+ホームページのデザインを更新しました。
+2021.08.23 Accepted for an oral presentation at Epidemics 8.
+Epidemics 8の​口頭発表に採択されました。ワクチンの作用機序を推定する手法について発表します。
+2021.07.23 Invited talk at Neo ME seminar, iBLab, Nagoya University.
+名古屋大学のネオMEセミナーで招待講演を行いました。憧れの教授も参加されていて、嬉しくも緊張しました。
+2021.06.09 Paper accepted at Science of the Total Environment.
+共著論文がSTOTENに受理されました。下水中SARS-CoV-2濃度への年齢別の寄与率について分析をしました。
+2021.05.28 Paper accepted at European Journal of Epidemiology. 
+共著論文がEur J Epiに受理されました。不顕性感染を考えるには非特異的な症状に留意すべきという研究です。
+2021.03.26 Invited talk at International Symposium: The Power of Data Science to Accelerate Health Medical Research, Institute of Medical Science, the University of Tokyo. 
+東京大学 医科学研究所 国際共同利用・共同研究拠点シンポジウムで招待講演を行いました。下水データと疫学分野の数理モデリング手法についての研究紹介を行いました。
+2021.03.24 Interviewed by a newspaper (Nihon gesuidou shinbun).
+日本下水道新聞に取材いただきました。複数の国での経験や、分野横断的な研究への意気込みを語りました。
+2021.03.10 Oral presentation at the 55nd annual conference of JSWE. 
+日本水環境学会 年会で口頭発表を行いました。下水疫学に関するモデリングの観点からみた展望を話しました。
+2021.03.09 Paper accepted at Microbial Risk Analysis.
+共著論文がMicrob. Risk Anal.にアクセプトされました。COVID-19のマスギャザリングに関するリスク評価です。
+2021.03.05 Invited talk at 2nd Symposium of JSPS Core-to-Core Program.
+JSPS Core-to-Core Programのシンポジウムで招待講演を行いました。下水疫学に関連した研究紹介を行いました。
+2021.02.04 Paper accepted at ES&T.
+共著論文がES&Tに受理されました。ウイルス不活化効率は感受性のばらつきにも依存する、という研究です。数理パートで貢献しました。
+2020.12.15 Paper accepted at Science of the Total Environment. 
+筆頭論文がSTOTENにアクセプトされました。糞便中SARS-CoV-2濃度の経時変化について分析しました。
+2020.09.10 Received Best Doctoral Research Award (Organo Award) from Japan Society on Water Environment (JSWE).
+日本水環境学会 博士研究奨励賞（オルガノ賞）最優秀賞を受賞しました。本分野で評価いただけ嬉しいです。
+2020.09.01 Awarded for JSPS CPD fellowship.
+JSPS CPDに採択されました。五年間、のびのびと研究できる機会をいただき感謝いたします。
+2020.08.03 Invited lecture at the University of Tokyo (WINGS-CFS Program).
+WINGS-CFS Programで大学院生向けの招待講義を行いました。フレッシュな学生の皆さんに刺激をもらいました。
+2020.06.26 Invited lecture at Ehime University (Department of Civil and Environmental Engineering).
+愛媛大学工学部 環境建設工学科で学部・大学院生向けの講義を行いました。鋭い質問が多く、学びになります。
+2020.05.28 Received President Award from Japan Society on Water Environment (JSWE).
+日本水環境学会 会長特別賞を受賞しました。もっと多くの方に研究分野を知っていただけるよう励みます。
+2020.04.01 Started my new postdoc position at Ehime University (JSPS SPD fellowship).  
+愛媛大学にJSPS SPDの博士研究員として所属します。
+2020.03.25 Received Ph.D. (Engineering) from the University of Tokyo. I appreciate huge support from colleagues and supervisors. 
+博士号(工学)を取得しました。指導教員や多くの共同研究者に心より感謝いたします。一層頑張ります。
+2020.03.20 Received the Dean award (Graduate school of Engineering)
+最優秀研究賞(東京大学大学院工学系研究科)を受賞しました。
+2020.03.04 Received JSPS Ikushi prize (Award from the Emperor of Japan!!!).
+日本学術振興会 育志賞を受賞しました。残念ながら陛下とのお茶会は中止でした…
