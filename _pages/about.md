@@ -16,6 +16,7 @@ I am a scientific researcher at the Dutch National Institute for Public Health a
 Recent Activity
 ======
 **Note**
+
 This website is under construction. This activity list is not complete.
 
 **Previous updates**
