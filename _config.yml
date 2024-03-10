@@ -12,7 +12,7 @@ title                    : "Fumi Miura / Research page"
 title_separator          : "-"
 name                     : &name "Fuminari Miura (三浦郁修)"
 description              : &description "personal description"
-url                      : https://fmiura.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://fmiura.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "fmiura/fmiura.github.io"
 
