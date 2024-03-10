@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Fumi Miura / Research page"
+title                    : "Fumi Miura"
 title_separator          : "-"
 name                     : &name "Fuminari Miura (三浦郁修)"
 description              : &description "personal description"
