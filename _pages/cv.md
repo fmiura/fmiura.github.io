@@ -9,56 +9,26 @@ redirect_from:
 
 {% include base_path %}
 
-Education
+Work experience 職歴
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* 2023 - Present: Scientific researcher
+  * Center for Infectious Disease Control, The National Institute for Public Health and the Environment (RIVM), The Netherlands (Host researcher: Prof. Jacco Wallinga)
+    * Since 2018, I have worked at [the unit for infectious disease modelling](https://www.rivm.nl/en/modelling-infectious-diseases)
+* 2020 - 2023: Postdoctoral Research Fellow (funded by JSPS Postdoctoral Research Fellow SPD/CPD)
+  * Center for Infectious Disease Control, The National Institute for Public Health and the Environment (RIVM), The Netherlands (Host researcher: Prof. Jacco Wallinga)
+  * Center for Marine Environmental Studies (CMES), Ehime University, Japan (Host researcher: Prof. Kozo Watanabe)
+* 2017 - 2020: Doctoral Research Fellow (funded by JSPS Doctoral Research Fellow DC1)
+  * University of Tokyo, Graduate School of Engineering (Host researcher: Prof. Kensuke Fukushi)
+* 2016 - 2017: Visiting researcher
+  * Hokkaido University, Graduate School of Medicine (Host researcher: Prof. Hiroshi Nishiura)
+* 2016: Internship researcher
+  * World Health Organization (Geneva)
+  * Water, Sanitation, Hygiene and Health, Department of Public Health, Social and Environmental Determinants of Health
+* 2015 - 2016: Adjunct Research Fellow
+  * Research Institute of Capital Formation, Development bank of Japan  
 
-Work experience
+Education 学歴
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* Ph.D (Urban Engineering), University of Tokyo, 2017 - 2020
+* M.S. (Urban Engineering), University of Tokyo, 2014 - 2017
+* B.S. (Urban Engineering), University of Tokyo, 2010 - 2014
