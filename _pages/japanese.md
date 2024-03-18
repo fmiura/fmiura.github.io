@@ -3,8 +3,8 @@ permalink: /
 title: "日本語ページ"
 author_profile: true
 redirect_from: 
-  - /about/
-  - /about.html
+  - /japanese/
+  - /japanese.html
 ---
 
 日本語での研究紹介用のページです。
