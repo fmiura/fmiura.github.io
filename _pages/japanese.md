@@ -1,5 +1,5 @@
 ---
-permalink: /
+permalink: /japanese/
 title: "日本語ページ"
 author_profile: true
 redirect_from: 
