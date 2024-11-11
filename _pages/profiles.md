@@ -16,5 +16,4 @@ profiles:
     more_info: >
       <p>at Rijksmuseum research library</p>
       <p>Amsterdam, the Netherlands</p>
-
 ---
