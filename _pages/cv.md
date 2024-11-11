@@ -1,5 +1,5 @@
 ---
-layout: cv
+layout: archive
 permalink: /cv/
 title: cv
 nav: true
