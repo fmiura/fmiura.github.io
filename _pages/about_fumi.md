@@ -1,8 +1,8 @@
-# Fumi Miura
+### Fumi Miura
 
-My research interest lies in the transmission dynamics of infectious diseases in humans. I use mathematical and statistical models to understand how human behaviors shape epidemics and explore the interactive mechanism between the environment and the population.
+Dr Fuminari (Fumi) Miura is interested in the way immunity and behaviour shape epidemics, and how empirical data may inform public policy through mathematical modelling. His research focuses on quantifying the impact of targeted control measures, developing alternative methods to capture under-reported cases, and measuring individual heterogeneity in susceptibility to infection. These studies are at the interface between epidemiological theory and infectious disease data analysis – even when the available data is limited, the output from his research, based on the knowledge of previous outbreaks, may help to determine how to maximize the benefit of preventive measures in a timely manner.
 
-# Work experience 職歴
+### Work experience
 
 - 2023 - Present: Scientific researcher
   - Center for Infectious Disease Control, The National Institute for Public Health and the Environment (RIVM), The Netherlands
@@ -20,7 +20,7 @@ My research interest lies in the transmission dynamics of infectious diseases in
 - 2015 - 2016: Adjunct Research Fellow
   - Research Institute of Capital Formation, Development bank of Japan
 
-# Education 学歴
+### Education
 
 - Ph.D (Urban Engineering), University of Tokyo, 2017 - 2020
 - M.S. (Urban Engineering), University of Tokyo, 2014 - 2017
