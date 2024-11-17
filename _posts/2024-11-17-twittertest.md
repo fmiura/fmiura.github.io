@@ -18,4 +18,3 @@ An example of displaying a tweet:
 
 An example of pulling from a timeline:
 {% twitter https://x.com/FuminariMiura maxwidth=500 limit=3 %}
-
