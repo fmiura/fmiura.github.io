@@ -1,44 +1,65 @@
 ---
-toc: true
-toc_label: "Table of Contents"
-toc_icon: "clipboard-list"
-toc_sticky: true
+layout: archive
+title: projects
 permalink: /projects/
-title: "Research Projects"
+description: A growing collection of your cool projects.
+nav: false
+nav_order: 3
+display_categories: [work, fun]
+horizontal: false
 ---
 
-## Research Projects <!-- -------------------------------------------------- -->
+<!-- pages/projects.md -->
+<div class="projects">
+{% if site.enable_project_categories and page.display_categories %}
+  <!-- Display categorized projects -->
+  {% for category in page.display_categories %}
+  <a id="{{ category }}" href=".#{{ category }}">
+    <h2 class="category">{{ category }}</h2>
+  </a>
+  {% assign categorized_projects = site.projects | where: "category", category %}
+  {% assign sorted_projects = categorized_projects | sort: "importance" %}
+  <!-- Generate cards for each project -->
+  {% if page.horizontal %}
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-2">
+    {% for project in sorted_projects %}
+      {% include projects_horizontal.liquid %}
+    {% endfor %}
+    </div>
+  </div>
+  {% else %}
+  <div class="row row-cols-1 row-cols-md-3">
+    {% for project in sorted_projects %}
+      {% include projects.liquid %}
+    {% endfor %}
+  </div>
+  {% endif %}
+  {% endfor %}
 
-### Optimal control strategies
+{% else %}
 
-We develop and analyse control strategies for infectious diseases by combining theoretical and computational approaches.
+<!-- Display projects without categories -->
 
-- **Next-generation approach:** Applying matrix-based epidemic theory to identify optimal intervention targets.
-- **Network models:** Capturing contact heterogeneity and structure in control design.
-- **Control theory:** Exploring tools from dynamical systems to inform policy optimisation.
+{% assign sorted_projects = site.projects | sort: "importance" %}
 
-### Quantifying individual heterogeneity
+  <!-- Generate cards for each project -->
 
-Understanding how individuals vary in infection and transmission risk is key to targeted interventions.
+{% if page.horizontal %}
 
-- **Dose-response models and human challenge trials:** Investigating susceptibility and infectiousness variation.
-- **Viral shedding dynamics and biomarkers:** Analysing intra-host processes to inform population-level modelling.
-
-### Alternative data for epidemics
-
-Expanding the evidence base for public health responses through novel data sources.
-
-- **Wastewater data:** Integrating mechanistic models with community-level viral loads.
-- **(Future)** **Socioeconomic signals:** Leveraging dynamic linear models and functional data analysis to capture behavioural and structural determinants of transmission.
-
-### Outbreak analytics
-
-Real-time data analysis and decision support during epidemics, informed by statistical and mechanistic tools.
-
-### Conceptualising and operationalising infection control policy
-
-Bridging the gap between theoretical models and actionable policy design.
-
-- **(Future)** **Decision theory:** Formalising how interventions are chosen under uncertainty.
-- **(Future)** **Causal inference:** Evaluating causal effects of preventive measures.
-- **(Future)** **What is evidence?:** Rethinking "evidence" in the context of pandemic preparedness.
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-2">
+    {% for project in sorted_projects %}
+      {% include projects_horizontal.liquid %}
+    {% endfor %}
+    </div>
+  </div>
+  {% else %}
+  <div class="row row-cols-1 row-cols-md-3">
+    {% for project in sorted_projects %}
+      {% include projects.liquid %}
+    {% endfor %}
+  </div>
+  {% endif %}
+{% endif %}
+</div>
