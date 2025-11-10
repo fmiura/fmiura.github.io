@@ -2,7 +2,7 @@
 layout: about
 title: home
 permalink: /
-subtitle: <a href='#'>Infectious Disease modeller</a>.
+subtitle: <a href='#'>Senior researcher in infectious Disease modelling and data analysis</a>.
 
 profile:
   align: right
