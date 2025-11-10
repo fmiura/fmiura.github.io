@@ -6,7 +6,7 @@ Dr Fuminari (Fumi) Miura is interested in the way immunity and behaviour shape e
 
 - 2023 - Present: Scientific researcher
   - Center for Infectious Disease Control, The National Institute for Public Health and the Environment (RIVM), The Netherlands
-    - Since 2018, I have worked at [the unit for infectious disease modelling](https://www.rivm.nl/en/modelling-infectious-diseases)
+    - Since 2018, I have worked at [the unit for infectious disease modelling](https://www.rivm.nl/infectieziektebestrijding/modelleren)
 - 2020 - 2023: Postdoctoral Research Fellow (funded by JSPS Postdoctoral Research Fellow SPD/CPD)
   - Center for Infectious Disease Control, The National Institute for Public Health and the Environment (RIVM), The Netherlands (Host researcher: Prof. Jacco Wallinga)
   - Center for Marine Environmental Studies (CMES), Ehime University, Japan (Host researcher: Prof. Kozo Watanabe)
