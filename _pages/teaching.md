@@ -12,3 +12,4 @@ Currently, this page is under development. Teaching materials developed for my c
 ## PhD supervision resources
 
 - [PhD Weekly Meeting – General Instructions](/teaching/phd-weekly-meeting-instructions/)
+- [PhD Weekly Meeting – Meeting Notes Template](/teaching/phd-weekly-meeting-template/)
