@@ -85,10 +85,10 @@ Focus on key issues and avoid unnecessary tangents.
 
 ---
 
-### Notes and tips
+### Additional remarks and tips
 
-- It is fine if there are **no new results** — summarise what you explored or tried.
-- Prepare agenda items with clear purposes such as:
-  - _Discuss_
-  - _Decide_
-  - _Check-in_
+- It is completely fine if there are **no new results** — summarise what you explored or tried instead.
+- Include agenda items together with their purpose (e.g., _discuss_, _decide_, _check-in only_).
+- Be specific when describing tasks. For example:
+  - “keep reading relevant literature” → “read XXX et al. (2020) and YYY et al. (2015) to draft the Introduction section.”
+  - “check GAM” → “learn the concept using ZZZ.com and AAA textbook chapters 1–3, then test example R scripts.”

@@ -25,7 +25,7 @@ Use this template to prepare for and document weekly PhD progress meetings.
 - _Planned last week:_
   - e.g., Prepare preliminary regression results on vaccination uptake; read XXX et al. (2021).
 - _What I actually did:_
-  - e.g., Cleaned dataset (N = 2,025), produced first logistic regression; unexpected missingness in two variables.
+  - e.g., Cleaned dataset (N = 2,025); produced first logistic regression; read XXX et al. (2021) and its references (YYY et al. (2010) and ZZZ et al. (2019)).
 
 #### 2.2 Findings / Progress
 
