@@ -47,7 +47,7 @@ ul li {
 /* Responsive: reduce side padding on small screens */
 @media (max-width: 600px) {
   main.content {
-    padding-left: 0.75rem;
-    padding-right: 0.75rem;
+    padding-left: 0.05rem;
+    padding-right: 0.05rem;
   }
 }
