@@ -1,0 +1,86 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
+    "section": "",
+    "text": "Download CV (PDF)"
+  },
+  {
+    "objectID": "cv.html#short-cv",
+    "href": "cv.html#short-cv",
+    "title": "CV",
+    "section": "Short CV",
+    "text": "Short CV\n\nPositions\n\n…\n\n\n\nEducation\n\n…"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Fuminari Miura",
+    "section": "",
+    "text": "Senior Researcher\nInfectious disease modelling, theoretical epidemiology\nEmail: (your email) · GitHub: (link) · Google Scholar: (link)\n\n\n\nEpidemic theory for practical control\nNetwork-structured transmission\nReduced-order models for decision support\n\n\n\n\n\n\nDynamic shift in the dominant transmission route of clade Ib mpox virus… Science Advances (in press)"
+  },
+  {
+    "objectID": "index.html#research-focus",
+    "href": "index.html#research-focus",
+    "title": "Fuminari Miura",
+    "section": "",
+    "text": "Epidemic theory for practical control\nNetwork-structured transmission\nReduced-order models for decision support"
+  },
+  {
+    "objectID": "index.html#selected-work",
+    "href": "index.html#selected-work",
+    "title": "Fuminari Miura",
+    "section": "",
+    "text": "Dynamic shift in the dominant transmission route of clade Ib mpox virus… Science Advances (in press)"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "(Year) Title. Journal. Links: PDF / DOI"
+  },
+  {
+    "objectID": "publications.html#selected",
+    "href": "publications.html#selected",
+    "title": "Publications",
+    "section": "",
+    "text": "(Year) Title. Journal. Links: PDF / DOI"
+  },
+  {
+    "objectID": "publications.html#full-list",
+    "href": "publications.html#full-list",
+    "title": "Publications",
+    "section": "Full list",
+    "text": "Full list\n\n…"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "(Write 2–4 lines.)\n\n\n\n(Write 2–4 lines.)"
+  },
+  {
+    "objectID": "research.html#themes",
+    "href": "research.html#themes",
+    "title": "Research",
+    "section": "",
+    "text": "(Write 2–4 lines.)\n\n\n\n(Write 2–4 lines.)"
+  },
+  {
+    "objectID": "research.html#projects",
+    "href": "research.html#projects",
+    "title": "Research",
+    "section": "Projects",
+    "text": "Projects\n\nESCAPE (WP4 Analytics & Tools)"
+  }
+]

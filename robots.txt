@@ -1,4 +1,1 @@
-User-agent: *
-Disallow:
-
 Sitemap: https://fmiura.github.io/sitemap.xml
