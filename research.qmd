@@ -1,0 +1,14 @@
+---
+title: "Research"
+---
+
+## Themes
+
+### Network epidemics
+(Write 2–4 lines.)
+
+### Reduced-order / surrogate models
+(Write 2–4 lines.)
+
+## Projects
+- ESCAPE (WP4 Analytics & Tools)

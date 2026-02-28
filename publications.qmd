@@ -1,0 +1,9 @@
+---
+title: "Publications"
+---
+
+## Selected
+- (Year) Title. *Journal*. Links: [PDF](#) / [DOI](#)
+
+## Full list
+- ...

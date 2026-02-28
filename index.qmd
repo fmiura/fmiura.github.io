@@ -1,0 +1,18 @@
+---
+title: ""
+---
+
+# Fuminari Miura
+
+Senior Researcher  
+Infectious disease modelling, theoretical epidemiology
+
+Email: (your email) · GitHub: (link) · Google Scholar: (link)
+
+## Research focus
+- Epidemic theory for practical control
+- Network-structured transmission
+- Reduced-order models for decision support
+
+## Selected work
+- (2026) Dynamic shift in the dominant transmission route of clade Ib mpox virus… *Science Advances* (in press)
