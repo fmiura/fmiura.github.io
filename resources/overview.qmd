@@ -1,0 +1,9 @@
+---
+title: "Resources (for students)"
+---
+
+This section collects materials for current and prospective students: short notes, reading lists, and practical guidance.
+
+## Quick links
+- [Writing](writing.html)
+- [Learning materials](learning.html)

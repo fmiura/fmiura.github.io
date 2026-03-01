@@ -2,4 +2,27 @@
 title: "About"
 ---
 
-About this site
+<div class="about-container">
+
+<div class="about-image">
+  <img src="images/profile_rijkslib.jpg" alt="Fuminari Miura">
+</div>
+
+<div class="about-text">
+
+I am a researcher working at the intersection of infectious disease modelling and theoretical epidemiology.
+
+My work focuses on understanding how transmission processes unfold across heterogeneous populations and how mathematical theory can inform practical control strategies.
+
+I am particularly interested in:
+
+- structural properties of transmission systems  
+- network and multi-layer epidemic models  
+- time-varying dominance of transmission routes  
+- reduced-order representations of complex epidemic dynamics  
+
+I aim to bridge epidemic theory and real-world decision making through parsimonious, interpretable models.
+You can find my CV [here](cv.html). 
+</div>
+
+</div>

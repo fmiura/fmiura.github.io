@@ -2,17 +2,32 @@
 title: ""
 ---
 
-# Fuminari Miura
+# Fuminari (Fumi) Miura
 
-Senior Researcher  
-Infectious disease modelling, theoretical epidemiology
+Senior Researcher at Dutch National Institute for Public Health and the Environment (RIVM)  
 
-Email: (your email) · GitHub: (link) · Google Scholar: (link)
+<div class="contact-icons">
+  <a href="mailto:your@email">
+    <i class="bi bi-envelope"></i>
+  </a>
+  <a href="https://github.com/fmiura" target="_blank">
+    <i class="bi bi-github"></i>
+  </a>
+  <a href="https://scholar.google.com/citations?hl=en&user=Ns1zkzAAAAAJ" target="_blank">
+    <i class="bi bi-mortarboard"></i>
+  </a>
+  <a href="https://www.linkedin.com/in/fuminari-miura/" target="_blank">
+    <i class="bi bi-linkedin"></i>
+  </a>
+</div>
+
+<div class="about-image">
+  <img src="images/profile_RIVM.jpg" alt="Fuminari Miura">
+</div>
 
 ## Research focus
-- Epidemic theory for practical control
-- Network-structured transmission
-- Reduced-order models for decision support
-
-## Selected work
-- (2026) Dynamic shift in the dominant transmission route of clade Ib mpox virus… *Science Advances* (in press)
+<!-- to be updated -->
+- Real-time outbreak analytics
+- Designing targeted control strategies
+- Epidemic theory for decision making
+- Low dimensional representation of dynamical systems

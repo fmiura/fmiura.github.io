@@ -1,0 +1,16 @@
+---
+title: "Writing"
+---
+
+## How I like to work with students
+- Start with a clear research question and scope
+- Write early; revise often (small iterations)
+- Prefer short, structured drafts (bullets → paragraphs)
+
+## Practical templates
+- Paper skeleton (Intro/Methods/Results/Discussion)
+- Reviewer response template
+- Figure-first writing workflow
+
+## Recommended references
+- (Add 5–10 core references you actually like)
