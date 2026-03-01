@@ -1,45 +1,73 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "resources/overview.html",
+    "href": "resources/overview.html",
+    "title": "Resources (for students)",
     "section": "",
-    "text": "About this site"
+    "text": "This section collects materials for current and prospective students: short notes, reading lists, and practical guidance."
   },
   {
-    "objectID": "cv.html",
-    "href": "cv.html",
-    "title": "CV",
-    "section": "",
-    "text": "Download CV (PDF)"
+    "objectID": "resources/overview.html#quick-links",
+    "href": "resources/overview.html#quick-links",
+    "title": "Resources (for students)",
+    "section": "Quick links",
+    "text": "Quick links\n\nWriting\nLearning materials"
   },
   {
-    "objectID": "cv.html#short-cv",
-    "href": "cv.html#short-cv",
-    "title": "CV",
-    "section": "Short CV",
-    "text": "Short CV\n\nPositions\n\n…\n\n\n\nEducation\n\n…"
+    "objectID": "join.html",
+    "href": "join.html",
+    "title": "Contact",
+    "section": "",
+    "text": "I welcome discussions on potential collaborative research projects, including academic partnerships and research collaborations with public institutions or industry.\nFor an overview of my current research interests and agenda, please see the Research page.\nIf you are considering collaboration, a short description of your research question and objectives would be helpful."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Fuminari Miura",
+    "objectID": "join.html#collaboration",
+    "href": "join.html#collaboration",
+    "title": "Contact",
     "section": "",
-    "text": "Senior Researcher\nInfectious disease modelling, theoretical epidemiology\nEmail: (your email) · GitHub: (link) · Google Scholar: (link)\n\n\n\nEpidemic theory for practical control\nNetwork-structured transmission\nReduced-order models for decision support\n\n\n\n\n\n\nDynamic shift in the dominant transmission route of clade Ib mpox virus… Science Advances (in press)"
+    "text": "I welcome discussions on potential collaborative research projects, including academic partnerships and research collaborations with public institutions or industry.\nFor an overview of my current research interests and agenda, please see the Research page.\nIf you are considering collaboration, a short description of your research question and objectives would be helpful."
   },
   {
-    "objectID": "index.html#research-focus",
-    "href": "index.html#research-focus",
-    "title": "Fuminari Miura",
-    "section": "",
-    "text": "Epidemic theory for practical control\nNetwork-structured transmission\nReduced-order models for decision support"
+    "objectID": "join.html#students-and-early-career-researchers",
+    "href": "join.html#students-and-early-career-researchers",
+    "title": "Contact",
+    "section": "Students and Early-Career Researchers",
+    "text": "Students and Early-Career Researchers\nI am happy to hear from motivated students and postdoctoral researchers whose interests align with the areas above.\nWhen reaching out, please include:\n\nA CV (PDF)\nA brief statement (1–2 paragraphs) outlining your interests and research goals\n(Optional) a writing sample or code repository\n\n\nPossible opportunities\n\nMSc thesis supervision\n\nPhD positions (subject to availability and funding)\n\nVisiting research stays\n\nFellowship-based positions (see below)"
   },
   {
-    "objectID": "index.html#selected-work",
-    "href": "index.html#selected-work",
-    "title": "Fuminari Miura",
+    "objectID": "join.html#fellowship-opportunities",
+    "href": "join.html#fellowship-opportunities",
+    "title": "Contact",
+    "section": "Fellowship Opportunities",
+    "text": "Fellowship Opportunities\nProspective applicants are encouraged to consider external funding schemes. Examples include:\n\nJSPS Postdoctoral Fellowship (PD)\nhttps://www.jsps.go.jp/english/e-pd/\nJSPS Overseas Research Fellowship (海外特別研究員)\nhttps://www.jsps.go.jp/english/e-ab/\nOverseas fellowships (non-Japanese applicants to Japan)\nI can host applicants at Nagasaki University under relevant fellowship schemes.\n(For example: JSPS Invitational / institutional programs depending on year.)\nMarie Skłodowska-Curie Postdoctoral Fellowships (MSCA PF)\nhttps://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships\n\nIf you are considering applying for a fellowship with me as host or collaborator, please contact me well in advance of the deadline."
+  },
+  {
+    "objectID": "join.html#working-style",
+    "href": "join.html#working-style",
+    "title": "Contact",
+    "section": "Working Style",
+    "text": "Working Style\nI value:\n\nclarity of research questions\n\nsteady, structured writing from an early stage\n\nreproducible workflows (version control, well-documented code, organized projects)\n\nconstructive and open communication\n\nI aim to provide an environment that supports intellectual independence while maintaining high analytical standards."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
     "section": "",
-    "text": "Dynamic shift in the dominant transmission route of clade Ib mpox virus… Science Advances (in press)"
+    "text": "(Write 2–4 lines.)\n\n\n\n(Write 2–4 lines.)"
+  },
+  {
+    "objectID": "research.html#themes",
+    "href": "research.html#themes",
+    "title": "Research",
+    "section": "",
+    "text": "(Write 2–4 lines.)\n\n\n\n(Write 2–4 lines.)"
+  },
+  {
+    "objectID": "research.html#projects",
+    "href": "research.html#projects",
+    "title": "Research",
+    "section": "Projects",
+    "text": "Projects\n\nESCAPE (WP4 Analytics & Tools)"
   },
   {
     "objectID": "publications.html",
@@ -63,24 +91,66 @@
     "text": "Full list\n\n…"
   },
   {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Fuminari (Fumi) Miura",
     "section": "",
-    "text": "(Write 2–4 lines.)\n\n\n\n(Write 2–4 lines.)"
+    "text": "Senior Researcher at Dutch National Institute for Public Health and the Environment (RIVM)\n\n           \n\n\n\n\n\n\n\n\nReal-time outbreak analytics\nDesigning targeted control strategies\nEpidemic theory for decision making\nLow dimensional representation of dynamical systems"
   },
   {
-    "objectID": "research.html#themes",
-    "href": "research.html#themes",
-    "title": "Research",
+    "objectID": "index.html#research-focus",
+    "href": "index.html#research-focus",
+    "title": "Fuminari (Fumi) Miura",
     "section": "",
-    "text": "(Write 2–4 lines.)\n\n\n\n(Write 2–4 lines.)"
+    "text": "Real-time outbreak analytics\nDesigning targeted control strategies\nEpidemic theory for decision making\nLow dimensional representation of dynamical systems"
   },
   {
-    "objectID": "research.html#projects",
-    "href": "research.html#projects",
-    "title": "Research",
-    "section": "Projects",
-    "text": "Projects\n\nESCAPE (WP4 Analytics & Tools)"
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
+    "section": "",
+    "text": "Download CV (PDF)"
+  },
+  {
+    "objectID": "cv.html#short-cv",
+    "href": "cv.html#short-cv",
+    "title": "CV",
+    "section": "Short CV",
+    "text": "Short CV\n\nPositions\n\n…\n\n\n\nEducation\n\n…"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "I am a researcher working at the intersection of infectious disease modelling and theoretical epidemiology.\nMy work focuses on understanding how transmission processes unfold across heterogeneous populations and how mathematical theory can inform practical control strategies.\nI am particularly interested in:\n\nstructural properties of transmission systems\n\nnetwork and multi-layer epidemic models\n\ntime-varying dominance of transmission routes\n\nreduced-order representations of complex epidemic dynamics\n\nI aim to bridge epidemic theory and real-world decision making through parsimonious, interpretable models. You can find my CV here."
+  },
+  {
+    "objectID": "resources/writing.html",
+    "href": "resources/writing.html",
+    "title": "Writing",
+    "section": "",
+    "text": "Start with a clear research question and scope\nWrite early; revise often (small iterations)\nPrefer short, structured drafts (bullets → paragraphs)"
+  },
+  {
+    "objectID": "resources/writing.html#how-i-like-to-work-with-students",
+    "href": "resources/writing.html#how-i-like-to-work-with-students",
+    "title": "Writing",
+    "section": "",
+    "text": "Start with a clear research question and scope\nWrite early; revise often (small iterations)\nPrefer short, structured drafts (bullets → paragraphs)"
+  },
+  {
+    "objectID": "resources/writing.html#practical-templates",
+    "href": "resources/writing.html#practical-templates",
+    "title": "Writing",
+    "section": "Practical templates",
+    "text": "Practical templates\n\nPaper skeleton (Intro/Methods/Results/Discussion)\nReviewer response template\nFigure-first writing workflow"
+  },
+  {
+    "objectID": "resources/writing.html#recommended-references",
+    "href": "resources/writing.html#recommended-references",
+    "title": "Writing",
+    "section": "Recommended references",
+    "text": "Recommended references\n\n(Add 5–10 core references you actually like)"
   }
 ]
