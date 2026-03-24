@@ -4,16 +4,11 @@ title: "Contact"
 
 ## Collaboration
 
-I welcome discussions on potential collaborative research projects, including academic partnerships and research collaborations with public institutions or industry.
-
-For an overview of my current research interests and agenda, please see the [Research](research.html) page.
-
-If you are considering collaboration, a short description of your research question and objectives would be helpful.
+I welcome discussions on potential collaborative research projects, including academic partnerships and research collaborations with public institutions or industry. For an overview of my current research interests and agenda, please see the [Research](research.html) page.
 
 ## Students and Early-Career Researchers
 
 I am happy to hear from motivated students and postdoctoral researchers whose interests align with the areas above.
-
 When reaching out, please include:
 
 - A CV (PDF)
@@ -45,16 +40,3 @@ Prospective applicants are encouraged to consider external funding schemes. Exam
   https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships
 
 If you are considering applying for a fellowship with me as host or collaborator, please contact me well in advance of the deadline.
-
----
-
-## Working Style
-
-I value:
-
-- clarity of research questions  
-- steady, structured writing from an early stage  
-- reproducible workflows (version control, well-documented code, organized projects)  
-- constructive and open communication  
-
-I aim to provide an environment that supports intellectual independence while maintaining high analytical standards.

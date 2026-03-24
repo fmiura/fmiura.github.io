@@ -24,10 +24,3 @@ Senior Researcher at Dutch National Institute for Public Health and the Environm
 <div class="about-image">
   <img src="images/profile_RIVM.jpg" alt="Fuminari Miura">
 </div>
-
-## Research focus
-<!-- to be updated -->
-- Real-time outbreak analytics
-- Designing targeted control strategies
-- Epidemic theory for decision making
-- Low dimensional representation of dynamical systems
