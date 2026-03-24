@@ -12,7 +12,7 @@ I am a senior researcher at the Dutch National Institute for Public Health and t
 
 My work focuses on understanding how transmission processes unfold across heterogeneous populations and how epidemic theory can inform practical control strategies.
 
-My recent research particularly interested in:
+My recent research topics include:
 
 -   Real-time outbreak analytics\
 -   Designing targeted control strategies\
