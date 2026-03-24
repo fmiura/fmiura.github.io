@@ -2,12 +2,14 @@
 title: "Research"
 ---
 
+This page is under construction...
+
 ## Themes
 
 ### Network epidemics
 (Write 2–4 lines.)
 
-### Reduced-order / surrogate models
+### Reduced-order surrogate models
 (Write 2–4 lines.)
 
 ## Projects

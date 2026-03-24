@@ -2,7 +2,9 @@
 title: "Writing"
 ---
 
-## How I like to work with students
+This page is under construction...
+
+## General tips
 - Start with a clear research question and scope
 - Write early; revise often (small iterations)
 - Prefer short, structured drafts (bullets → paragraphs)
