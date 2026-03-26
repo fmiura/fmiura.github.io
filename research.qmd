@@ -6,11 +6,22 @@ This page is under construction...
 
 ## Themes
 
-### Network epidemics
-(Write 2–4 lines.)
+### Real-time outbreak analytics
+- Estimating key epidemiological parameters (e.g., [incubation period](https://doi.org/10.2807/1560-7917.ES.2022.27.24.2200448), [serial interval](https://academic.oup.com/jid/article/229/3/800/7103467))
+- Monitoring epidemic trends
+  - Nowcasting ([mpox](https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2023.28.12.2200772))
+  - Effective reproduction number using wastewater data (see [Miyazawa et al.](https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2024.29.8.2300277) and [van Boven et al.](https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2023.28.25.2200700))
+  - We contribute to [RespiCast forecasting hub](https://www.medrxiv.org/content/10.1101/2025.10.30.25339155v2) 
 
-### Reduced-order surrogate models
-(Write 2–4 lines.)
+### Epidemic modelling for decision making
+- Designing targeted control strategies
+  - Optimal vaccine allocation using approximated next-generation matrices ([Miura et al. (2021) Plos Comp Bio](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009697))
+  - Temporal shift in the dominant transmission route for mpox clade Ib ([Miura and Leung et al. (2026) Sci Adv]())
+- Heterogeneity 
+  - Individual-level infectiousness
+  - Individual-level susceptibility 
+- Scenario modelling 
 
 ## Projects
-- ESCAPE (WP4 Analytics & Tools)
+- JST PRESTO
+- ESCAPE (Horizon Europe, WP4 Analytics & Tools)

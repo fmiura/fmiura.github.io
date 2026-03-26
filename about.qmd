@@ -8,7 +8,7 @@ title: "About"
 :::
 
 ::: about-text
-I am a senior researcher at the Dutch National Institute for Public Health and the Environment [(RIVM)](https://www.rivm.nl/f-fuminari-miura-phd). I also have an academic appointment at Nagasaki University, Japan.
+I am a Senior Researcher at the Dutch National Institute for Public Health and the Environment [(RIVM)](https://www.rivm.nl/f-fuminari-miura-phd). I also have an academic appointment at Nagasaki University, Japan.
 
 My work focuses on understanding how transmission processes unfold across heterogeneous populations and how epidemic theory can inform practical control strategies.
 
