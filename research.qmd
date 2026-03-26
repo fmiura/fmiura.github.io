@@ -16,7 +16,7 @@ This page is under construction...
 ### Epidemic modelling for decision making
 - Designing targeted control strategies
   - Optimal vaccine allocation using approximated next-generation matrices ([Miura et al. (2021) Plos Comp Bio](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009697))
-  - Temporal shift in the dominant transmission route for mpox clade Ib ([Miura and Leung et al. (2026) Sci Adv]())
+  - Temporal shift in the dominant transmission route for mpox clade Ib ([Miura and Leung et al. (2026) Sci Adv](https://www.medrxiv.org/content/10.1101/2025.07.18.25331780v1))
 - Heterogeneity 
   - Individual-level infectiousness
   - Individual-level susceptibility 
