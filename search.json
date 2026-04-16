@@ -1,31 +1,38 @@
 [
   {
-    "objectID": "join.html",
-    "href": "join.html",
-    "title": "Contact",
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
     "section": "",
-    "text": "I welcome discussions on potential collaborative research projects, including academic partnerships and research collaborations with public institutions or industry. For an overview of my current research interests and agenda, please see the Research page."
+    "text": "(Year) Title. Journal. Links: PDF / DOI"
   },
   {
-    "objectID": "join.html#collaboration",
-    "href": "join.html#collaboration",
-    "title": "Contact",
+    "objectID": "publications.html#selected",
+    "href": "publications.html#selected",
+    "title": "Publications",
     "section": "",
-    "text": "I welcome discussions on potential collaborative research projects, including academic partnerships and research collaborations with public institutions or industry. For an overview of my current research interests and agenda, please see the Research page."
+    "text": "(Year) Title. Journal. Links: PDF / DOI"
   },
   {
-    "objectID": "join.html#students-and-early-career-researchers",
-    "href": "join.html#students-and-early-career-researchers",
-    "title": "Contact",
-    "section": "Students and Early-Career Researchers",
-    "text": "Students and Early-Career Researchers\nI am happy to hear from motivated students and postdoctoral researchers whose interests align with the areas above. When reaching out, please include:\n\nA CV (PDF)\nA brief statement (1–2 paragraphs) outlining your interests and research goals\n(Optional) a writing sample or code repository\n\n\nPossible opportunities\n\nMSc thesis supervision\n\nPhD positions (subject to availability and funding)\n\nVisiting research stays\n\nFellowship-based positions (see below)"
+    "objectID": "publications.html#full-list",
+    "href": "publications.html#full-list",
+    "title": "Publications",
+    "section": "Full list",
+    "text": "Full list\n\n…"
   },
   {
-    "objectID": "join.html#fellowship-opportunities",
-    "href": "join.html#fellowship-opportunities",
-    "title": "Contact",
-    "section": "Fellowship Opportunities",
-    "text": "Fellowship Opportunities\nProspective applicants are encouraged to consider external funding schemes. Examples include:\n\nJSPS Postdoctoral Fellowship (PD)\nhttps://www.jsps.go.jp/english/e-pd/\nJSPS Overseas Research Fellowship (海外特別研究員)\nhttps://www.jsps.go.jp/english/e-ab/\nOverseas fellowships (non-Japanese applicants to Japan)\nI can host applicants at Nagasaki University under relevant fellowship schemes.\n(For example: JSPS Invitational / institutional programs depending on year.)\nMarie Skłodowska-Curie Postdoctoral Fellowships (MSCA PF)\nhttps://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships\n\nIf you are considering applying for a fellowship with me as host or collaborator, please contact me well in advance of the deadline."
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "I am a Senior Researcher at the Dutch National Institute for Public Health and the Environment (RIVM), jointly appointed with Nagasaki University, Japan.\nMy work focuses on understanding how transmission processes unfold across heterogeneous populations and how epidemic theory can inform practical and timely control strategies."
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
+    "section": "",
+    "text": "Short Bio\nFumi Miura is a Senior researcher at the National Institute for Public Health and the Environment (RIVM) in the Netherlands and is jointly affiliated with Nagasaki University in Japan. His research focuses on infectious disease modelling, with particular emphasis on transmission heterogeneity, contact networks, and the use of epidemiological and alternative non-epidemiological data to inform targeted intervention strategies.\n\n\nFull CV\n\nDownload CV (PDF)\n\n\n\nPositions\n\n2023 - Present: Senior researcher\n\nCenter for Infectious Disease Control, The National Institute for Public Health and the Environment (RIVM), The Netherlands (with Prof. Jacco Wallinga)\n\nUnit for infectious disease modelling\n\n\n2020 - 2023: Postdoctoral Research Fellow (funded by JSPS Postdoctoral Research Fellow SPD/CPD)\n\nCenter for Infectious Disease Control, The National Institute for Public Health and the Environment (RIVM), The Netherlands (with Prof. Jacco Wallinga)\nCenter for Marine Environmental Studies (CMES), Ehime University, Japan (with Prof. Kozo Watanabe)\n\n2017 - 2020: Doctoral Research Fellow (funded by JSPS Doctoral Research Fellow DC1)\n\nUniversity of Tokyo, Graduate School of Engineering (with Prof. Kensuke Fukushi)\n\n2016 - 2017: Visiting researcher\n\nHokkaido University, Graduate School of Medicine (with Prof. Hiroshi Nishiura)\n\n2016: Internship researcher\n\nWorld Health Organization (Geneva)\nWater, Sanitation, Hygiene and Health, Department of Public Health, Social and Environmental Determinants of Health\n\n2015 - 2016: Adjunct Research Fellow\n\nResearch Institute of Capital Formation, Development bank of Japan\n\n\n\n\nEducation\n\nPh.D (Engineering), University of Tokyo, 2017 - 2020\nM.S. (Urban Engineering), University of Tokyo, 2014 - 2017\nB.S. (Urban Engineering), University of Tokyo, 2010 - 2014"
   },
   {
     "objectID": "resources/writing.html",
@@ -56,69 +63,6 @@
     "text": "Recommended references\n\n(Add 5–10 core references you actually like)"
   },
   {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research",
-    "section": "",
-    "text": "This page is under construction…"
-  },
-  {
-    "objectID": "research.html#themes",
-    "href": "research.html#themes",
-    "title": "Research",
-    "section": "Themes",
-    "text": "Themes\n\nReal-time outbreak analytics\n\nEstimating key epidemiological parameters (e.g., incubation period, serial interval)\nMonitoring epidemic trends\n\nNowcasting (mpox)\nEffective reproduction number using wastewater data (see Miyazawa et al. and van Boven et al.)\nWe contribute to RespiCast forecasting hub\n\n\n\n\nEpidemic modelling for decision making\n\nDesigning targeted control strategies\n\nOptimal vaccine allocation using approximated next-generation matrices (Miura et al. (2021) Plos Comp Bio)\nTemporal shift in the dominant transmission route for mpox clade Ib (Miura and Leung et al. (2026) Sci Adv)\n\nHeterogeneity\n\nIndividual-level infectiousness\nIndividual-level susceptibility\n\nScenario modelling"
-  },
-  {
-    "objectID": "research.html#projects",
-    "href": "research.html#projects",
-    "title": "Research",
-    "section": "Projects",
-    "text": "Projects\n\nJST PRESTO\nESCAPE (Horizon Europe, WP4 Analytics & Tools)"
-  },
-  {
-    "objectID": "cv.html",
-    "href": "cv.html",
-    "title": "CV",
-    "section": "",
-    "text": "Short Bio\nFumi Miura is a Senior researcher at the National Institute for Public Health and the Environment (RIVM) in the Netherlands and is jointly affiliated with Nagasaki University in Japan. His research focuses on infectious disease modelling, with particular emphasis on transmission heterogeneity, contact networks, and the use of epidemiological and alternative non-epidemiological data to inform targeted intervention strategies.\n\n\nFull CV\n\nDownload CV (PDF)\n\n\n\nPositions\n\n2023 - Present: Senior researcher\n\nCenter for Infectious Disease Control, The National Institute for Public Health and the Environment (RIVM), The Netherlands (with Prof. Jacco Wallinga)\n\nUnit for infectious disease modelling\n\n\n2020 - 2023: Postdoctoral Research Fellow (funded by JSPS Postdoctoral Research Fellow SPD/CPD)\n\nCenter for Infectious Disease Control, The National Institute for Public Health and the Environment (RIVM), The Netherlands (with Prof. Jacco Wallinga)\nCenter for Marine Environmental Studies (CMES), Ehime University, Japan (with Prof. Kozo Watanabe)\n\n2017 - 2020: Doctoral Research Fellow (funded by JSPS Doctoral Research Fellow DC1)\n\nUniversity of Tokyo, Graduate School of Engineering (with Prof. Kensuke Fukushi)\n\n2016 - 2017: Visiting researcher\n\nHokkaido University, Graduate School of Medicine (with Prof. Hiroshi Nishiura)\n\n2016: Internship researcher\n\nWorld Health Organization (Geneva)\nWater, Sanitation, Hygiene and Health, Department of Public Health, Social and Environmental Determinants of Health\n\n2015 - 2016: Adjunct Research Fellow\n\nResearch Institute of Capital Formation, Development bank of Japan\n\n\n\n\nEducation\n\nPh.D (Engineering), University of Tokyo, 2017 - 2020\nM.S. (Urban Engineering), University of Tokyo, 2014 - 2017\nB.S. (Urban Engineering), University of Tokyo, 2010 - 2014"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "I am a Senior Researcher at the Dutch National Institute for Public Health and the Environment (RIVM). I also have an academic appointment at Nagasaki University, Japan.\nMy work focuses on understanding how transmission processes unfold across heterogeneous populations and how epidemic theory can inform practical control strategies.\nMy recent research topics include:\n\nReal-time outbreak analytics\n\nDesigning targeted control strategies\n\nEpidemic theory for decision making\n\nDimensional compression and interpretability"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Fuminari (Fumi) Miura",
-    "section": "",
-    "text": "Fuminari (Fumi) Miura\nSenior Researcher at Dutch National Institute for Public Health and the Environment (RIVM)"
-  },
-  {
-    "objectID": "publications.html",
-    "href": "publications.html",
-    "title": "Publications",
-    "section": "",
-    "text": "(Year) Title. Journal. Links: PDF / DOI"
-  },
-  {
-    "objectID": "publications.html#selected",
-    "href": "publications.html#selected",
-    "title": "Publications",
-    "section": "",
-    "text": "(Year) Title. Journal. Links: PDF / DOI"
-  },
-  {
-    "objectID": "publications.html#full-list",
-    "href": "publications.html#full-list",
-    "title": "Publications",
-    "section": "Full list",
-    "text": "Full list\n\n…"
-  },
-  {
     "objectID": "resources/overview.html",
     "href": "resources/overview.html",
     "title": "Resources (for students)",
@@ -131,5 +75,61 @@
     "title": "Resources (for students)",
     "section": "Quick links",
     "text": "Quick links\n\nWriting\nLearning materials"
+  },
+  {
+    "objectID": "join.html",
+    "href": "join.html",
+    "title": "Contact",
+    "section": "",
+    "text": "I welcome discussions on potential collaborative research projects, including academic partnerships and research collaborations with public institutions or industry. For an overview of my current research interests and agenda, please see the Research page."
+  },
+  {
+    "objectID": "join.html#collaboration",
+    "href": "join.html#collaboration",
+    "title": "Contact",
+    "section": "",
+    "text": "I welcome discussions on potential collaborative research projects, including academic partnerships and research collaborations with public institutions or industry. For an overview of my current research interests and agenda, please see the Research page."
+  },
+  {
+    "objectID": "join.html#students-and-early-career-researchers",
+    "href": "join.html#students-and-early-career-researchers",
+    "title": "Contact",
+    "section": "Students and Early-Career Researchers",
+    "text": "Students and Early-Career Researchers\nI am happy to hear from motivated students and postdoctoral researchers whose interests align with the areas above. When reaching out, please include:\n\nA CV (PDF)\nA brief statement (1–2 paragraphs) outlining your interests and research goals\n(Optional) a writing sample or code repository\n\n\nPossible opportunities\n\nMSc thesis supervision\n\nPhD positions (subject to availability and funding)\n\nVisiting research stays\n\nFellowship-based positions (see below)"
+  },
+  {
+    "objectID": "join.html#fellowship-opportunities",
+    "href": "join.html#fellowship-opportunities",
+    "title": "Contact",
+    "section": "Fellowship Opportunities",
+    "text": "Fellowship Opportunities\nProspective applicants are encouraged to consider external funding schemes. Examples include:\n\nJSPS Postdoctoral Fellowship (PD)\nhttps://www.jsps.go.jp/english/e-pd/\nJSPS Overseas Research Fellowship (海外特別研究員)\nhttps://www.jsps.go.jp/english/e-ab/\nOverseas fellowships (non-Japanese applicants to Japan)\nI can host applicants at Nagasaki University under relevant fellowship schemes.\n(For example: JSPS Invitational / institutional programs depending on year.)\nMarie Skłodowska-Curie Postdoctoral Fellowships (MSCA PF)\nhttps://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships\n\nIf you are considering applying for a fellowship with me as host or collaborator, please contact me well in advance of the deadline."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "My recent research themes include:"
+  },
+  {
+    "objectID": "research.html#detailed-topics",
+    "href": "research.html#detailed-topics",
+    "title": "Research",
+    "section": "Detailed topics",
+    "text": "Detailed topics\n\nEpidemic modelling for decision making\n\nDesigning targeted control strategies\n\nOptimal vaccine allocation using approximated next-generation matrices (Miura et al. (2021) Plos Comp Bio)\nTemporal shift in the dominant transmission route for mpox clade Ib (Miura and Leung et al. (2026) Sci Adv)\n\nIndividual-level heterogeneity\n\nSusceptibility\nInfectiousness\n\nPolicy evaluation\n\nScenario analysis\nEffectiveness of control measures\n\n\n\n\nReal-time outbreak analytics\n\nEstimating key epidemiological parameters (e.g., incubation period, serial interval)\nMonitoring epidemic trends\n\nNowcasting (e.g., mpox)\nEffective reproduction number \\(R_t\\) using wastewater data (see Miyazawa et al. and van Boven et al.)\nShort-term forecasting (see our contribution to RespiCast, ECDC forecasting platform and a preprint Gozzi et al. (2026) medRxiv)\n\n\n\n\nPandemic reslience, biosecurity\n\nEpidemiological archetypes\nDisease X framework"
+  },
+  {
+    "objectID": "research.html#projects",
+    "href": "research.html#projects",
+    "title": "Research",
+    "section": "Projects",
+    "text": "Projects\n\nJST PRESTO\nESCAPE (Horizon Europe, WP4 Analytics & Tools)"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Fuminari (Fumi) Miura",
+    "section": "",
+    "text": "Fuminari (Fumi) Miura\nSenior Researcher at Dutch National Institute for Public Health and the Environment (RIVM)"
   }
 ]

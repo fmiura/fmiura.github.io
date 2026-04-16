@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.36">
+<meta name="generator" content="quarto-1.9.37">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -39,10 +39,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-be3771519f21acc1c5b6733774c6dcd8.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-4897d45d2f75ed4f519693be625836c5.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -73,6 +73,35 @@ ul.task-list li input[type="checkbox"] {
 <style>html{ scroll-behavior: smooth; }</style>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -163,21 +192,16 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This page is under construction…</p>
-<section id="themes" class="level2">
-<h2 class="anchored" data-anchor-id="themes">Themes</h2>
-<section id="real-time-outbreak-analytics" class="level3">
-<h3 class="anchored" data-anchor-id="real-time-outbreak-analytics">Real-time outbreak analytics</h3>
+<p>My recent research themes include:</p>
 <ul>
-<li>Estimating key epidemiological parameters (e.g., <a href="https://doi.org/10.2807/1560-7917.ES.2022.27.24.2200448">incubation period</a>, <a href="https://academic.oup.com/jid/article/229/3/800/7103467">serial interval</a>)</li>
-<li>Monitoring epidemic trends
-<ul>
-<li>Nowcasting (<a href="https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2023.28.12.2200772">mpox</a>)</li>
-<li>Effective reproduction number using wastewater data (see <a href="https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2024.29.8.2300277">Miyazawa et al.</a> and <a href="https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2023.28.25.2200700">van Boven et al.</a>)</li>
-<li>We contribute to <a href="https://www.medrxiv.org/content/10.1101/2025.10.30.25339155v2">RespiCast forecasting hub</a></li>
-</ul></li>
+<li>Epidemic modelling for decision making</li>
+<li>Real-time outbreak analytics</li>
+<li>Pandemic reslience, biosecurity</li>
+<li>Dimensional compression and interpretability<br>
+</li>
 </ul>
-</section>
+<section id="detailed-topics" class="level2">
+<h2 class="anchored" data-anchor-id="detailed-topics">Detailed topics</h2>
 <section id="epidemic-modelling-for-decision-making" class="level3">
 <h3 class="anchored" data-anchor-id="epidemic-modelling-for-decision-making">Epidemic modelling for decision making</h3>
 <ul>
@@ -186,20 +210,43 @@ ul.task-list li input[type="checkbox"] {
 <li>Optimal vaccine allocation using approximated next-generation matrices (<a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009697">Miura et al.&nbsp;(2021) Plos Comp Bio</a>)</li>
 <li>Temporal shift in the dominant transmission route for mpox clade Ib (<a href="https://www.medrxiv.org/content/10.1101/2025.07.18.25331780v1">Miura and Leung et al.&nbsp;(2026) Sci Adv</a>)</li>
 </ul></li>
-<li>Heterogeneity
+<li>Individual-level heterogeneity
 <ul>
-<li>Individual-level infectiousness</li>
-<li>Individual-level susceptibility</li>
+<li>Susceptibility</li>
+<li>Infectiousness</li>
 </ul></li>
-<li>Scenario modelling</li>
+<li>Policy evaluation
+<ul>
+<li>Scenario analysis</li>
+<li>Effectiveness of control measures</li>
+</ul></li>
+</ul>
+</section>
+<section id="real-time-outbreak-analytics" class="level3">
+<h3 class="anchored" data-anchor-id="real-time-outbreak-analytics">Real-time outbreak analytics</h3>
+<ul>
+<li>Estimating key epidemiological parameters (e.g., <a href="https://doi.org/10.2807/1560-7917.ES.2022.27.24.2200448">incubation period</a>, <a href="https://academic.oup.com/jid/article/229/3/800/7103467">serial interval</a>)</li>
+<li>Monitoring epidemic trends
+<ul>
+<li>Nowcasting (e.g., <a href="https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2023.28.12.2200772">mpox</a>)</li>
+<li>Effective reproduction number <span class="math inline">\(R_t\)</span> using wastewater data (see <a href="https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2024.29.8.2300277">Miyazawa et al.</a> and <a href="https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2023.28.25.2200700">van Boven et al.</a>)</li>
+<li>Short-term forecasting (see our contribution to <a href="https://respicast.ecdc.europa.eu/">RespiCast, ECDC forecasting platform</a> and a preprint <a href="https://www.medrxiv.org/content/10.1101/2025.10.30.25339155v2">Gozzi et al.&nbsp;(2026) medRxiv</a>)</li>
+</ul></li>
+</ul>
+</section>
+<section id="pandemic-reslience-biosecurity" class="level3">
+<h3 class="anchored" data-anchor-id="pandemic-reslience-biosecurity">Pandemic reslience, biosecurity</h3>
+<ul>
+<li>Epidemiological archetypes</li>
+<li>Disease X framework</li>
 </ul>
 </section>
 </section>
 <section id="projects" class="level2">
 <h2 class="anchored" data-anchor-id="projects">Projects</h2>
 <ul>
-<li>JST PRESTO</li>
-<li>ESCAPE (Horizon Europe, WP4 Analytics &amp; Tools)</li>
+<li><a href="https://www.jst.go.jp/kisoken/presto/en/project/1112103/1112103_2023.html#anchor-10">JST PRESTO</a></li>
+<li><a href="https://www.escapepandemics.com/">ESCAPE (Horizon Europe, WP4 Analytics &amp; Tools)</a></li>
 </ul>
 
 
