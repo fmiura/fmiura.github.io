@@ -8,29 +8,17 @@ title: "About"
 :::
 
 ::: about-text
-I am a Senior Researcher at the Dutch National Institute for Public Health and the Environment [(RIVM)](https://www.rivm.nl/f-fuminari-miura-phd). I also have an academic appointment at Nagasaki University, Japan.
+I am a Senior Researcher at the Dutch National Institute for Public Health and the Environment [(RIVM)](https://www.rivm.nl/f-fuminari-miura-phd), jointly appointed with Nagasaki University, Japan.
 
-My work focuses on understanding how transmission processes unfold across heterogeneous populations and how epidemic theory can inform practical control strategies.
+My work focuses on understanding how transmission processes unfold across heterogeneous populations and how epidemic theory can inform practical and timely control strategies.
 
-My recent research topics include:
+<!--Mission
+My research combines mathematical modelling, statistical methods, and empirical data to characterise transmission dynamics. The aim is to support adaptive and equitable decision-making in infectious disease control.
+-->
 
--   Real-time outbreak analytics\
--   Designing targeted control strategies\
--   Epidemic theory for decision making\
--   Dimensional compression and interpretability\
+<!--Vision
+A future where epidemic response is guided not only by prediction, but by structure-aware, decision-relevant modelling under uncertainty.
+-->
 
-<!--## Research focus
-to be updated
-- Real-time outbreak analytics
-- Designing targeted control strategies
-- Epidemic theory for decision making
-- Low dimensional representation of dynamical systemsI aim to bridge epidemic theory and decision making
-
--   network and multi-layer epidemic models\
--   time-varying dominance of transmission routes\
--   reduced-order representations of complex epidemic dynamics
-through parsimonious, interpretable models. You can find my CV [here](cv.html).
- -->
- 
 :::
 :::::
