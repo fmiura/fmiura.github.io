@@ -18,6 +18,9 @@ jobs:
         with:
           r-version: '4.3'
 
+      - name: Install R packages
+        run: Rscript -e 'install.packages(c("knitr", "rmarkdown"), repos = "https://cloud.r-project.org")'
+
       - uses: quarto-dev/quarto-actions/setup@v2
 
       - uses: quarto-dev/quarto-actions/render@v2
