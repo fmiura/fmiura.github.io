@@ -18,8 +18,13 @@ jobs:
         with:
           r-version: '4.3'
 
+      - name: Install R system dependencies
+        run: sudo apt-get update && sudo apt-get install -y --no-install-recommends libuv1-dev
+
       - name: Install R packages
-        run: Rscript -e 'install.packages(c("knitr", "rmarkdown"), repos = "https://cloud.r-project.org")'
+        run: |
+          Rscript -e 'install.packages(c("knitr", "rmarkdown"), repos = Sys.getenv("RSPM"))'
+          Rscript -e 'stopifnot(requireNamespace("knitr", quietly = TRUE), requireNamespace("rmarkdown", quietly = TRUE))'
 
       - uses: quarto-dev/quarto-actions/setup@v2
 
