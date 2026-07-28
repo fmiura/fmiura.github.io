@@ -1,0 +1,2463 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="Curated courses and learning materials for infectious disease modelling, epidemiological statistics, mathematical epidemiology, stochastic processes, and network science.">
+
+<title>Training resources – Fuminari Miura</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-6ac2aec46ad7f46b16024ee4409aa65c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="nav-fixed fullcontent quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Fuminari Miura</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../research.html"> 
+<span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-resources" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Resources</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-resources">    
+        <li>
+    <a class="dropdown-item" href="../resources/overview.html">
+ <span class="dropdown-text">Overview</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../resources/writing.html">
+ <span class="dropdown-text">Writing tips</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../resources/training_resources.html">
+ <span class="dropdown-text">Training resources</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../resources/training_resources-database.html">
+ <span class="dropdown-text">Training resources database</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../join.html"> 
+<span class="menu-text">Contact</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Training resources</h1>
+</div>
+
+<div>
+  <div class="description">
+    Curated courses and learning materials for infectious disease modelling, epidemiological statistics, mathematical epidemiology, stochastic processes, and network science.
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>This page collects selected courses, summer schools, online materials, textbooks, and tutorials for infectious disease modelling and adjacent methods.</p>
+<p>The list is manually curated. Course dates, fees, eligibility, and application deadlines may change; always check the official page. The <code>last_checked</code> field records when each entry was last reviewed.</p>
+<section id="suggested-routes" class="level2">
+<h2 class="anchored" data-anchor-id="suggested-routes">Suggested routes</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Goal</th>
+<th>Suggested resources</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Regression and epidemiological statistics</td>
+<td>Imperial/Coursera public-health R specialization; Nahhas book; Wageningen Advanced Analytical Epidemiology</td>
+</tr>
+<tr class="even">
+<td>Basic infectious disease modelling</td>
+<td>FUN-MOOC or Imperial/Coursera Infectious Disease Modelling; LSHTM introduction course</td>
+</tr>
+<tr class="odd">
+<td>Implementing transmission models</td>
+<td>LSHTM Modern Techniques in Infectious Disease Modelling</td>
+</tr>
+<tr class="even">
+<td>Fitting infectious disease dynamic models</td>
+<td>Statistical Rethinking; LSHTM Model Fitting and Inference</td>
+</tr>
+<tr class="odd">
+<td>Mathematical epidemiology</td>
+<td>Diekmann, Heesterbeek &amp; Britton; Keeling &amp; Rohani</td>
+</tr>
+<tr class="even">
+<td>Stochastic epidemic models</td>
+<td>ESPIDAM stochastic epidemic models course; Allen primer; Britton notes</td>
+</tr>
+<tr class="odd">
+<td>Network and contact-pattern modelling</td>
+<td>Utrecht Network Science; ESPIDAM Networks and contact patterns; SISMID Network Modeling for Epidemics</td>
+</tr>
+<tr class="even">
+<td>Stochastic-process foundations</td>
+<td>MIT OCW Introduction to Stochastic Processes; MITx Probability</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="resource-database" class="level2">
+<h2 class="anchored" data-anchor-id="resource-database">Resource database</h2>
+<p>Use the search box and filters to narrow the list. Click column headers to sort.</p>
+<style>
+.resource-db {
+  margin-top: 1rem;
+}
+
+.resource-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  align-items: center;
+  margin: 0.8rem 0 1rem 0;
+}
+
+.resource-toolbar input,
+.resource-toolbar select {
+  border: 1px solid #d8d8d8;
+  border-radius: 6px;
+  padding: 0.45rem 0.6rem;
+  font-size: 0.9rem;
+  background: #fff;
+}
+
+.resource-toolbar input {
+  min-width: min(100%, 340px);
+  flex: 1 1 280px;
+}
+
+.resource-count {
+  color: #666;
+  font-size: 0.88rem;
+  margin-left: auto;
+}
+
+.resource-table-wrap {
+  overflow-x: auto;
+  border: 1px solid #e6e6e6;
+  border-radius: 8px;
+}
+
+.resource-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.resource-table th {
+  background: #f7f7f5;
+  color: #555;
+  font-weight: 600;
+  text-align: left;
+  border-bottom: 1px solid #e6e6e6;
+  padding: 0.65rem 0.7rem;
+  white-space: nowrap;
+  cursor: pointer;
+  user-select: none;
+}
+
+.resource-table th::after {
+  content: "  ⇅";
+  color: #aaa;
+  font-size: 0.75rem;
+}
+
+.resource-table td {
+  border-bottom: 1px solid #eeeeee;
+  vertical-align: top;
+  padding: 0.7rem;
+}
+
+.resource-table tr:last-child td {
+  border-bottom: none;
+}
+
+.resource-title {
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.resource-title a {
+  text-decoration: none;
+}
+
+.resource-title a:hover {
+  text-decoration: underline;
+}
+
+.resource-meta {
+  margin-top: 0.25rem;
+  color: #777;
+  font-size: 0.82rem;
+}
+
+.resource-note {
+  margin-top: 0.35rem;
+  color: #555;
+  font-size: 0.86rem;
+  line-height: 1.35;
+}
+
+.resource-focus {
+  min-width: 220px;
+  color: #444;
+}
+
+.resource-category {
+  min-width: 180px;
+}
+
+.badge {
+  display: inline-block;
+  border-radius: 999px;
+  padding: 0.14rem 0.48rem;
+  font-size: 0.76rem;
+  line-height: 1.4;
+  border: 1px solid #dfdfdf;
+  background: #f8f8f8;
+  color: #555;
+  white-space: nowrap;
+}
+
+.badge-core {
+  background: #eef6ff;
+  border-color: #cfe6ff;
+}
+
+.badge-recommended {
+  background: #f0f7ef;
+  border-color: #d8ead5;
+}
+
+.badge-specialized {
+  background: #fff7e8;
+  border-color: #f1dfb8;
+}
+
+.badge-reference {
+  background: #f4f1f8;
+  border-color: #ded6ea;
+}
+
+.badge-self-paced {
+  background: #f4f4f4;
+}
+
+.badge-recurring {
+  background: #eef6ff;
+  border-color: #cfe6ff;
+}
+
+.badge-unknown {
+  background: #fff1f1;
+  border-color: #f1cfcf;
+}
+
+.no-results {
+  display: none;
+  color: #777;
+  padding: 0.9rem 0;
+}
+
+@media (max-width: 800px) {
+  .resource-table {
+    font-size: 0.84rem;
+  }
+
+  .resource-table th,
+  .resource-table td {
+    padding: 0.55rem;
+  }
+
+  .resource-count {
+    margin-left: 0;
+  }
+}
+</style>
+<div class="resource-db">
+<div class="resource-toolbar">
+<p><input id="resource-search" type="search" placeholder="Search resources, topics, tools, notes..."> <select id="resource-category-filter"> <option value="">All categories</option> <option value="Books, papers, and reference materials">Books, papers, and reference materials</option> <option value="Epidemiological statistics and regression">Epidemiological statistics and regression</option> <option value="Infectious disease modelling and outbreak analytics">Infectious disease modelling and outbreak analytics</option> <option value="Mathematical epidemiology and stochastic epidemic models">Mathematical epidemiology and stochastic epidemic models</option> <option value="Network science, complex systems, and ABM">Network science, complex systems, and ABM</option> <option value="Probability and stochastic processes">Probability and stochastic processes</option> </select> <select id="resource-level-filter"> <option value="">All levels</option> <option value="advanced">advanced</option> <option value="all levels">all levels</option> <option value="beginner">beginner</option> <option value="intermediate">intermediate</option> </select> <select id="resource-status-filter"> <option value="">All statuses</option> <option value="recurring">recurring</option> <option value="reference">reference</option> <option value="self-paced">self-paced</option> <option value="unknown">unknown</option> </select> <span class="resource-count"><span id="resource-visible-count"></span> resources</span></p>
+</div>
+<div class="resource-table-wrap">
+<table id="resource-table" class="resource-table">
+<thead>
+<tr>
+<th data-sort="title">
+Resource
+</th>
+<th data-sort="category">
+Category
+</th>
+<th data-sort="level">
+Level
+</th>
+<th data-sort="status">
+Status
+</th>
+<th data-sort="relevance">
+Relevance
+</th>
+<th data-sort="topics">
+Focus
+</th>
+<th data-sort="last_checked">
+Checked
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="resource-row" data-title="Introduction to Regression Methods for Public Health Using R" data-category="Epidemiological statistics and regression" data-level="beginner" data-status="self-paced" data-relevance="core" data-topics="linear regression; logistic regression; Cox regression; R; public health datasets" data-last_checked="2026-07-03" data-search="introduction to regression methods for public health using r epidemiological statistics and regression online textbook ryan nahhas / bookdown self-study beginner self-paced core linear regression; logistic regression; cox regression; r; public health datasets r free online textbook; useful as a companion to public-health regression courses.">
+<td>
+<div class="resource-title">
+<a href="https://bookdown.org/rwnahhas/RMPH/" target="_blank" rel="noopener">Introduction to Regression Methods for Public Health Using R</a>
+</div>
+<div class="resource-meta">
+Ryan Nahhas / bookdown · Online textbook · R
+</div>
+<div class="resource-note">
+Free online textbook; useful as a companion to public-health regression courses.
+</div>
+</td>
+<td class="resource-category">
+Epidemiological statistics and regression
+</td>
+<td>
+<span class="badge">beginner</span>
+</td>
+<td>
+<span class="badge badge-self-paced">self-paced</span>
+</td>
+<td>
+<span class="badge badge-core">core</span>
+</td>
+<td class="resource-focus">
+linear regression; logistic regression; Cox regression; R; public health datasets
+</td>
+<td>
+2026-07-03
+</td>
+</tr>
+<tr class="resource-row" data-title="Statistical Analysis with R for Public Health" data-category="Epidemiological statistics and regression" data-level="beginner" data-status="self-paced" data-relevance="core" data-topics="R; linear regression; logistic regression; survival analysis; public health data" data-last_checked="2026-07-03" data-search="statistical analysis with r for public health epidemiological statistics and regression public health regression imperial college london / coursera online beginner self-paced core r; linear regression; logistic regression; survival analysis; public health data r good first course for learning regression in public health and epidemiology.">
+<td>
+<div class="resource-title">
+<a href="https://www.coursera.org/specializations/statistical-analysis-r-public-health" target="_blank" rel="noopener">Statistical Analysis with R for Public Health</a>
+</div>
+<div class="resource-meta">
+Imperial College London / Coursera · Public health regression · R
+</div>
+<div class="resource-note">
+Good first course for learning regression in public health and epidemiology.
+</div>
+</td>
+<td class="resource-category">
+Epidemiological statistics and regression
+</td>
+<td>
+<span class="badge">beginner</span>
+</td>
+<td>
+<span class="badge badge-self-paced">self-paced</span>
+</td>
+<td>
+<span class="badge badge-core">core</span>
+</td>
+<td class="resource-focus">
+R; linear regression; logistic regression; survival analysis; public health data
+</td>
+<td>
+2026-07-03
+</td>
+</tr>
+<tr class="resource-row" data-title="Statistical Rethinking" data-category="Epidemiological statistics and regression" data-level="intermediate" data-status="self-paced" data-relevance="core" data-topics="Bayesian regression; hierarchical models; causal models; model checking" data-last_checked="2026-07-03" data-search="statistical rethinking epidemiological statistics and regression bayesian workflow richard mcelreath self-study intermediate self-paced core bayesian regression; hierarchical models; causal models; model checking r; stan excellent foundation for bayesian workflow and generative modelling.">
+<td>
+<div class="resource-title">
+<a href="https://github.com/rmcelreath/stat_rethinking_2026" target="_blank" rel="noopener">Statistical Rethinking</a>
+</div>
+<div class="resource-meta">
+Richard McElreath · Bayesian workflow · R; Stan
+</div>
+<div class="resource-note">
+Excellent foundation for Bayesian workflow and generative modelling.
+</div>
+</td>
+<td class="resource-category">
+Epidemiological statistics and regression
+</td>
+<td>
+<span class="badge">intermediate</span>
+</td>
+<td>
+<span class="badge badge-self-paced">self-paced</span>
+</td>
+<td>
+<span class="badge badge-core">core</span>
+</td>
+<td class="resource-focus">
+Bayesian regression; hierarchical models; causal models; model checking
+</td>
+<td>
+2026-07-03
+</td>
+</tr>
+<tr class="resource-row" data-title="Advanced Analytical Epidemiology" data-category="Epidemiological statistics and regression" data-level="intermediate" data-status="recurring" data-relevance="recommended" data-topics="logistic regression; Cox models; mixed models; confounding; effect modification" data-last_checked="2026-07-03" data-search="advanced analytical epidemiology epidemiological statistics and regression analytical epidemiology wageningen university &amp; research online intermediate recurring recommended logistic regression; cox models; mixed models; confounding; effect modification r formal online course in the netherlands; requires some r and epidemiological background.">
+<td>
+<div class="resource-title">
+<a href="https://www.wur.nl/en/education/for-professionals/programmes-and-courses/advanced-analytical-epidemiology" target="_blank" rel="noopener">Advanced Analytical Epidemiology</a>
+</div>
+<div class="resource-meta">
+Wageningen University &amp; Research · Analytical epidemiology · R
+</div>
+<div class="resource-note">
+Formal online course in the Netherlands; requires some R and epidemiological background.
+</div>
+</td>
+<td class="resource-category">
+Epidemiological statistics and regression
+</td>
+<td>
+<span class="badge">intermediate</span>
+</td>
+<td>
+<span class="badge badge-recurring">recurring</span>
+</td>
+<td>
+<span class="badge badge-recommended">recommended</span>
+</td>
+<td class="resource-focus">
+logistic regression; Cox models; mixed models; confounding; effect modification
+</td>
+<td>
+2026-07-03
+</td>
+</tr>
+<tr class="resource-row" data-title="Biostatistics in Public Health" data-category="Epidemiological statistics and regression" data-level="beginner" data-status="self-paced" data-relevance="recommended" data-topics="biostatistics; inference; regression; public health" data-last_checked="2026-07-03" data-search="biostatistics in public health epidemiological statistics and regression biostatistics johns hopkins university / coursera online beginner self-paced recommended biostatistics; inference; regression; public health  useful foundation for reading and conducting epidemiological analyses.">
+<td>
+<div class="resource-title">
+<a href="https://www.coursera.org/specializations/biostatistics-public-health" target="_blank" rel="noopener">Biostatistics in Public Health</a>
+</div>
+<div class="resource-meta">
+Johns Hopkins University / Coursera · Biostatistics
+</div>
+<div class="resource-note">
+Useful foundation for reading and conducting epidemiological analyses.
+</div>
+</td>
+<td class="resource-category">
+Epidemiological statistics and regression
+</td>
+<td>
+<span class="badge">beginner</span>
+</td>
+<td>
+<span class="badge badge-self-paced">self-paced</span>
+</td>
+<td>
+<span class="badge badge-recommended">recommended</span>
+</td>
+<td class="resource-focus">
+biostatistics; inference; regression; public health
+</td>
+<td>
+2026-07-03
+</td>
+</tr>
+<tr class="resource-row" data-title="Introductory Course in Epidemiology &amp; Medical Statistics" data-category="Epidemiological statistics and regression" data-level="beginner" data-status="recurring" data-relevance="recommended" data-topics="epidemiology; medical statistics; regression; confounding; study design" data-last_checked="2026-07-03" data-search="introductory course in epidemiology &amp; medical statistics epidemiological statistics and regression epidemiology and medical statistics lshtm hybrid beginner recurring recommended epidemiology; medical statistics; regression; confounding; study design  broad foundation course in epidemiology and medical statistics.">
+<td>
+<div class="resource-title">
+<a href="https://www.lshtm.ac.uk/study/courses/short-courses/epidemiology-statistics" target="_blank" rel="noopener">Introductory Course in Epidemiology &amp; Medical Statistics</a>
+</div>
+<div class="resource-meta">
+LSHTM · Epidemiology and medical statistics
+</div>
+<div class="resource-note">
+Broad foundation course in epidemiology and medical statistics.
+</div>
+</td>
+<td class="resource-category">
+Epidemiological statistics and regression
+</td>
+<td>
+<span class="badge">beginner</span>
+</td>
+<td>
+<span class="badge badge-recurring">recurring</span>
+</td>
+<td>
+<span class="badge badge-recommended">recommended</span>
+</td>
+<td class="resource-focus">
+epidemiology; medical statistics; regression; confounding; study design
+</td>
+<td>
+2026-07-03
+</td>
+</tr>
+<tr class="resource-row" data-title="Multiple Regression Analysis in Public Health" data-category="Epidemiological statistics and regression" data-level="intermediate" data-status="self-paced" data-relevance="recommended" data-topics="multiple linear regression; logistic regression; Cox regression; splines; adjustment" data-last_checked="2026-07-03" data-search="multiple regression analysis in public health epidemiological statistics and regression regression johns hopkins university / coursera online intermediate self-paced recommended multiple linear regression; logistic regression; cox regression; splines; adjustment  good follow-up course after basic regression.">
+<td>
+<div class="resource-title">
+<a href="https://www.coursera.org/learn/multiple-regression-analysis-public-health" target="_blank" rel="noopener">Multiple Regression Analysis in Public Health</a>
+</div>
+<div class="resource-meta">
+Johns Hopkins University / Coursera · Regression
+</div>
+<div class="resource-note">
+Good follow-up course after basic regression.
+</div>
+</td>
+<td class="resource-category">
+Epidemiological statistics and regression
+</td>
+<td>
+<span class="badge">intermediate</span>
+</td>
+<td>
+<span class="badge badge-self-paced">self-paced</span>
+</td>
+<td>
+<span class="badge badge-recommended">recommended</span>
+</td>
+<td class="resource-focus">
+multiple linear regression; logistic regression; Cox regression; splines; adjustment
+</td>
+<td>
+2026-07-03
+</td>
+</tr>
+<tr class="resource-row" data-title="Statistical Modelling for Epidemiology" data-category="Epidemiological statistics and regression" data-level="intermediate" data-status="unknown" data-relevance="recommended" data-topics="linear regression; logistic regression; survival analysis; diagnostics; model building" data-last_checked="2026-07-03" data-search="statistical modelling for epidemiology epidemiological statistics and regression statistical modelling university of edinburgh online intermediate unknown recommended linear regression; logistic regression; survival analysis; diagnostics; model building  msc module; availability for external single-course enrolment should be checked.">
+<td>
+<div class="resource-title">
+<a href="https://www.drps.ed.ac.uk/26-27/dpt/cxpuhr11064.htm" target="_blank" rel="noopener">Statistical Modelling for Epidemiology</a>
+</div>
+<div class="resource-meta">
+University of Edinburgh · Statistical modelling
+</div>
+<div class="resource-note">
+MSc module; availability for external single-course enrolment should be checked.
+</div>
+</td>
+<td class="resource-category">
+Epidemiological statistics and regression
+</td>
+<td>
+<span class="badge">intermediate</span>
+</td>
+<td>
+<span class="badge badge-unknown">unknown</span>
+</td>
+<td>
+<span class="badge badge-recommended">recommended</span>
+</td>
+<td class="resource-focus">
+linear regression; logistic regression; survival analysis; diagnostics; model building
+</td>
+<td>
+2026-07-03
+</td>
+</tr>
+<tr class="resource-row" data-title="GAM resources" data-category="Epidemiological statistics and regression" data-level="intermediate" data-status="self-paced" data-relevance="specialized" data-topics="GAM; mgcv; nonlinear smooths; seasonality; time-varying effects" data-last_checked="2026-07-03" data-search="gam resources epidemiological statistics and regression gam noam ross / github self-study intermediate self-paced specialized gam; mgcv; nonlinear smooths; seasonality; time-varying effects r; mgcv useful for modelling seasonality, nonlinear covariate effects, and smooth temporal trends.">
+<td>
+<div class="resource-title">
+<a href="https://github.com/noamross/gam-resources" target="_blank" rel="noopener">GAM resources</a>
+</div>
+<div class="resource-meta">
+Noam Ross / GitHub · GAM · R; mgcv
+</div>
+<div class="resource-note">
+Useful for modelling seasonality, nonlinear covariate effects, and smooth temporal trends.
+</div>
+</td>
+<td class="resource-category">
+Epidemiological statistics and regression
+</td>
+<td>
+<span class="badge">intermediate</span>
+</td>
+<td>
+<span class="badge badge-self-paced">self-paced</span>
+</td>
+<td>
+<span class="badge badge-specialized">specialized</span>
+</td>
+<td class="resource-focus">
+GAM; mgcv; nonlinear smooths; seasonality; time-varying effects
+</td>
+<td>
+2026-07-03
+</td>
+</tr>
+<tr class="resource-row" data-title="Statistical Practice in Epidemiology using R" data-category="Epidemiological statistics and regression" data-level="intermediate" data-status="recurring" data-relevance="specialized" data-topics="logistic regression; Poisson regression; survival analysis; multistate models; causal inference" data-last_checked="2026-07-03" data-search="statistical practice in epidemiology using r epidemiological statistics and regression epidemiological statistics in r bendix carstensen in-person intermediate recurring specialized logistic regression; poisson regression; survival analysis; multistate models; causal inference r strong option for classical epidemiological statistics and follow-up data analysis.">
+<td>
+<div class="resource-title">
+<a href="https://bendixcarstensen.com/SPE/" target="_blank" rel="noopener">Statistical Practice in Epidemiology using R</a>
+</div>
+<div class="resource-meta">
+Bendix Carstensen · Epidemiological statistics in R · R
+</div>
+<div class="resource-note">
+Strong option for classical epidemiological statistics and follow-up data analysis.
+</div>
+</td>
+<td class="resource-category">
+Epidemiological statistics and regression
+</td>
+<td>
+<span class="badge">intermediate</span>
+</td>
+<td>
+<span class="badge badge-recurring">recurring</span>
+</td>
+<td>
+<span class="badge badge-specialized">specialized</span>
+</td>
+<td class="resource-focus">
+logistic regression; Poisson regression; survival analysis; multistate models; causal inference
+</td>
+<td>
+2026-07-03
+</td>
+</tr>
+<tr class="resource-row" data-title="Infectious Disease Modelling Specialization" data-category="Infectious disease modelling and outbreak analytics" data-level="beginner" data-status="self-paced" data-relevance="core" data-topics="SIR; R implementation; calibration; interventions; stochastic and deterministic models" data-last_checked="2026-07-03" data-search="infectious disease modelling specialization infectious disease modelling and outbreak analytics id modelling imperial college london / coursera online beginner self-paced core sir; r implementation; calibration; interventions; stochastic and deterministic models r good entry point for sir modelling and calibration in r.">
+<td>
+<div class="resource-title">
+<a href="https://www.coursera.org/specializations/infectious-disease-modelling" target="_blank" rel="noopener">Infectious Disease Modelling Specialization</a>
+</div>
+<div class="resource-meta">
+Imperial College London / Coursera · ID modelling · R
+</div>
+<div class="resource-note">
+Good entry point for SIR modelling and calibration in R.
+</div>
+</td>
+<td class="resource-category">
+Infectious disease modelling and outbreak analytics
+</td>
+<td>
+<span class="badge">beginner</span>
+</td>
+<td>
+<span class="badge badge-self-paced">self-paced</span>
+</td>
+<td>
+<span class="badge badge-core">core</span>
+</td>
+<td class="resource-focus">
+SIR; R implementation; calibration; interventions; stochastic and deterministic models
+</td>
+<td>
+2026-07-03
+</td>
+</tr>
+<tr class="resource-row" data-title="Model Fitting and Inference for Infectious Disease Dynamics" data-category="Infectious disease modelling and outbreak analytics" data-level="advanced" data-status="recurring" data-relevance="core" data-topics="MCMC; particle filters; ABC; observation models; stochastic models" data-last_checked="2026-07-03" data-search="model fitting and inference for infectious disease dynamics infectious disease modelling and outbreak analytics model fitting and inference lshtm in-person advanced recurring core mcmc; particle filters; abc; observation models; stochastic models julia; turing.jl directly relevant for fitting stochastic infectious disease models.">
+<td>
+<div class="resource-title">
+<a href="https://www.lshtm.ac.uk/study/courses/short-courses/infectious-diseases-dynamics" target="_blank" rel="noopener">Model Fitting and Inference for Infectious Disease Dynamics</a>
+</div>
+<div class="resource-meta">
+LSHTM · Model fitting and inference · Julia; Turing.jl
+</div>
+<div class="resource-note">
+Directly relevant for fitting stochastic infectious disease models.
+</div>
+</td>
+<td class="resource-category">
+Infectious disease modelling and outbreak analytics
+</td>
+<td>
+<span class="badge">advanced</span>
+</td>
+<td>
+<span class="badge badge-recurring">recurring</span>
+</td>
+<td>
+<span class="badge badge-core">core</span>
+</td>
+<td class="resource-focus">
+MCMC; particle filters; ABC; observation models; stochastic models
+</td>
+<td>
+2026-07-03
+</td>
+</tr>
+<tr class="resource-row" data-title="Modern Techniques in Infectious Disease Modelling" data-category="Infectious disease modelling and outbreak analytics" data-level="intermediate" data-status="recurring" data-relevance="core" data-topics="ODE; stochastic models; metapopulation; network Reed-Frost; sensitivity analysis" data-last_checked="2026-07-03" data-search="modern techniques in infectious disease modelling infectious disease modelling and outbreak analytics dynamic transmission models lshtm hybrid intermediate recurring core ode; stochastic models; metapopulation; network reed-frost; sensitivity analysis r; desolve practical course for implementing deterministic and stochastic transmission models in r.">
+<td>
+<div class="resource-title">
+<a href="https://www.lshtm.ac.uk/study/courses/short-courses/modern-techniques-disease-modelling" target="_blank" rel="noopener">Modern Techniques in Infectious Disease Modelling</a>
+</div>
+<div class="resource-meta">
+LSHTM · Dynamic transmission models · R; deSolve
+</div>
+<div class="resource-note">
+Practical course for implementing deterministic and stochastic transmission models in R.
+</div>
+</td>
+<td class="resource-category">
+Infectious disease modelling and outbreak analytics
+</td>
+<td>
+<span class="badge">intermediate</span>
+</td>
+<td>
+<span class="badge badge-recurring">recurring</span>
+</td>
+<td>
+<span class="badge badge-core">core</span>
+</td>
+<td class="resource-focus">
+ODE; stochastic models; metapopulation; network Reed-Frost; sensitivity analysis
+</td>
+<td>
+2026-07-03
+</td>
+</tr>
+<tr class="resource-row" data-title="Introduction to Infectious Disease Modelling and its Applications" data-category="Infectious disease modelling and outbreak analytics" data-level="beginner" data-status="recurring" data-relevance="recommended" data-topics="infectious disease modelling; theory; applications; simple models" data-last_checked="2026-07-03" data-search="introduction to infectious disease modelling and its applications infectious disease modelling and outbreak analytics id modelling lshtm hybrid beginner recurring recommended infectious disease modelling; theory; applications; simple models  professional short course for foundational infectious disease modelling.">
+<td>
+<div class="resource-title">
+<a href="https://www.lshtm.ac.uk/study/courses/short-courses/infectious-disease-modelling" target="_blank" rel="noopener">Introduction to Infectious Disease Modelling and its Applications</a>
+</div>
+<div class="resource-meta">
+LSHTM · ID modelling
+</div>
+<div class="resource-note">
+Professional short course for foundational infectious disease modelling.
+</div>
+</td>
+<td class="resource-category">
+Infectious disease modelling and outbreak analytics
+</td>
+<td>
+<span class="badge">beginner</span>
+</td>
+<td>
+<span class="badge badge-recurring">recurring</span>
+</td>
+<td>
+<span class="badge badge-recommended">recommended</span>
+</td>
+<td class="resource-focus">
+infectious disease modelling; theory; applications; simple models
+</td>
+<td>
+2026-07-03
+</td>
+</tr>
+<tr class="resource-row" data-title="Modeling of Infectious Diseases" data-category="Infectious disease modelling and outbreak analytics" data-level="beginner" data-status="self-paced" data-relevance="recommended" data-topics="SIR; R0; effective R; interventions; ODE modelling" data-last_checked="2026-07-03" data-search="modeling of infectious diseases infectious disease modelling and outbreak analytics mathematical modelling intro fun-mooc online beginner self-paced recommended sir; r0; effective r; interventions; ode modelling  accessible introductory course for mathematical infectious disease modelling.">
+<td>
+<div class="resource-title">
+<a href="https://www.fun-mooc.fr/en/courses/modeling-infectious-diseases/" target="_blank" rel="noopener">Modeling of Infectious Diseases</a>
+</div>
+<div class="resource-meta">
+FUN-MOOC · Mathematical modelling intro
+</div>
+<div class="resource-note">
+Accessible introductory course for mathematical infectious disease modelling.
+</div>
+</td>
+<td class="resource-category">
+Infectious disease modelling and outbreak analytics
+</td>
+<td>
+<span class="badge">beginner</span>
+</td>
+<td>
+<span class="badge badge-self-paced">self-paced</span>
+</td>
+<td>
+<span class="badge badge-recommended">recommended</span>
+</td>
+<td class="resource-focus">
+SIR; R0; effective R; interventions; ODE modelling
+</td>
+<td>
+2026-07-03
+</td>
+</tr>
+<tr class="resource-row" data-title="Outbreak Analytics and Applied Modelling in R" data-category="Infectious disease modelling and outbreak analytics" data-level="intermediate" data-status="recurring" data-relevance="recommended" data-topics="linelist; Rt; severity; forecasting; scenario modelling; outbreak analytics" data-last_checked="2026-07-03" data-search="outbreak analytics and applied modelling in r infectious disease modelling and outbreak analytics outbreak analytics lshtm online intermediate recurring recommended linelist; rt; severity; forecasting; scenario modelling; outbreak analytics r; epiverse; reconverse good practical course for real-time outbreak analytics workflows.">
+<td>
+<div class="resource-title">
+<a href="https://www.lshtm.ac.uk/study/courses/short-courses/outbreaks-analytics-R" target="_blank" rel="noopener">Outbreak Analytics and Applied Modelling in R</a>
+</div>
+<div class="resource-meta">
+LSHTM · Outbreak analytics · R; Epiverse; Reconverse
+</div>
+<div class="resource-note">
+Good practical course for real-time outbreak analytics workflows.
+</div>
+</td>
+<td class="resource-category">
+Infectious disease modelling and outbreak analytics
+</td>
+<td>
+<span class="badge">intermediate</span>
+</td>
+<td>
+<span class="badge badge-recurring">recurring</span>
+</td>
+<td>
+<span class="badge badge-recommended">recommended</span>
+</td>
+<td class="resource-focus">
+linelist; Rt; severity; forecasting; scenario modelling; …
+</td>
+<td>
+2026-07-03
+</td>
+</tr>
+<tr class="resource-row" data-title="Pasteur Course: Modeling of Infectious Diseases" data-category="Infectious disease modelling and outbreak analytics" data-level="intermediate" data-status="recurring" data-relevance="recommended" data-topics="mathematical infectious disease modelling; public health applications" data-last_checked="2026-07-03" data-search="pasteur course: modeling of infectious diseases infectious disease modelling and outbreak analytics mathematical modelling intro institut pasteur in-person intermediate recurring recommended mathematical infectious disease modelling; public health applications  one-week course in paris; next edition should be checked on the official page.">
+<td>
+<div class="resource-title">
+<a href="https://research.pasteur.fr/en/course/pasteur-course-modeling-of-infectious-diseases/" target="_blank" rel="noopener">Pasteur Course: Modeling of Infectious Diseases</a>
+</div>
+<div class="resource-meta">
+Institut Pasteur · Mathematical modelling intro
+</div>
+<div class="resource-note">
+One-week course in Paris; next edition should be checked on the official page.
+</div>
+</td>
+<td class="resource-category">
+Infectious disease modelling and outbreak analytics
+</td>
+<td>
+<span class="badge">intermediate</span>
+</td>
+<td>
+<span class="badge badge-recurring">recurring</span>
+</td>
+<td>
+<span class="badge badge-recommended">recommended</span>
+</td>
+<td class="resource-focus">
+mathematical infectious disease modelling; public health applications
+</td>
+<td>
+2026-07-03
+</td>
+</tr>
+<tr class="resource-row" data-title="Epiverse-TRACE learning materials" data-category="Infectious disease modelling and outbreak analytics" data-level="intermediate" data-status="self-paced" data-relevance="reference" data-topics="outbreak data cleaning; real-time analysis; forecasting; scenario modelling" data-last_checked="2026-07-03" data-search="epiverse-trace learning materials infectious disease modelling and outbreak analytics outbreak analytics epiverse-trace self-study intermediate self-paced reference outbreak data cleaning; real-time analysis; forecasting; scenario modelling r useful free tutorials for outbreak analytics; some materials may still be under active development.">
+<td>
+<div class="resource-title">
+<a href="https://epiverse-trace.github.io/learn.html" target="_blank" rel="noopener">Epiverse-TRACE learning materials</a>
+</div>
+<div class="resource-meta">
+Epiverse-TRACE · Outbreak analytics · R
+</div>
+<div class="resource-note">
+Useful free tutorials for outbreak analytics; some materials may still be under active development.
+</div>
+</td>
+<td class="resource-category">
+Infectious disease modelling and outbreak analytics
+</td>
+<td>
+<span class="badge">intermediate</span>
+</td>
+<td>
+<span class="badge badge-self-paced">self-paced</span>
+</td>
+<td>
+<span class="badge badge-reference">reference</span>
+</td>
+<td class="resource-focus">
+outbreak data cleaning; real-time analysis; forecasting; scenario modelling
+</td>
+<td>
+2026-07-03
+</td>
+</tr>
+<tr class="resource-row" data-title="Infectious Disease Modeling in Practice" data-category="Infectious disease modelling and outbreak analytics" data-level="beginner" data-status="self-paced" data-relevance="reference" data-topics="modelling use cases; assumptions; public-health decision-making" data-last_checked="2026-07-03" data-search="infectious disease modeling in practice infectious disease modelling and outbreak analytics applied modelling johns hopkins university / coursera online beginner self-paced reference modelling use cases; assumptions; public-health decision-making  conceptual course on how infectious disease models are used in practice.">
+<td>
+<div class="resource-title">
+<a href="https://www.coursera.org/learn/infectious-disease-modeling-in-practice" target="_blank" rel="noopener">Infectious Disease Modeling in Practice</a>
+</div>
+<div class="resource-meta">
+Johns Hopkins University / Coursera · Applied modelling
+</div>
+<div class="resource-note">
+Conceptual course on how infectious disease models are used in practice.
+</div>
+</td>
+<td class="resource-category">
+Infectious disease modelling and outbreak analytics
+</td>
+<td>
+<span class="badge">beginner</span>
+</td>
+<td>
+<span class="badge badge-self-paced">self-paced</span>
+</td>
+<td>
+<span class="badge badge-reference">reference</span>
+</td>
+<td class="resource-focus">
+modelling use cases; assumptions; public-health decision-making
+</td>
+<td>
+2026-07-03
+</td>
+</tr>
+<tr class="resource-row" data-title="Infectious Disease Transmission Models for Decision-Makers" data-category="Infectious disease modelling and outbreak analytics" data-level="beginner" data-status="self-paced" data-relevance="reference" data-topics="model types; model use; model limitations; policy interpretation" data-last_checked="2026-07-03" data-search="infectious disease transmission models for decision-makers infectious disease modelling and outbreak analytics decision-maker intro johns hopkins university / coursera online beginner self-paced reference model types; model use; model limitations; policy interpretation  suitable for non-modellers who need to understand transmission model outputs.">
+<td>
+<div class="resource-title">
+<a href="https://www.coursera.org/learn/infectious-disease-transmission-models-for-decision-makers" target="_blank" rel="noopener">Infectious Disease Transmission Models for Decision-Makers</a>
+</div>
+<div class="resource-meta">
+Johns Hopkins University / Coursera · Decision-maker intro
+</div>
+<div class="resource-note">
+Suitable for non-modellers who need to understand transmission model outputs.
+</div>
+</td>
+<td class="resource-category">
+Infectious disease modelling and outbreak analytics
+</td>
+<td>
+<span class="badge">beginner</span>
+</td>
+<td>
+<span class="badge badge-self-paced">self-paced</span>
+</td>
+<td>
+<span class="badge badge-reference">reference</span>
+</td>
+<td class="resource-focus">
+model types; model use; model limitations; policy interpretation
+</td>
+<td>
+2026-07-03
+</td>
+</tr>
+<tr class="resource-row" data-title="European Summer Program in Infectious Disease Analysis and Modelling" data-category="Mathematical epidemiology and stochastic epidemic models" data-level="intermediate" data-status="recurring" data-relevance="core" data-topics="stochastic models; networks; forecasting; phylodynamics; infectious disease data analysis" data-last_checked="2026-07-03" data-search="european summer program in infectious disease analysis and modelling mathematical epidemiology and stochastic epidemic models summer school stockholm university in-person intermediate recurring core stochastic models; networks; forecasting; phylodynamics; infectious disease data analysis  one of the most relevant european summer programmes for infectious disease modelling.">
+<td>
+<div class="resource-title">
+<a href="https://www.su.se/english/divisions/department-of-mathematics/research/conferences-and-seminars/espidam-the-european-summer-program-in-infectious-disease-analysis-and-modelling" target="_blank" rel="noopener">European Summer Program in Infectious Disease Analysis and Modelling</a>
+</div>
+<div class="resource-meta">
+Stockholm University · Summer school
+</div>
+<div class="resource-note">
+One of the most relevant European summer programmes for infectious disease modelling.
+</div>
+</td>
+<td class="resource-category">
+Mathematical epidemiology and stochastic epidemic models
+</td>
+<td>
+<span class="badge">intermediate</span>
+</td>
+<td>
+<span class="badge badge-recurring">recurring</span>
+</td>
+<td>
+<span class="badge badge-core">core</span>
+</td>
+<td class="resource-focus">
+stochastic models; networks; forecasting; phylodynamics; infectious disease data analysis
+</td>
+<td>
+2026-07-03
+</td>
+</tr>
+<tr class="resource-row" data-title="Networks and contact patterns in infectious disease models" data-category="Mathematical epidemiology and stochastic epidemic models" data-level="advanced" data-status="recurring" data-relevance="core" data-topics="contact patterns; mobility networks; sexual networks; dynamic networks; metapopulation models" data-last_checked="2026-07-03" data-search="networks and contact patterns in infectious disease models mathematical epidemiology and stochastic epidemic models infectious disease networks espidam / stockholm university in-person advanced recurring core contact patterns; mobility networks; sexual networks; dynamic networks; metapopulation models  highly relevant for contact matrices, sexual networks, mobility, and metapopulation models.">
+<td>
+<div class="resource-title">
+<a href="https://kurser.math.su.se/course/view.php?id=1788&amp;lang=en" target="_blank" rel="noopener">Networks and contact patterns in infectious disease models</a>
+</div>
+<div class="resource-meta">
+ESPIDAM / Stockholm University · Infectious disease networks
+</div>
+<div class="resource-note">
+Highly relevant for contact matrices, sexual networks, mobility, and metapopulation models.
+</div>
+</td>
+<td class="resource-category">
+Mathematical epidemiology and stochastic epidemic models
+</td>
+<td>
+<span class="badge">advanced</span>
+</td>
+<td>
+<span class="badge badge-recurring">recurring</span>
+</td>
+<td>
+<span class="badge badge-core">core</span>
+</td>
+<td class="resource-focus">
+contact patterns; mobility networks; sexual networks; dynamic networks; metapopulation models
+</td>
+<td>
+2026-07-03
+</td>
+</tr>
+<tr class="resource-row" data-title="Stochastic epidemic models with inference" data-category="Mathematical epidemiology and stochastic epidemic models" data-level="advanced" data-status="recurring" data-relevance="core" data-topics="stochastic epidemic models; SEIR; multitype models; household models; network epidemics; R0; Rt; inference" data-last_checked="2026-07-03" data-search="stochastic epidemic models with inference mathematical epidemiology and stochastic epidemic models stochastic epidemic models espidam / stockholm university in-person advanced recurring core stochastic epidemic models; seir; multitype models; household models; network epidemics; r0; rt; inference  directly relevant for stochastic epidemic theory and inference.">
+<td>
+<div class="resource-title">
+<a href="https://kurser.math.su.se/course/view.php?id=1784&amp;lang=en" target="_blank" rel="noopener">Stochastic epidemic models with inference</a>
+</div>
+<div class="resource-meta">
+ESPIDAM / Stockholm University · Stochastic epidemic models
+</div>
+<div class="resource-note">
+Directly relevant for stochastic epidemic theory and inference.
+</div>
+</td>
+<td class="resource-category">
+Mathematical epidemiology and stochastic epidemic models
+</td>
+<td>
+<span class="badge">advanced</span>
+</td>
+<td>
+<span class="badge badge-recurring">recurring</span>
+</td>
+<td>
+<span class="badge badge-core">core</span>
+</td>
+<td class="resource-focus">
+stochastic epidemic models; SEIR; multitype models; household models; network epidemics; …
+</td>
+<td>
+2026-07-03
+</td>
+</tr>
+<tr class="resource-row" data-title="Infectious disease data analysis" data-category="Mathematical epidemiology and stochastic epidemic models" data-level="advanced" data-status="recurring" data-relevance="recommended" data-topics="Bayesian inference; transmission model calibration; serology; infectious disease data analysis" data-last_checked="2026-07-03" data-search="infectious disease data analysis mathematical epidemiology and stochastic epidemic models infectious disease data analysis espidam / stockholm university in-person advanced recurring recommended bayesian inference; transmission model calibration; serology; infectious disease data analysis  good bridge between transmission models and data analysis.">
+<td>
+<div class="resource-title">
+<a href="https://kurser.math.su.se/course/view.php?id=1787&amp;lang=en" target="_blank" rel="noopener">Infectious disease data analysis</a>
+</div>
+<div class="resource-meta">
+ESPIDAM / Stockholm University · Infectious disease data analysis
+</div>
+<div class="resource-note">
+Good bridge between transmission models and data analysis.
+</div>
+</td>
+<td class="resource-category">
+Mathematical epidemiology and stochastic epidemic models
+</td>
+<td>
+<span class="badge">advanced</span>
+</td>
+<td>
+<span class="badge badge-recurring">recurring</span>
+</td>
+<td>
+<span class="badge badge-recommended">recommended</span>
+</td>
+<td class="resource-focus">
+Bayesian inference; transmission model calibration; serology; infectious disease data analysis
+</td>
+<td>
+2026-07-03
+</td>
+</tr>
+<tr class="resource-row" data-title="Network Modeling for Epidemics" data-category="Mathematical epidemiology and stochastic epidemic models" data-level="advanced" data-status="recurring" data-relevance="specialized" data-topics="ERGM; TERGM; dynamic networks; stochastic simulation; epidemic modelling" data-last_checked="2026-07-03" data-search="network modeling for epidemics mathematical epidemiology and stochastic epidemic models network epidemics sismid / epimodel in-person advanced recurring specialized ergm; tergm; dynamic networks; stochastic simulation; epidemic modelling r; epimodel strong course for network epidemic simulation; eligibility may depend on location and format.">
+<td>
+<div class="resource-title">
+<a href="https://epimodel.github.io/sismid/" target="_blank" rel="noopener">Network Modeling for Epidemics</a>
+</div>
+<div class="resource-meta">
+SISMID / EpiModel · Network epidemics · R; EpiModel
+</div>
+<div class="resource-note">
+Strong course for network epidemic simulation; eligibility may depend on location and format.
+</div>
+</td>
+<td class="resource-category">
+Mathematical epidemiology and stochastic epidemic models
+</td>
+<td>
+<span class="badge">advanced</span>
+</td>
+<td>
+<span class="badge badge-recurring">recurring</span>
+</td>
+<td>
+<span class="badge badge-specialized">specialized</span>
+</td>
+<td class="resource-focus">
+ERGM; TERGM; dynamic networks; stochastic simulation; epidemic modelling
+</td>
+<td>
+2026-07-03
+</td>
+</tr>
+<tr class="resource-row" data-title="SISMID" data-category="Mathematical epidemiology and stochastic epidemic models" data-level="advanced" data-status="recurring" data-relevance="specialized" data-topics="statistics; infectious disease modelling; inference; network modelling" data-last_checked="2026-07-03" data-search="sismid mathematical epidemiology and stochastic epidemic models infectious disease statistics institute emory university hybrid advanced recurring specialized statistics; infectious disease modelling; inference; network modelling  modular short-course institute; online eligibility may be restricted.">
+<td>
+<div class="resource-title">
+<a href="https://sismid.sph.emory.edu/" target="_blank" rel="noopener">SISMID</a>
+</div>
+<div class="resource-meta">
+Emory University · Infectious disease statistics institute
+</div>
+<div class="resource-note">
+Modular short-course institute; online eligibility may be restricted.
+</div>
+</td>
+<td class="resource-category">
+Mathematical epidemiology and stochastic epidemic models
+</td>
+<td>
+<span class="badge">advanced</span>
+</td>
+<td>
+<span class="badge badge-recurring">recurring</span>
+</td>
+<td>
+<span class="badge badge-specialized">specialized</span>
+</td>
+<td class="resource-focus">
+statistics; infectious disease modelling; inference; network modelling
+</td>
+<td>
+2026-07-03
+</td>
+</tr>
+<tr class="resource-row" data-title="Introduction to Stochastic Processes" data-category="Probability and stochastic processes" data-level="advanced" data-status="self-paced" data-relevance="core" data-topics="Markov chains; random walks; martingales; Galton-Watson trees" data-last_checked="2026-07-03" data-search="introduction to stochastic processes probability and stochastic processes stochastic processes mit opencourseware self-study advanced self-paced core markov chains; random walks; martingales; galton-watson trees  useful foundation for branching processes and stochastic epidemic theory.">
+<td>
+<div class="resource-title">
+<a href="https://ocw.mit.edu/courses/18-445-introduction-to-stochastic-processes-spring-2015/" target="_blank" rel="noopener">Introduction to Stochastic Processes</a>
+</div>
+<div class="resource-meta">
+MIT OpenCourseWare · Stochastic processes
+</div>
+<div class="resource-note">
+Useful foundation for branching processes and stochastic epidemic theory.
+</div>
+</td>
+<td class="resource-category">
+Probability and stochastic processes
+</td>
+<td>
+<span class="badge">advanced</span>
+</td>
+<td>
+<span class="badge badge-self-paced">self-paced</span>
+</td>
+<td>
+<span class="badge badge-core">core</span>
+</td>
+<td class="resource-focus">
+Markov chains; random walks; martingales; Galton-Watson trees
+</td>
+<td>
+2026-07-03
+</td>
+</tr>
+<tr class="resource-row" data-title="Probability — The Science of Uncertainty and Data" data-category="Probability and stochastic processes" data-level="beginner" data-status="self-paced" data-relevance="recommended" data-topics="probability; inference; Markov chains; uncertainty" data-last_checked="2026-07-03" data-search="probability — the science of uncertainty and data probability and stochastic processes probability mitx / edx online beginner self-paced recommended probability; inference; markov chains; uncertainty  good prerequisite if probability theory needs strengthening before stochastic processes.">
+<td>
+<div class="resource-title">
+<a href="https://www.edx.org/learn/probability/massachusetts-institute-of-technology-probability-the-science-of-uncertainty-and-data" target="_blank" rel="noopener">Probability — The Science of Uncertainty and Data</a>
+</div>
+<div class="resource-meta">
+MITx / edX · Probability
+</div>
+<div class="resource-note">
+Good prerequisite if probability theory needs strengthening before stochastic processes.
+</div>
+</td>
+<td class="resource-category">
+Probability and stochastic processes
+</td>
+<td>
+<span class="badge">beginner</span>
+</td>
+<td>
+<span class="badge badge-self-paced">self-paced</span>
+</td>
+<td>
+<span class="badge badge-recommended">recommended</span>
+</td>
+<td class="resource-focus">
+probability; inference; Markov chains; uncertainty
+</td>
+<td>
+2026-07-03
+</td>
+</tr>
+<tr class="resource-row" data-title="Discrete Stochastic Processes" data-category="Probability and stochastic processes" data-level="advanced" data-status="self-paced" data-relevance="reference" data-topics="discrete stochastic processes; renewal processes; Markov chains; queueing" data-last_checked="2026-07-03" data-search="discrete stochastic processes probability and stochastic processes stochastic processes mit opencourseware self-study advanced self-paced reference discrete stochastic processes; renewal processes; markov chains; queueing  applied probability course with useful background for stochastic modelling.">
+<td>
+<div class="resource-title">
+<a href="https://ocw.mit.edu/courses/6-262-discrete-stochastic-processes-spring-2011/" target="_blank" rel="noopener">Discrete Stochastic Processes</a>
+</div>
+<div class="resource-meta">
+MIT OpenCourseWare · Stochastic processes
+</div>
+<div class="resource-note">
+Applied probability course with useful background for stochastic modelling.
+</div>
+</td>
+<td class="resource-category">
+Probability and stochastic processes
+</td>
+<td>
+<span class="badge">advanced</span>
+</td>
+<td>
+<span class="badge badge-self-paced">self-paced</span>
+</td>
+<td>
+<span class="badge badge-reference">reference</span>
+</td>
+<td class="resource-focus">
+discrete stochastic processes; renewal processes; Markov chains; queueing
+</td>
+<td>
+2026-07-03
+</td>
+</tr>
+<tr class="resource-row" data-title="Discrete-Time Markov Chains and Monte Carlo Methods" data-category="Probability and stochastic processes" data-level="beginner" data-status="self-paced" data-relevance="reference" data-topics="transition matrices; absorbing states; limiting distributions; Monte Carlo" data-last_checked="2026-07-03" data-search="discrete-time markov chains and monte carlo methods probability and stochastic processes markov chains coursera online beginner self-paced reference transition matrices; absorbing states; limiting distributions; monte carlo  introductory option for discrete-time markov chains.">
+<td>
+<div class="resource-title">
+<a href="https://www.coursera.org/learn/discrete-time-markov-chains-monte-carlo-methods" target="_blank" rel="noopener">Discrete-Time Markov Chains and Monte Carlo Methods</a>
+</div>
+<div class="resource-meta">
+Coursera · Markov chains
+</div>
+<div class="resource-note">
+Introductory option for discrete-time Markov chains.
+</div>
+</td>
+<td class="resource-category">
+Probability and stochastic processes
+</td>
+<td>
+<span class="badge">beginner</span>
+</td>
+<td>
+<span class="badge badge-self-paced">self-paced</span>
+</td>
+<td>
+<span class="badge badge-reference">reference</span>
+</td>
+<td class="resource-focus">
+transition matrices; absorbing states; limiting distributions; Monte Carlo
+</td>
+<td>
+2026-07-03
+</td>
+</tr>
+<tr class="resource-row" data-title="Data Science: Network Science" data-category="Network science, complex systems, and ABM" data-level="intermediate" data-status="recurring" data-relevance="core" data-topics="network science; community detection; link prediction; network inference; contagion" data-last_checked="2026-07-03" data-search="data science: network science network science, complex systems, and abm network science utrecht summer school in-person intermediate recurring core network science; community detection; link prediction; network inference; contagion r; python most direct short course in the netherlands for network science.">
+<td>
+<div class="resource-title">
+<a href="https://utrechtsummerschool.nl/courses/data-science/data-science-network-science" target="_blank" rel="noopener">Data Science: Network Science</a>
+</div>
+<div class="resource-meta">
+Utrecht Summer School · Network science · R; Python
+</div>
+<div class="resource-note">
+Most direct short course in the Netherlands for network science.
+</div>
+</td>
+<td class="resource-category">
+Network science, complex systems, and ABM
+</td>
+<td>
+<span class="badge">intermediate</span>
+</td>
+<td>
+<span class="badge badge-recurring">recurring</span>
+</td>
+<td>
+<span class="badge badge-core">core</span>
+</td>
+<td class="resource-focus">
+network science; community detection; link prediction; network inference; contagion
+</td>
+<td>
+2026-07-03
+</td>
+</tr>
+<tr class="resource-row" data-title="Dutch NetSci Summer Symposium" data-category="Network science, complex systems, and ABM" data-level="all levels" data-status="recurring" data-relevance="recommended" data-topics="network science; complex networks; social network analysis" data-last_checked="2026-07-03" data-search="dutch netsci summer symposium network science, complex systems, and abm symposium leiden university in-person all levels recurring recommended network science; complex networks; social network analysis  research networking event rather than a course.">
+<td>
+<div class="resource-title">
+<a href="https://www.universiteitleiden.nl/en/events/2026/06/dutch-netsci-summer-symposium-2026" target="_blank" rel="noopener">Dutch NetSci Summer Symposium</a>
+</div>
+<div class="resource-meta">
+Leiden University · Symposium
+</div>
+<div class="resource-note">
+Research networking event rather than a course.
+</div>
+</td>
+<td class="resource-category">
+Network science, complex systems, and ABM
+</td>
+<td>
+<span class="badge">all levels</span>
+</td>
+<td>
+<span class="badge badge-recurring">recurring</span>
+</td>
+<td>
+<span class="badge badge-recommended">recommended</span>
+</td>
+<td class="resource-focus">
+network science; complex networks; social network analysis
+</td>
+<td>
+2026-07-03
+</td>
+</tr>
+<tr class="resource-row" data-title="ECPR Methods School" data-category="Network science, complex systems, and ABM" data-level="beginner" data-status="recurring" data-relevance="recommended" data-topics="social network analysis; R; social science methods" data-last_checked="2026-07-03" data-search="ecpr methods school network science, complex systems, and abm social network analysis ecpr in-person beginner recurring recommended social network analysis; r; social science methods r social-science-oriented sna training.">
+<td>
+<div class="resource-title">
+<a href="https://ecpr.eu/MethodsSchool" target="_blank" rel="noopener">ECPR Methods School</a>
+</div>
+<div class="resource-meta">
+ECPR · Social network analysis · R
+</div>
+<div class="resource-note">
+Social-science-oriented SNA training.
+</div>
+</td>
+<td class="resource-category">
+Network science, complex systems, and ABM
+</td>
+<td>
+<span class="badge">beginner</span>
+</td>
+<td>
+<span class="badge badge-recurring">recurring</span>
+</td>
+<td>
+<span class="badge badge-recommended">recommended</span>
+</td>
+<td class="resource-focus">
+social network analysis; R; social science methods
+</td>
+<td>
+2026-07-03
+</td>
+</tr>
+<tr class="resource-row" data-title="Introduction to Complex Systems" data-category="Network science, complex systems, and ABM" data-level="beginner" data-status="recurring" data-relevance="recommended" data-topics="nonlinear dynamics; self-organization; networks; complex systems" data-last_checked="2026-07-03" data-search="introduction to complex systems network science, complex systems, and abm complex systems utrecht summer school in-person beginner recurring recommended nonlinear dynamics; self-organization; networks; complex systems  broader complex-systems course; less specific than a network science course.">
+<td>
+<div class="resource-title">
+<a href="https://utrechtsummerschool.nl/courses/science/introduction-to-complex-systems" target="_blank" rel="noopener">Introduction to Complex Systems</a>
+</div>
+<div class="resource-meta">
+Utrecht Summer School · Complex systems
+</div>
+<div class="resource-note">
+Broader complex-systems course; less specific than a network science course.
+</div>
+</td>
+<td class="resource-category">
+Network science, complex systems, and ABM
+</td>
+<td>
+<span class="badge">beginner</span>
+</td>
+<td>
+<span class="badge badge-recurring">recurring</span>
+</td>
+<td>
+<span class="badge badge-recommended">recommended</span>
+</td>
+<td class="resource-focus">
+nonlinear dynamics; self-organization; networks; complex systems
+</td>
+<td>
+2026-07-03
+</td>
+</tr>
+<tr class="resource-row" data-title="MethodsNET Summer School with CEU" data-category="Network science, complex systems, and ABM" data-level="intermediate" data-status="recurring" data-relevance="recommended" data-topics="applied social network analysis; discourse network analysis; inferential network analysis" data-last_checked="2026-07-03" data-search="methodsnet summer school with ceu network science, complex systems, and abm social network analysis methodsnet / ceu in-person intermediate recurring recommended applied social network analysis; discourse network analysis; inferential network analysis  useful for social-network-analysis methodology rather than physical network science.">
+<td>
+<div class="resource-title">
+<a href="https://methodsnet.org/summer-school/methodsnet-summer-school-with-ceu-2026/" target="_blank" rel="noopener">MethodsNET Summer School with CEU</a>
+</div>
+<div class="resource-meta">
+MethodsNET / CEU · Social network analysis
+</div>
+<div class="resource-note">
+Useful for social-network-analysis methodology rather than physical network science.
+</div>
+</td>
+<td class="resource-category">
+Network science, complex systems, and ABM
+</td>
+<td>
+<span class="badge">intermediate</span>
+</td>
+<td>
+<span class="badge badge-recurring">recurring</span>
+</td>
+<td>
+<span class="badge badge-recommended">recommended</span>
+</td>
+<td class="resource-focus">
+applied social network analysis; discourse network analysis; inferential network analysis
+</td>
+<td>
+2026-07-03
+</td>
+</tr>
+<tr class="resource-row" data-title="Networks and Complex Systems" data-category="Network science, complex systems, and ABM" data-level="intermediate" data-status="recurring" data-relevance="recommended" data-topics="random graphs; percolation; contagion; diffusion; resilience" data-last_checked="2026-07-03" data-search="networks and complex systems network science, complex systems, and abm networks and complexity barcelona school of economics in-person intermediate recurring recommended random graphs; percolation; contagion; diffusion; resilience  network and complex-systems course with an economic and social-systems orientation.">
+<td>
+<div class="resource-title">
+<a href="https://bse.eu/summer-school/complexity-and-emergence-in-economic-and-social-systems/networks-and-emergence-in-complex-systems" target="_blank" rel="noopener">Networks and Complex Systems</a>
+</div>
+<div class="resource-meta">
+Barcelona School of Economics · Networks and complexity
+</div>
+<div class="resource-note">
+Network and complex-systems course with an economic and social-systems orientation.
+</div>
+</td>
+<td class="resource-category">
+Network science, complex systems, and ABM
+</td>
+<td>
+<span class="badge">intermediate</span>
+</td>
+<td>
+<span class="badge badge-recurring">recurring</span>
+</td>
+<td>
+<span class="badge badge-recommended">recommended</span>
+</td>
+<td class="resource-focus">
+random graphs; percolation; contagion; diffusion; resilience
+</td>
+<td>
+2026-07-03
+</td>
+</tr>
+<tr class="resource-row" data-title="BEHAVE Summer School on Agent-Based Modelling" data-category="Network science, complex systems, and ABM" data-level="beginner" data-status="recurring" data-relevance="specialized" data-topics="agent-based modelling; simulation; NetLogo; hands-on project" data-last_checked="2026-07-03" data-search="behave summer school on agent-based modelling network science, complex systems, and abm agent-based modelling behave / comses hybrid beginner recurring specialized agent-based modelling; simulation; netlogo; hands-on project netlogo adjacent option for simulation-based epidemic and behavioural modelling.">
+<td>
+<div class="resource-title">
+<a href="https://www.comses.net/events/?tags=Behave+Summer+School" target="_blank" rel="noopener">BEHAVE Summer School on Agent-Based Modelling</a>
+</div>
+<div class="resource-meta">
+BEHAVE / CoMSES · Agent-based modelling · NetLogo
+</div>
+<div class="resource-note">
+Adjacent option for simulation-based epidemic and behavioural modelling.
+</div>
+</td>
+<td class="resource-category">
+Network science, complex systems, and ABM
+</td>
+<td>
+<span class="badge">beginner</span>
+</td>
+<td>
+<span class="badge badge-recurring">recurring</span>
+</td>
+<td>
+<span class="badge badge-specialized">specialized</span>
+</td>
+<td class="resource-focus">
+agent-based modelling; simulation; NetLogo; hands-on project
+</td>
+<td>
+2026-07-03
+</td>
+</tr>
+<tr class="resource-row" data-title="Complex networks: from socio-economic systems to biology and brain" data-category="Network science, complex systems, and ABM" data-level="advanced" data-status="recurring" data-relevance="specialized" data-topics="complex networks; socio-economic systems; biology; brain networks" data-last_checked="2026-07-03" data-search="complex networks: from socio-economic systems to biology and brain network science, complex systems, and abm complex networks lipari school in-person advanced recurring specialized complex networks; socio-economic systems; biology; brain networks  broad complex-network summer school.">
+<td>
+<div class="resource-title">
+<a href="https://secs26.liparischool.it/" target="_blank" rel="noopener">Complex networks: from socio-economic systems to biology and brain</a>
+</div>
+<div class="resource-meta">
+Lipari School · Complex networks
+</div>
+<div class="resource-note">
+Broad complex-network summer school.
+</div>
+</td>
+<td class="resource-category">
+Network science, complex systems, and ABM
+</td>
+<td>
+<span class="badge">advanced</span>
+</td>
+<td>
+<span class="badge badge-recurring">recurring</span>
+</td>
+<td>
+<span class="badge badge-specialized">specialized</span>
+</td>
+<td class="resource-focus">
+complex networks; socio-economic systems; biology; brain networks
+</td>
+<td>
+2026-07-03
+</td>
+</tr>
+<tr class="resource-row" data-title="Complex Networks: Theory, Methods, and Applications" data-category="Network science, complex systems, and ABM" data-level="advanced" data-status="recurring" data-relevance="specialized" data-topics="complex networks; higher-order networks; temporal networks; contagion; mobility" data-last_checked="2026-07-03" data-search="complex networks: theory, methods, and applications network science, complex systems, and abm complex networks lake como school in-person advanced recurring specialized complex networks; higher-order networks; temporal networks; contagion; mobility  advanced european summer-school option for complex networks.">
+<td>
+<div class="resource-title">
+<a href="https://ntml.lakecomoschool.org/" target="_blank" rel="noopener">Complex Networks: Theory, Methods, and Applications</a>
+</div>
+<div class="resource-meta">
+Lake Como School · Complex networks
+</div>
+<div class="resource-note">
+Advanced European summer-school option for complex networks.
+</div>
+</td>
+<td class="resource-category">
+Network science, complex systems, and ABM
+</td>
+<td>
+<span class="badge">advanced</span>
+</td>
+<td>
+<span class="badge badge-recurring">recurring</span>
+</td>
+<td>
+<span class="badge badge-specialized">specialized</span>
+</td>
+<td class="resource-focus">
+complex networks; higher-order networks; temporal networks; contagion; mobility
+</td>
+<td>
+2026-07-03
+</td>
+</tr>
+<tr class="resource-row" data-title="EUSN Workshops" data-category="Network science, complex systems, and ABM" data-level="intermediate" data-status="recurring" data-relevance="specialized" data-topics="RSiena; multiplex networks; two-mode networks; relational event models" data-last_checked="2026-07-03" data-search="eusn workshops network science, complex systems, and abm social network analysis workshops european conference on social networks / insna in-person intermediate recurring specialized rsiena; multiplex networks; two-mode networks; relational event models r useful for method-specific social network analysis workshops.">
+<td>
+<div class="resource-title">
+<a href="https://www.insna.org/events/the-8th-european-conference-on-social-networks-eusn-2026" target="_blank" rel="noopener">EUSN Workshops</a>
+</div>
+<div class="resource-meta">
+European Conference on Social Networks / INSNA · Social network analysis workshops · R
+</div>
+<div class="resource-note">
+Useful for method-specific social network analysis workshops.
+</div>
+</td>
+<td class="resource-category">
+Network science, complex systems, and ABM
+</td>
+<td>
+<span class="badge">intermediate</span>
+</td>
+<td>
+<span class="badge badge-recurring">recurring</span>
+</td>
+<td>
+<span class="badge badge-specialized">specialized</span>
+</td>
+<td class="resource-focus">
+RSiena; multiplex networks; two-mode networks; relational event models
+</td>
+<td>
+2026-07-03
+</td>
+</tr>
+<tr class="resource-row" data-title="POLNET School on Social Network Analysis" data-category="Network science, complex systems, and ABM" data-level="intermediate" data-status="recurring" data-relevance="specialized" data-topics="political networks; ERGM; REM; discourse networks; ABM" data-last_checked="2026-07-03" data-search="polnet school on social network analysis network science, complex systems, and abm social network analysis universität konstanz / ecpr in-person intermediate recurring specialized political networks; ergm; rem; discourse networks; abm  political and social-network-analysis school with strong methodological content.">
+<td>
+<div class="resource-title">
+<a href="https://ecpr.eu/Events/357" target="_blank" rel="noopener">POLNET School on Social Network Analysis</a>
+</div>
+<div class="resource-meta">
+Universität Konstanz / ECPR · Social network analysis
+</div>
+<div class="resource-note">
+Political and social-network-analysis school with strong methodological content.
+</div>
+</td>
+<td class="resource-category">
+Network science, complex systems, and ABM
+</td>
+<td>
+<span class="badge">intermediate</span>
+</td>
+<td>
+<span class="badge badge-recurring">recurring</span>
+</td>
+<td>
+<span class="badge badge-specialized">specialized</span>
+</td>
+<td class="resource-focus">
+political networks; ERGM; REM; discourse networks; ABM
+</td>
+<td>
+2026-07-03
+</td>
+</tr>
+<tr class="resource-row" data-title="Network Science Education in the Netherlands" data-category="Network science, complex systems, and ABM" data-level="all levels" data-status="self-paced" data-relevance="reference" data-topics="network science; complex systems; Dutch university courses" data-last_checked="2026-07-03" data-search="network science education in the netherlands network science, complex systems, and abm course list dutch network science society reference all levels self-paced reference network science; complex systems; dutch university courses  useful directory for finding dutch network-science and complex-systems courses.">
+<td>
+<div class="resource-title">
+<a href="https://www.netsci.nl/education/" target="_blank" rel="noopener">Network Science Education in the Netherlands</a>
+</div>
+<div class="resource-meta">
+Dutch Network Science Society · Course list
+</div>
+<div class="resource-note">
+Useful directory for finding Dutch network-science and complex-systems courses.
+</div>
+</td>
+<td class="resource-category">
+Network science, complex systems, and ABM
+</td>
+<td>
+<span class="badge">all levels</span>
+</td>
+<td>
+<span class="badge badge-self-paced">self-paced</span>
+</td>
+<td>
+<span class="badge badge-reference">reference</span>
+</td>
+<td class="resource-focus">
+network science; complex systems; Dutch university courses
+</td>
+<td>
+2026-07-03
+</td>
+</tr>
+<tr class="resource-row" data-title="Mathematical Tools for Understanding Infectious Disease Dynamics" data-category="Books, papers, and reference materials" data-level="advanced" data-status="reference" data-relevance="core" data-topics="deterministic models; stochastic models; R0; next-generation matrix; model formulation" data-last_checked="2026-07-03" data-search="mathematical tools for understanding infectious disease dynamics books, papers, and reference materials textbook diekmann, heesterbeek &amp; britton self-study advanced reference core deterministic models; stochastic models; r0; next-generation matrix; model formulation  core theoretical reference for mathematical infectious disease dynamics.">
+<td>
+<div class="resource-title">
+<a href="https://research-portal.uu.nl/en/publications/mathematical-tools-for-understanding-infectious-disease-dynamics/" target="_blank" rel="noopener">Mathematical Tools for Understanding Infectious Disease Dynamics</a>
+</div>
+<div class="resource-meta">
+Diekmann, Heesterbeek &amp; Britton · Textbook
+</div>
+<div class="resource-note">
+Core theoretical reference for mathematical infectious disease dynamics.
+</div>
+</td>
+<td class="resource-category">
+Books, papers, and reference materials
+</td>
+<td>
+<span class="badge">advanced</span>
+</td>
+<td>
+<span class="badge badge-reference">reference</span>
+</td>
+<td>
+<span class="badge badge-core">core</span>
+</td>
+<td class="resource-focus">
+deterministic models; stochastic models; R0; next-generation matrix; model formulation
+</td>
+<td>
+2026-07-03
+</td>
+</tr>
+<tr class="resource-row" data-title="Modeling Infectious Diseases in Humans and Animals" data-category="Books, papers, and reference materials" data-level="intermediate" data-status="reference" data-relevance="core" data-topics="epidemic models; heterogeneity; multipathogen models; stochastic dynamics; spatial models; control" data-last_checked="2026-07-03" data-search="modeling infectious diseases in humans and animals books, papers, and reference materials textbook keeling &amp; rohani self-study intermediate reference core epidemic models; heterogeneity; multipathogen models; stochastic dynamics; spatial models; control  broad applied reference and model catalogue for infectious disease modelling.">
+<td>
+<div class="resource-title">
+<a href="https://www.jstor.org/stable/j.ctvcm4gk0" target="_blank" rel="noopener">Modeling Infectious Diseases in Humans and Animals</a>
+</div>
+<div class="resource-meta">
+Keeling &amp; Rohani · Textbook
+</div>
+<div class="resource-note">
+Broad applied reference and model catalogue for infectious disease modelling.
+</div>
+</td>
+<td class="resource-category">
+Books, papers, and reference materials
+</td>
+<td>
+<span class="badge">intermediate</span>
+</td>
+<td>
+<span class="badge badge-reference">reference</span>
+</td>
+<td>
+<span class="badge badge-core">core</span>
+</td>
+<td class="resource-focus">
+epidemic models; heterogeneity; multipathogen models; stochastic dynamics; spatial models; …
+</td>
+<td>
+2026-07-03
+</td>
+</tr>
+<tr class="resource-row" data-title="A primer on stochastic epidemic models" data-category="Books, papers, and reference materials" data-level="intermediate" data-status="reference" data-relevance="recommended" data-topics="CTMC; SDE; stochastic SIR; outbreak probability" data-last_checked="2026-07-03" data-search="a primer on stochastic epidemic models books, papers, and reference materials primer paper linda j. s. allen self-study intermediate reference recommended ctmc; sde; stochastic sir; outbreak probability  short primer on stochastic epidemic models.">
+<td>
+<div class="resource-title">
+<a href="https://www.sciencedirect.com/science/article/pii/S2468042716300495" target="_blank" rel="noopener">A primer on stochastic epidemic models</a>
+</div>
+<div class="resource-meta">
+Linda J. S. Allen · Primer paper
+</div>
+<div class="resource-note">
+Short primer on stochastic epidemic models.
+</div>
+</td>
+<td class="resource-category">
+Books, papers, and reference materials
+</td>
+<td>
+<span class="badge">intermediate</span>
+</td>
+<td>
+<span class="badge badge-reference">reference</span>
+</td>
+<td>
+<span class="badge badge-recommended">recommended</span>
+</td>
+<td class="resource-focus">
+CTMC; SDE; stochastic SIR; outbreak probability
+</td>
+<td>
+2026-07-03
+</td>
+</tr>
+<tr class="resource-row" data-title="A primer on the use of probability generating functions in infectious disease modeling" data-category="Books, papers, and reference materials" data-level="intermediate" data-status="reference" data-relevance="recommended" data-topics="probability generating functions; early outbreak; epidemic probability; final size" data-last_checked="2026-07-03" data-search="a primer on the use of probability generating functions in infectious disease modeling books, papers, and reference materials tutorial paper joel c. miller self-study intermediate reference recommended probability generating functions; early outbreak; epidemic probability; final size  useful tutorial for pgf-based reasoning in epidemic models.">
+<td>
+<div class="resource-title">
+<a href="https://arxiv.org/abs/1803.05136" target="_blank" rel="noopener">A primer on the use of probability generating functions in infectious disease modeling</a>
+</div>
+<div class="resource-meta">
+Joel C. Miller · Tutorial paper
+</div>
+<div class="resource-note">
+Useful tutorial for PGF-based reasoning in epidemic models.
+</div>
+</td>
+<td class="resource-category">
+Books, papers, and reference materials
+</td>
+<td>
+<span class="badge">intermediate</span>
+</td>
+<td>
+<span class="badge badge-reference">reference</span>
+</td>
+<td>
+<span class="badge badge-recommended">recommended</span>
+</td>
+<td class="resource-focus">
+probability generating functions; early outbreak; epidemic probability; final size
+</td>
+<td>
+2026-07-03
+</td>
+</tr>
+<tr class="resource-row" data-title="Introduction to statistical inference for infectious diseases" data-category="Books, papers, and reference materials" data-level="advanced" data-status="reference" data-relevance="recommended" data-topics="stochastic epidemic model inference; R0; final size; temporal data" data-last_checked="2026-07-03" data-search="introduction to statistical inference for infectious diseases books, papers, and reference materials review/tutorial britton &amp; giardina self-study advanced reference recommended stochastic epidemic model inference; r0; final size; temporal data  useful overview of inference for stochastic epidemic models.">
+<td>
+<div class="resource-title">
+<a href="https://arxiv.org/abs/1411.3138" target="_blank" rel="noopener">Introduction to statistical inference for infectious diseases</a>
+</div>
+<div class="resource-meta">
+Britton &amp; Giardina · Review/tutorial
+</div>
+<div class="resource-note">
+Useful overview of inference for stochastic epidemic models.
+</div>
+</td>
+<td class="resource-category">
+Books, papers, and reference materials
+</td>
+<td>
+<span class="badge">advanced</span>
+</td>
+<td>
+<span class="badge badge-reference">reference</span>
+</td>
+<td>
+<span class="badge badge-recommended">recommended</span>
+</td>
+<td class="resource-focus">
+stochastic epidemic model inference; R0; final size; temporal data
+</td>
+<td>
+2026-07-03
+</td>
+</tr>
+<tr class="resource-row" data-title="Stochastic epidemics in a homogeneous community" data-category="Books, papers, and reference materials" data-level="advanced" data-status="reference" data-relevance="specialized" data-topics="stochastic compartmental epidemics; early phase; final size; LLN; CLT" data-last_checked="2026-07-03" data-search="stochastic epidemics in a homogeneous community books, papers, and reference materials lecture notes britton &amp; pardoux self-study advanced reference specialized stochastic compartmental epidemics; early phase; final size; lln; clt  mathematical lecture notes on stochastic epidemics.">
+<td>
+<div class="resource-title">
+<a href="https://arxiv.org/abs/1808.05350" target="_blank" rel="noopener">Stochastic epidemics in a homogeneous community</a>
+</div>
+<div class="resource-meta">
+Britton &amp; Pardoux · Lecture notes
+</div>
+<div class="resource-note">
+Mathematical lecture notes on stochastic epidemics.
+</div>
+</td>
+<td class="resource-category">
+Books, papers, and reference materials
+</td>
+<td>
+<span class="badge">advanced</span>
+</td>
+<td>
+<span class="badge badge-reference">reference</span>
+</td>
+<td>
+<span class="badge badge-specialized">specialized</span>
+</td>
+<td class="resource-focus">
+stochastic compartmental epidemics; early phase; final size; LLN; CLT
+</td>
+<td>
+2026-07-03
+</td>
+</tr>
+<tr class="resource-row" data-title="Epidemic modelling: aspects where stochasticity matters" data-category="Books, papers, and reference materials" data-level="intermediate" data-status="reference" data-relevance="reference" data-topics="stochasticity; outbreak probability; early growth" data-last_checked="2026-07-03" data-search="epidemic modelling: aspects where stochasticity matters books, papers, and reference materials perspective britton &amp; lindenstrand self-study intermediate reference reference stochasticity; outbreak probability; early growth  short piece on when stochasticity matters in epidemic modelling.">
+<td>
+<div class="resource-title">
+<a href="https://arxiv.org/abs/0812.3505" target="_blank" rel="noopener">Epidemic modelling: aspects where stochasticity matters</a>
+</div>
+<div class="resource-meta">
+Britton &amp; Lindenstrand · Perspective
+</div>
+<div class="resource-note">
+Short piece on when stochasticity matters in epidemic modelling.
+</div>
+</td>
+<td class="resource-category">
+Books, papers, and reference materials
+</td>
+<td>
+<span class="badge">intermediate</span>
+</td>
+<td>
+<span class="badge badge-reference">reference</span>
+</td>
+<td>
+<span class="badge badge-reference">reference</span>
+</td>
+<td class="resource-focus">
+stochasticity; outbreak probability; early growth
+</td>
+<td>
+2026-07-03
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="resource-no-results" class="no-results">
+No matching resources.
+</div>
+</div>
+<script>
+(function() {
+  const table = document.getElementById("resource-table");
+  const rows = Array.from(table.querySelectorAll("tbody tr"));
+  const search = document.getElementById("resource-search");
+  const category = document.getElementById("resource-category-filter");
+  const level = document.getElementById("resource-level-filter");
+  const status = document.getElementById("resource-status-filter");
+  const count = document.getElementById("resource-visible-count");
+  const noResults = document.getElementById("resource-no-results");
+
+  function normalize(s) {
+    return (s || "").toLowerCase();
+  }
+
+  function applyFilters() {
+    const q = normalize(search.value);
+    const c = category.value;
+    const l = level.value;
+    const st = status.value;
+    let visible = 0;
+
+    rows.forEach(row => {
+      const matchSearch = !q || row.dataset.search.includes(q);
+      const matchCategory = !c || row.dataset.category === c;
+      const matchLevel = !l || row.dataset.level === l;
+      const matchStatus = !st || row.dataset.status === st;
+      const show = matchSearch && matchCategory && matchLevel && matchStatus;
+      row.style.display = show ? "" : "none";
+      if (show) visible += 1;
+    });
+
+    count.textContent = visible;
+    noResults.style.display = visible === 0 ? "block" : "none";
+  }
+
+  [search, category, level, status].forEach(el => {
+    el.addEventListener("input", applyFilters);
+    el.addEventListener("change", applyFilters);
+  });
+
+  let sortState = { key: null, asc: true };
+
+  table.querySelectorAll("th[data-sort]").forEach(th => {
+    th.addEventListener("click", function() {
+      const key = th.dataset.sort;
+      sortState.asc = sortState.key === key ? !sortState.asc : true;
+      sortState.key = key;
+
+      const tbody = table.querySelector("tbody");
+      const sorted = rows.slice().sort((a, b) => {
+        const av = normalize(a.dataset[key]);
+        const bv = normalize(b.dataset[key]);
+        if (av < bv) return sortState.asc ? -1 : 1;
+        if (av > bv) return sortState.asc ? 1 : -1;
+        return 0;
+      });
+
+      sorted.forEach(row => tbody.appendChild(row));
+      rows.splice(0, rows.length, ...sorted);
+      applyFilters();
+    });
+  });
+
+  applyFilters();
+})();
+</script>
+</section>
+<section id="data-and-maintenance" class="level2">
+<h2 class="anchored" data-anchor-id="data-and-maintenance">Data and maintenance</h2>
+<p>The source of truth is <a href="data/training_resources.csv"><code>data/training_resources.csv</code></a>. To update the page, edit the CSV and render the site again.</p>
+<p>Suggested maintenance rules:</p>
+<ul>
+<li>keep one resource per row;</li>
+<li>update <code>last_checked</code> whenever an entry is reviewed;</li>
+<li>use official course pages as URLs whenever possible;</li>
+<li>keep <code>notes</code> short;</li>
+<li>do not delete past courses immediately if they are likely to recur;</li>
+<li>use <code>status = unknown</code> when the current status is unclear.</li>
+</ul>
+<p>Inclusion in this list does not imply endorsement by any affiliated institution.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/fmiura\.github\.io\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

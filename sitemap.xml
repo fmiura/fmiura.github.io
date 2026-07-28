@@ -1,35 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://fmiura.github.io/publications.html</loc>
-    <lastmod>2026-04-16T21:16:07.615Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fmiura.github.io/about.html</loc>
-    <lastmod>2026-04-16T21:16:07.609Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fmiura.github.io/cv.html</loc>
-    <lastmod>2026-04-16T21:16:07.609Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fmiura.github.io/resources/writing.html</loc>
-    <lastmod>2026-04-16T21:16:07.615Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fmiura.github.io/resources/overview.html</loc>
-    <lastmod>2026-04-16T21:16:07.615Z</lastmod>
-  </url>
-  <url>
     <loc>https://fmiura.github.io/join.html</loc>
-    <lastmod>2026-04-16T21:16:07.614Z</lastmod>
+    <lastmod>2026-07-28T06:27:30.286Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fmiura.github.io/resources/training_resources.html</loc>
+    <lastmod>2026-07-28T06:27:30.287Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fmiura.github.io/resources/training_resources-database.html</loc>
+    <lastmod>2026-07-28T06:27:30.287Z</lastmod>
   </url>
   <url>
     <loc>https://fmiura.github.io/research.html</loc>
-    <lastmod>2026-04-16T21:16:07.615Z</lastmod>
+    <lastmod>2026-07-28T06:27:30.286Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fmiura.github.io/publications.html</loc>
+    <lastmod>2026-07-28T06:27:30.286Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fmiura.github.io/about.html</loc>
+    <lastmod>2026-07-28T06:27:30.282Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fmiura.github.io/cv.html</loc>
+    <lastmod>2026-07-28T06:27:30.282Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fmiura.github.io/resources/overview.html</loc>
+    <lastmod>2026-07-28T06:27:30.287Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fmiura.github.io/resources/writing.html</loc>
+    <lastmod>2026-07-28T06:27:30.287Z</lastmod>
   </url>
   <url>
     <loc>https://fmiura.github.io/index.html</loc>
-    <lastmod>2026-04-16T21:16:07.614Z</lastmod>
+    <lastmod>2026-07-28T06:27:30.286Z</lastmod>
   </url>
 </urlset>
