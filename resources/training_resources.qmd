@@ -1,0 +1,151 @@
+---
+title: "Training resources for infectious disease modelling"
+description: "A curated list of courses, summer schools, online materials, textbooks, and tutorials for epidemiological statistics, infectious disease modelling, mathematical epidemiology, stochastic processes, and network science."
+date: "2026-07-03"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    number-sections: false
+    link-external-newwindow: true
+---
+
+::: {.callout-note}
+This page is a curated resource list for students, PhD candidates, postdocs, and collaborators interested in infectious disease modelling, epidemiological statistics, mathematical epidemiology, stochastic epidemic models, model fitting, outbreak analytics, and network science.
+
+Course dates, fees, eligibility rules, and application deadlines change frequently. Always check the official course page before applying. The selections and notes are personal and do not represent any affiliated institution.
+:::
+
+**Last manually checked:** 2026-07-03  
+**Maintainer:** Fuminari Miura
+
+## How to use this page
+
+The resources below are grouped by training purpose rather than by institution. A practical learning route is:
+
+1. start with epidemiological statistics and regression;
+2. learn basic infectious disease modelling;
+3. add mathematical epidemiology and stochastic epidemic models;
+4. learn model fitting and inference;
+5. specialize into network science, outbreak analytics, or agent-based modelling.
+
+The labels in the notes are informal:
+
+| Label | Meaning |
+|---|---|
+| Core | Strongly relevant for infectious disease modelling training. |
+| Recommended | Broadly useful for students or researchers. |
+| Specialized | Highly useful for a specific modelling subfield. |
+| Reference | Best used as self-study or supplementary material. |
+| Archived / recurring | Past or recurring event worth tracking for future editions. |
+
+## Recommended training routes
+
+| Goal | Suggested route |
+|---|---|
+| Epidemiological regression from the basics | Imperial public-health R course → Nahhas regression book → WUR or Johns Hopkins regression/biostatistics |
+| Basic infectious disease modelling | Imperial infectious disease modelling specialization → LSHTM introduction or FUN-MOOC → Keeling & Rohani |
+| Mathematical epidemiology | Diekmann, Heesterbeek & Britton → ESPIDAM stochastic epidemic models → selected stochastic-process material |
+| Stochastic epidemic models | Allen primer → branching-process / CTMC material → ESPIDAM stochastic epidemic models → LSHTM model fitting |
+| Model fitting and inference | Statistical Rethinking → LSHTM model fitting and inference → Epiverse/outbreak analytics material |
+| Network/contact modelling | Utrecht network science → ESPIDAM networks/contact patterns → EpiModel/SISMID network modelling |
+
+## Epidemiological statistics and regression
+
+| Resource | Provider / format | Level | Main topics | Notes |
+|---|---|---|---|---|
+| [Statistical Analysis with R for Public Health](https://www.coursera.org/specializations/statistical-analysis-r-public-health) | Imperial College London / Coursera | Beginner to intermediate | R, statistical thinking, linear regression, logistic regression, survival analysis, public-health datasets | **Core.** Good first course for epidemiological regression in R. |
+| [Biostatistics in Public Health](https://www.coursera.org/specializations/biostatistics-public-health) | Johns Hopkins / Coursera | Beginner to intermediate | Biostatistics, regression, inference, public-health applications | **Recommended.** Useful for reading and conducting epidemiological analyses. |
+| [Multiple Regression Analysis in Public Health](https://www.coursera.org/learn/multiple-regression-analysis-public-health) | Johns Hopkins / Coursera | Intermediate | Multiple linear regression, logistic regression, Cox regression, splines, adjustment, effect modification | **Recommended.** More focused regression course within the Johns Hopkins sequence. |
+| [Introduction to Regression Methods for Public Health Using R](https://bookdown.org/rwnahhas/RMPH/) | Ryan Nahhas / online book | Beginner to intermediate | Linear, logistic, and survival regression; public-health examples; R implementation | **Core reference.** Good companion to any regression course. |
+| [Advanced Analytical Epidemiology](https://www.wur.nl/en/education/for-professionals/programmes-and-courses/advanced-analytical-epidemiology) | Wageningen University & Research / online course | Intermediate | Logistic regression, generalized linear models, mixed models, Cox models, confounding, effect modification | **Recommended.** Formal epidemiological analysis course in the Netherlands. |
+| [Statistical Modelling for Epidemiology](https://www.drps.ed.ac.uk/26-27/dpt/cxpuhr11064.htm) | University of Edinburgh / online MSc module | Intermediate | Linear regression, logistic regression, survival analysis, diagnostics, model building | **Recommended.** Check whether single-course enrolment is possible. |
+| [Introductory Course in Epidemiology & Medical Statistics](https://www.lshtm.ac.uk/study/courses/short-courses/epidemiology-statistics) | LSHTM / short course | Beginner to intermediate | Epidemiology, medical statistics, regression, confounding, study design, infectious disease epidemiology | **Recommended.** Broad professional-training course. |
+| [Statistical Practice in Epidemiology using R](https://bendixcarstensen.com/SPE/) | Bendix Carstensen and collaborators / short course | Intermediate | Logistic regression, Poisson regression, survival analysis, multistate models, causal inference, R | **Specialized.** Strong for classical epidemiological statistics in R. |
+| [Statistical Rethinking 2026](https://github.com/rmcelreath/stat_rethinking_2026) | Richard McElreath / open course material | Intermediate to advanced | Bayesian regression, hierarchical models, causal models, posterior predictive checks, scientific modelling workflow | **Core reference.** Especially useful before Bayesian infectious disease model fitting. |
+| [GAM resources](https://github.com/noamross/gam-resources) | Noam Ross / curated resources | Intermediate | Generalized additive models, `mgcv`, smooth terms, nonlinear effects, seasonality | **Specialized.** Useful for seasonality, humidity effects, nonlinear time trends, and surveillance models. |
+
+## Infectious disease modelling, outbreak analytics, and model fitting
+
+| Resource | Provider / format | Level | Main topics | Notes |
+|---|---|---|---|---|
+| [Infectious Disease Modelling Specialization](https://www.coursera.org/specializations/infectious-disease-modelling) | Imperial College London / Coursera | Beginner to intermediate | SIR models, R implementation, interventions, calibration, stochastic and deterministic models | **Core.** Good bridge from regression/statistics to transmission models. |
+| [Introduction to Infectious Disease Modelling and its Applications](https://www.lshtm.ac.uk/study/courses/short-courses/infectious-disease-modelling) | LSHTM / short course | Beginner to intermediate | Infectious disease modelling theory, simple dynamic models, public-health applications | **Recommended.** Professional-training style introduction. |
+| [Modern Techniques in Infectious Disease Modelling](https://www.lshtm.ac.uk/study/courses/short-courses/modern-techniques-disease-modelling) | LSHTM / short course | Intermediate | R, ODEs, `deSolve`, stochastic models, metapopulation models, network Reed--Frost models, sensitivity analysis | **Core.** Practical course for implementing deterministic and stochastic models. |
+| [Model Fitting and Inference for Infectious Disease Dynamics](https://www.lshtm.ac.uk/study/courses/short-courses/infectious-diseases-dynamics) | LSHTM / short course | Advanced | MCMC, particle filters, ABC, observation models, model checking, stochastic dynamic models | **Core.** Directly relevant to fitting stochastic transmission models. |
+| [Outbreak Analytics and Applied Modelling in R](https://www.lshtm.ac.uk/study/courses/short-courses/outbreaks-analytics-R) | LSHTM / short course | Intermediate | Linelist processing, Rt estimation, severity estimation, forecasting, scenario modelling, outbreak analytics R packages | **Recommended.** Good for public-health outbreak analytics workflows. |
+| [Epiverse-TRACE learning materials](https://epiverse-trace.github.io/learn.html) | Epiverse-TRACE / online tutorials | Beginner to intermediate | Outbreak data cleaning, real-time analysis, forecasting, scenario modelling, R workflows | **Reference.** Useful open material for applied outbreak analytics. |
+| [Modeling of Infectious Diseases](https://www.fun-mooc.fr/en/courses/modeling-infectious-diseases/) | FUN-MOOC / online course | Beginner | SIR models, $R_0$, effective reproduction number, interventions, ODE modelling | **Recommended.** Accessible mathematical modelling introduction. |
+| [Pasteur Course: Modeling of Infectious Diseases](https://research.pasteur.fr/en/course/pasteur-course-modeling-of-infectious-diseases/) | Institut Pasteur / short course | Beginner to intermediate | Mathematical modelling of infectious diseases, public-health applications | **Recommended / recurring.** Track for future editions. |
+| [Infectious Disease Modeling in Practice](https://www.coursera.org/learn/infectious-disease-modeling-in-practice) | Johns Hopkins / Coursera | Beginner | Model use cases, assumptions, interpretation, public-health decisions | **Reference.** Good for non-specialists and collaborators. |
+| [Infectious Disease Transmission Models for Decision-Makers](https://www.coursera.org/learn/infectious-disease-transmission-models-for-decision-makers) | Johns Hopkins / Coursera | Beginner | Model types, assumptions, limitations, policy interpretation | **Reference.** Best for decision-makers or non-modellers. |
+
+## Mathematical epidemiology and stochastic epidemic models
+
+| Resource | Provider / format | Level | Main topics | Notes |
+|---|---|---|---|---|
+| [ESPIDAM: European Summer Program in Infectious Disease Analysis and Modelling](https://www.su.se/english/divisions/department-of-mathematics/research/conferences-and-seminars/espidam-the-european-summer-program-in-infectious-disease-analysis-and-modelling) | Stockholm University / summer programme | Intermediate to advanced | Stochastic epidemic models, networks, data analysis, forecasting, AI/control, phylodynamics | **Core / recurring.** One of the strongest European options for infectious disease modelling training. |
+| [Stochastic epidemic models with inference](https://kurser.math.su.se/course/view.php?id=1784&lang=en) | ESPIDAM / course module | Advanced | Basic stochastic epidemic models, SEIR extensions, multitype models, household models, network epidemics, inference | **Core.** Directly relevant to stochastic epidemic theory. |
+| [Networks and contact patterns in infectious disease models](https://kurser.math.su.se/course/view.php?id=1788&lang=en) | ESPIDAM / course module | Intermediate to advanced | Contact patterns, mobility networks, sexual networks, dynamic networks, metapopulation models | **Core for network/contact modelling.** Highly relevant to contact matrices, STI, mpox, and mobility. |
+| [Infectious disease data analysis](https://kurser.math.su.se/course/view.php?id=1787&lang=en) | ESPIDAM / course module | Intermediate to advanced | Bayesian inference, transmission model calibration, serological data, reconstruction of pathogen circulation | **Recommended.** Strong model-data integration component. |
+| [Network Modeling for Epidemics](https://epimodel.github.io/sismid/) | SISMID / EpiModel course material | Intermediate to advanced | ERGM, TERGM, dynamic networks, stochastic network simulation, EpiModel | **Specialized.** Useful for network-based epidemic simulation. |
+| [SISMID](https://sismid.sph.emory.edu/) | Emory University / modular summer institute | Intermediate to advanced | Statistics and modelling in infectious diseases, network modelling, transmission dynamics, inference | **Specialized / recurring.** Check eligibility and location restrictions. |
+
+## Probability and stochastic processes foundations
+
+| Resource | Provider / format | Level | Main topics | Notes |
+|---|---|---|---|---|
+| [Introduction to Stochastic Processes](https://ocw.mit.edu/courses/18-445-introduction-to-stochastic-processes-spring-2015/) | MIT OpenCourseWare | Advanced undergraduate / graduate | Markov chains, random walks, martingales, Galton--Watson trees | **Core reference.** Useful for branching-process approximations and extinction probabilities. |
+| [Discrete Stochastic Processes](https://ocw.mit.edu/courses/6-262-discrete-stochastic-processes-spring-2011/) | MIT OpenCourseWare | Advanced undergraduate / graduate | Discrete stochastic processes, renewal processes, Markov chains, queueing | **Reference.** More engineering/applied-probability oriented. |
+| [Probability -- The Science of Uncertainty and Data](https://www.edx.org/learn/probability/massachusetts-institute-of-technology-probability-the-science-of-uncertainty-and-data) | MITx / edX | Beginner to intermediate | Probability, uncertainty, inference, Markov chains | **Recommended.** Good prerequisite if probability theory needs strengthening. |
+| [Discrete-Time Markov Chains and Monte Carlo Methods](https://www.coursera.org/learn/discrete-time-markov-chains-monte-carlo-methods) | Coursera | Beginner to intermediate | Transition matrices, absorbing states, limiting distributions, Monte Carlo methods | **Reference.** Useful entry point for Markov-chain intuition. |
+
+## Network science, complex systems, social networks, and ABM
+
+| Resource | Provider / format | Level | Main topics | Notes |
+|---|---|---|---|---|
+| [Data Science: Network Science](https://utrechtsummerschool.nl/courses/data-science/data-science-network-science) | Utrecht Summer School / short course | Intermediate | Network representation, community detection, link prediction, network inference, contagion, R/Python practicals | **Core.** Most direct short-course option in the Netherlands. |
+| [Dutch NetSci Summer Symposium 2026](https://www.universiteitleiden.nl/en/events/2026/06/dutch-netsci-summer-symposium-2026) | Leiden University / symposium | All levels | Dutch network science community, research presentations, networking | **Networking.** Symposium rather than a course. |
+| [Introduction to Complex Systems](https://utrechtsummerschool.nl/courses/science/introduction-to-complex-systems) | Utrecht Summer School / short course | Beginner to intermediate | Nonlinearity, self-organization, networks, complex systems, programming practicals | **Recommended.** Broader than network science. |
+| [Complex Networks: Theory, Methods, and Applications](https://ntml.lakecomoschool.org/) | Lake Como School / summer school | Intermediate to advanced | Complex networks, higher-order networks, temporal networks, contagion, mobility, applications | **Specialized / recurring.** Strong European complex-networks option. |
+| [Complex networks: from socio-economic systems to biology and brain](https://secs26.liparischool.it/) | Lipari School / summer school | Intermediate to advanced | Complex networks, socio-economic systems, biology, brain networks | **Specialized / recurring.** Broad complex-networks training. |
+| [Networks and Complex Systems](https://bse.eu/summer-school/complexity-and-emergence-in-economic-and-social-systems/networks-and-emergence-in-complex-systems) | Barcelona School of Economics / summer school | Intermediate | Random graphs, percolation, contagion, diffusion, resilience, complex systems | **Specialized.** Economic and social systems orientation. |
+| [MethodsNET Summer School with CEU](https://methodsnet.org/summer-school/methodsnet-summer-school-with-ceu-2026/) | MethodsNET / CEU summer school | Beginner to advanced | Applied social network analysis, discourse network analysis, inferential network analysis | **Recommended.** Social-science network methods. |
+| [ECPR Methods School](https://ecpr.eu/MethodsSchool) | ECPR / methods school | Beginner to advanced | Social network analysis, quantitative methods, qualitative methods, research design | **Recommended.** Useful for SNA and social-science methods. |
+| [POLNET School on Social Network Analysis](https://ecpr.eu/Events/357) | Universität Konstanz / summer school | Intermediate to advanced | Political network research, ERGM, relational event models, discourse networks, ABM | **Specialized.** Political and social network modelling. |
+| [EUSN 2026 Workshops](https://www.insna.org/events/the-8th-european-conference-on-social-networks-eusn-2026) | European Conference on Social Networks / workshops | Beginner to advanced | RSiena, multiplex networks, two-mode networks, relational event models, R for SNA | **Specialized.** Method-specific workshops. |
+| [BEHAVE Summer School on Agent-Based Modelling](https://www.comses.net/events/?tags=Behave+Summer+School) | BEHAVE / summer school | Beginner to intermediate | Agent-based modelling, NetLogo, simulation, hands-on projects | **Specialized.** Adjacent to network epidemic simulation and intervention modelling. |
+| [Network Science Education in the Netherlands](https://www.netsci.nl/education/) | Dutch Network Science Society / course list | Mixed | Network science, complex systems, university course listings in the Netherlands | **Reference.** Useful for finding regular university courses. |
+
+## Books, papers, and reference materials
+
+| Resource | Type | Level | Main topics | Notes |
+|---|---|---|---|---|
+| [Mathematical Tools for Understanding Infectious Disease Dynamics](https://research-portal.uu.nl/en/publications/mathematical-tools-for-understanding-infectious-disease-dynamics/) | Textbook | Intermediate to advanced | Deterministic and stochastic infectious disease dynamics, $R_0$, next-generation matrices, model formulation | **Core.** Main theoretical reference for mathematical epidemiology. |
+| [Modeling Infectious Diseases in Humans and Animals](https://www.jstor.org/stable/j.ctvcm4gk0) | Textbook | Intermediate | Epidemic models, heterogeneity, multi-pathogen and multi-host models, stochastic dynamics, spatial models, control | **Core reference.** Strong applied model catalogue. |
+| [A primer on stochastic epidemic models](https://www.sciencedirect.com/science/article/pii/S2468042716300495) | Primer paper | Intermediate | CTMC, SDE, stochastic SIR, host-vector models, outbreak probability | **Core reference.** Short entry point to stochastic epidemic models. |
+| [A primer on the use of probability generating functions in infectious disease modeling](https://arxiv.org/abs/1803.05136) | Tutorial paper | Intermediate | Probability generating functions, early outbreak, epidemic probability, final size | **Specialized.** Useful for branching-process and PGF intuition. |
+| [Introduction to statistical inference for infectious diseases](https://arxiv.org/abs/1411.3138) | Tutorial / review | Intermediate to advanced | Stochastic epidemic inference, $R_0$, final size, temporal data | **Reference.** Good overview of inference for stochastic epidemic models. |
+| [Stochastic epidemics in a homogeneous community](https://arxiv.org/abs/1808.05350) | Lecture notes | Advanced | Stochastic compartmental epidemics, early phase, final size, law of large numbers, central limit theorem | **Specialized.** Mathematical treatment of stochastic epidemics. |
+| [Epidemic modelling: aspects where stochasticity matters](https://arxiv.org/abs/0812.3505) | Perspective / short paper | Intermediate | When stochasticity matters, outbreak probability, early epidemic growth | **Reference.** Useful conceptual note on stochasticity in epidemic models. |
+
+## Maintenance notes
+
+Suggested update cycle:
+
+- January: update spring and summer schools.
+- July: update autumn and winter courses, archive past events, and refresh deadlines.
+- Keep past events if they are recurring or useful as a future reference.
+- Prefer official course pages over secondary announcements.
+- Record a `last_checked` date whenever a major update is made.
+
+Suggested status labels for future maintenance:
+
+| Status | Meaning |
+|---|---|
+| open | Currently accepting applications. |
+| closed | Application deadline has passed, but the course may recur. |
+| past | Event has passed and next edition is unknown. |
+| self-paced | Available as online self-study material. |
+| recurring | Offered repeatedly, often annually. |
+| unknown | Status not recently checked. |

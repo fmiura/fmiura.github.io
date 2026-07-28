@@ -1,0 +1,478 @@
+---
+title: "Training resources"
+description: "Curated courses and learning materials for infectious disease modelling, epidemiological statistics, mathematical epidemiology, stochastic processes, and network science."
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+This page collects selected courses, summer schools, online materials, textbooks, and tutorials for infectious disease modelling and adjacent methods.
+
+The list is manually curated. Course dates, fees, eligibility, and application deadlines may change; always check the official page. The `last_checked` field records when each entry was last reviewed.
+
+## Suggested routes
+
+| Goal | Suggested resources |
+|---|---|
+| Regression and epidemiological statistics | Imperial/Coursera public-health R specialization; Nahhas book; Wageningen Advanced Analytical Epidemiology |
+| Basic infectious disease modelling | FUN-MOOC or Imperial/Coursera Infectious Disease Modelling; LSHTM introduction course |
+| Implementing transmission models | LSHTM Modern Techniques in Infectious Disease Modelling |
+| Fitting infectious disease dynamic models | Statistical Rethinking; LSHTM Model Fitting and Inference |
+| Mathematical epidemiology | Diekmann, Heesterbeek & Britton; Keeling & Rohani |
+| Stochastic epidemic models | ESPIDAM stochastic epidemic models course; Allen primer; Britton notes |
+| Network and contact-pattern modelling | Utrecht Network Science; ESPIDAM Networks and contact patterns; SISMID Network Modeling for Epidemics |
+| Stochastic-process foundations | MIT OCW Introduction to Stochastic Processes; MITx Probability |
+
+## Resource database
+
+Use the search box and filters to narrow the list. Click column headers to sort.
+
+```{r, results='asis'}
+# Read data ---------------------------------------------------------------
+
+csv_candidates <- c(
+  "data/training_resources.csv",
+  "resources/data/training_resources.csv"
+)
+
+csv_path <- csv_candidates[file.exists(csv_candidates)][1]
+
+if (is.na(csv_path)) {
+  stop("Could not find data/training_resources.csv. Place it in resources/data/training_resources.csv.")
+}
+
+resources <- read.csv(
+  csv_path,
+  stringsAsFactors = FALSE,
+  check.names = FALSE,
+  encoding = "UTF-8"
+)
+
+category_order <- c(
+  "Epidemiological statistics and regression",
+  "Infectious disease modelling and outbreak analytics",
+  "Mathematical epidemiology and stochastic epidemic models",
+  "Probability and stochastic processes",
+  "Network science, complex systems, and ABM",
+  "Books, papers, and reference materials"
+)
+
+relevance_order <- c("core", "recommended", "specialized", "reference", "archived")
+
+resources$category <- factor(resources$category, levels = category_order)
+resources$relevance_rank <- match(resources$relevance, relevance_order)
+resources <- resources[order(resources$category, resources$relevance_rank, resources$title), ]
+
+# Helpers -----------------------------------------------------------------
+
+html_escape <- function(x) {
+  x <- ifelse(is.na(x), "", x)
+  x <- gsub("&", "&amp;", x, fixed = TRUE)
+  x <- gsub("<", "&lt;", x, fixed = TRUE)
+  x <- gsub(">", "&gt;", x, fixed = TRUE)
+  x <- gsub('"', "&quot;", x, fixed = TRUE)
+  x
+}
+
+attr_escape <- function(x) {
+  x <- html_escape(x)
+  x <- gsub("'", "&#39;", x, fixed = TRUE)
+  x
+}
+
+short_topics <- function(x, n = 5) {
+  x <- ifelse(is.na(x), "", x)
+  parts <- trimws(strsplit(x, ";", fixed = TRUE)[[1]])
+  parts <- parts[nzchar(parts)]
+  if (length(parts) <= n) {
+    paste(parts, collapse = "; ")
+  } else {
+    paste0(paste(parts[seq_len(n)], collapse = "; "), "; …")
+  }
+}
+
+option_tags <- function(values) {
+  values <- sort(unique(as.character(values)))
+  values <- values[nzchar(values)]
+  paste0(
+    vapply(values, function(v) {
+      paste0("<option value='", attr_escape(v), "'>", html_escape(v), "</option>")
+    }, character(1)),
+    collapse = "\n"
+  )
+}
+
+badge_class <- function(x) {
+  x <- tolower(ifelse(is.na(x), "", x))
+  x <- gsub("[^a-z0-9]+", "-", x)
+  x <- gsub("(^-|-$)", "", x)
+  ifelse(nzchar(x), x, "unknown")
+}
+
+# Styles ------------------------------------------------------------------
+
+cat('
+<style>
+.resource-db {
+  margin-top: 1rem;
+}
+
+.resource-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  align-items: center;
+  margin: 0.8rem 0 1rem 0;
+}
+
+.resource-toolbar input,
+.resource-toolbar select {
+  border: 1px solid #d8d8d8;
+  border-radius: 6px;
+  padding: 0.45rem 0.6rem;
+  font-size: 0.9rem;
+  background: #fff;
+}
+
+.resource-toolbar input {
+  min-width: min(100%, 340px);
+  flex: 1 1 280px;
+}
+
+.resource-count {
+  color: #666;
+  font-size: 0.88rem;
+  margin-left: auto;
+}
+
+.resource-table-wrap {
+  overflow-x: auto;
+  border: 1px solid #e6e6e6;
+  border-radius: 8px;
+}
+
+.resource-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.resource-table th {
+  background: #f7f7f5;
+  color: #555;
+  font-weight: 600;
+  text-align: left;
+  border-bottom: 1px solid #e6e6e6;
+  padding: 0.65rem 0.7rem;
+  white-space: nowrap;
+  cursor: pointer;
+  user-select: none;
+}
+
+.resource-table th::after {
+  content: "  ⇅";
+  color: #aaa;
+  font-size: 0.75rem;
+}
+
+.resource-table td {
+  border-bottom: 1px solid #eeeeee;
+  vertical-align: top;
+  padding: 0.7rem;
+}
+
+.resource-table tr:last-child td {
+  border-bottom: none;
+}
+
+.resource-title {
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.resource-title a {
+  text-decoration: none;
+}
+
+.resource-title a:hover {
+  text-decoration: underline;
+}
+
+.resource-meta {
+  margin-top: 0.25rem;
+  color: #777;
+  font-size: 0.82rem;
+}
+
+.resource-note {
+  margin-top: 0.35rem;
+  color: #555;
+  font-size: 0.86rem;
+  line-height: 1.35;
+}
+
+.resource-focus {
+  min-width: 220px;
+  color: #444;
+}
+
+.resource-category {
+  min-width: 180px;
+}
+
+.badge {
+  display: inline-block;
+  border-radius: 999px;
+  padding: 0.14rem 0.48rem;
+  font-size: 0.76rem;
+  line-height: 1.4;
+  border: 1px solid #dfdfdf;
+  background: #f8f8f8;
+  color: #555;
+  white-space: nowrap;
+}
+
+.badge-core {
+  background: #eef6ff;
+  border-color: #cfe6ff;
+}
+
+.badge-recommended {
+  background: #f0f7ef;
+  border-color: #d8ead5;
+}
+
+.badge-specialized {
+  background: #fff7e8;
+  border-color: #f1dfb8;
+}
+
+.badge-reference {
+  background: #f4f1f8;
+  border-color: #ded6ea;
+}
+
+.badge-self-paced {
+  background: #f4f4f4;
+}
+
+.badge-recurring {
+  background: #eef6ff;
+  border-color: #cfe6ff;
+}
+
+.badge-unknown {
+  background: #fff1f1;
+  border-color: #f1cfcf;
+}
+
+.no-results {
+  display: none;
+  color: #777;
+  padding: 0.9rem 0;
+}
+
+@media (max-width: 800px) {
+  .resource-table {
+    font-size: 0.84rem;
+  }
+
+  .resource-table th,
+  .resource-table td {
+    padding: 0.55rem;
+  }
+
+  .resource-count {
+    margin-left: 0;
+  }
+}
+</style>
+')
+
+# HTML --------------------------------------------------------------------
+
+cat("<div class='resource-db'>\n")
+
+cat("
+<div class='resource-toolbar'>
+  <input id='resource-search' type='search' placeholder='Search resources, topics, tools, notes...'>
+  <select id='resource-category-filter'>
+    <option value=''>All categories</option>
+")
+cat(option_tags(resources$category))
+cat("
+  </select>
+  <select id='resource-level-filter'>
+    <option value=''>All levels</option>
+")
+cat(option_tags(resources$level))
+cat("
+  </select>
+  <select id='resource-status-filter'>
+    <option value=''>All statuses</option>
+")
+cat(option_tags(resources$status))
+cat("
+  </select>
+  <span class='resource-count'><span id='resource-visible-count'></span> resources</span>
+</div>
+")
+
+cat("<div class='resource-table-wrap'>\n")
+cat("<table id='resource-table' class='resource-table'>\n")
+cat("<thead><tr>\n")
+cat("<th data-sort='title'>Resource</th>\n")
+cat("<th data-sort='category'>Category</th>\n")
+cat("<th data-sort='level'>Level</th>\n")
+cat("<th data-sort='status'>Status</th>\n")
+cat("<th data-sort='relevance'>Relevance</th>\n")
+cat("<th data-sort='topics'>Focus</th>\n")
+cat("<th data-sort='last_checked'>Checked</th>\n")
+cat("</tr></thead>\n<tbody>\n")
+
+for (i in seq_len(nrow(resources))) {
+  row <- resources[i, ]
+  search_text <- paste(
+    row$title, row$category, row$sub_category, row$provider,
+    row$mode, row$level, row$status, row$relevance,
+    row$topics, row$tools, row$notes,
+    collapse = " "
+  )
+
+  cat(
+    "<tr class='resource-row'",
+    " data-title='", attr_escape(row$title), "'",
+    " data-category='", attr_escape(as.character(row$category)), "'",
+    " data-level='", attr_escape(row$level), "'",
+    " data-status='", attr_escape(row$status), "'",
+    " data-relevance='", attr_escape(row$relevance), "'",
+    " data-topics='", attr_escape(row$topics), "'",
+    " data-last_checked='", attr_escape(row$last_checked), "'",
+    " data-search='", attr_escape(tolower(search_text)), "'",
+    ">\n",
+    sep = ""
+  )
+
+  cat("<td>\n")
+  cat(
+    "<div class='resource-title'><a href='", attr_escape(row$url), "' target='_blank' rel='noopener'>",
+    html_escape(row$title),
+    "</a></div>\n",
+    sep = ""
+  )
+  cat(
+    "<div class='resource-meta'>",
+    html_escape(row$provider),
+    ifelse(nzchar(row$sub_category), paste0(" · ", html_escape(row$sub_category)), ""),
+    ifelse(nzchar(row$tools), paste0(" · ", html_escape(row$tools)), ""),
+    "</div>\n",
+    sep = ""
+  )
+  if (nzchar(row$notes)) {
+    cat("<div class='resource-note'>", html_escape(row$notes), "</div>\n", sep = "")
+  }
+  cat("</td>\n")
+
+  cat("<td class='resource-category'>", html_escape(as.character(row$category)), "</td>\n", sep = "")
+  cat("<td><span class='badge'>", html_escape(row$level), "</span></td>\n", sep = "")
+  cat("<td><span class='badge badge-", badge_class(row$status), "'>", html_escape(row$status), "</span></td>\n", sep = "")
+  cat("<td><span class='badge badge-", badge_class(row$relevance), "'>", html_escape(row$relevance), "</span></td>\n", sep = "")
+  cat("<td class='resource-focus'>", html_escape(short_topics(row$topics)), "</td>\n", sep = "")
+  cat("<td>", html_escape(row$last_checked), "</td>\n", sep = "")
+
+  cat("</tr>\n")
+}
+
+cat("</tbody>\n</table>\n")
+cat("</div>\n")
+cat("<div id='resource-no-results' class='no-results'>No matching resources.</div>\n")
+cat("</div>\n")
+
+# JavaScript --------------------------------------------------------------
+
+cat('
+<script>
+(function() {
+  const table = document.getElementById("resource-table");
+  const rows = Array.from(table.querySelectorAll("tbody tr"));
+  const search = document.getElementById("resource-search");
+  const category = document.getElementById("resource-category-filter");
+  const level = document.getElementById("resource-level-filter");
+  const status = document.getElementById("resource-status-filter");
+  const count = document.getElementById("resource-visible-count");
+  const noResults = document.getElementById("resource-no-results");
+
+  function normalize(s) {
+    return (s || "").toLowerCase();
+  }
+
+  function applyFilters() {
+    const q = normalize(search.value);
+    const c = category.value;
+    const l = level.value;
+    const st = status.value;
+    let visible = 0;
+
+    rows.forEach(row => {
+      const matchSearch = !q || row.dataset.search.includes(q);
+      const matchCategory = !c || row.dataset.category === c;
+      const matchLevel = !l || row.dataset.level === l;
+      const matchStatus = !st || row.dataset.status === st;
+      const show = matchSearch && matchCategory && matchLevel && matchStatus;
+      row.style.display = show ? "" : "none";
+      if (show) visible += 1;
+    });
+
+    count.textContent = visible;
+    noResults.style.display = visible === 0 ? "block" : "none";
+  }
+
+  [search, category, level, status].forEach(el => {
+    el.addEventListener("input", applyFilters);
+    el.addEventListener("change", applyFilters);
+  });
+
+  let sortState = { key: null, asc: true };
+
+  table.querySelectorAll("th[data-sort]").forEach(th => {
+    th.addEventListener("click", function() {
+      const key = th.dataset.sort;
+      sortState.asc = sortState.key === key ? !sortState.asc : true;
+      sortState.key = key;
+
+      const tbody = table.querySelector("tbody");
+      const sorted = rows.slice().sort((a, b) => {
+        const av = normalize(a.dataset[key]);
+        const bv = normalize(b.dataset[key]);
+        if (av < bv) return sortState.asc ? -1 : 1;
+        if (av > bv) return sortState.asc ? 1 : -1;
+        return 0;
+      });
+
+      sorted.forEach(row => tbody.appendChild(row));
+      rows.splice(0, rows.length, ...sorted);
+      applyFilters();
+    });
+  });
+
+  applyFilters();
+})();
+</script>
+')
+```
+
+## Data and maintenance
+
+The source of truth is [`data/training_resources.csv`](data/training_resources.csv). To update the page, edit the CSV and render the site again.
+
+Suggested maintenance rules:
+
+- keep one resource per row;
+- update `last_checked` whenever an entry is reviewed;
+- use official course pages as URLs whenever possible;
+- keep `notes` short;
+- do not delete past courses immediately if they are likely to recur;
+- use `status = unknown` when the current status is unclear.
+
+Inclusion in this list does not imply endorsement by any affiliated institution.

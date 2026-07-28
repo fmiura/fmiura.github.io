@@ -21,8 +21,10 @@ website:
             text: Overview
           - href: resources/writing.qmd
             text: Writing tips
-          - href: resources/learning.qmd
-            text: Learning materials
+          - href: resources/training_resources.qmd
+            text: Training resources
+          - href: resources/training_resources-database.qmd
+            text: Training resources database
       - href: join.qmd
         text: Contact
   page-footer: ""
