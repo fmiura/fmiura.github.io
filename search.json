@@ -1,31 +1,10 @@
 [
   {
-    "objectID": "join.html",
-    "href": "join.html",
-    "title": "Contact",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "I welcome discussions on potential collaborative research projects, including academic partnerships and research collaborations with public institutions or industry. For an overview of my current research interests and agenda, please see the Research page."
-  },
-  {
-    "objectID": "join.html#collaboration",
-    "href": "join.html#collaboration",
-    "title": "Contact",
-    "section": "",
-    "text": "I welcome discussions on potential collaborative research projects, including academic partnerships and research collaborations with public institutions or industry. For an overview of my current research interests and agenda, please see the Research page."
-  },
-  {
-    "objectID": "join.html#students-and-early-career-researchers",
-    "href": "join.html#students-and-early-career-researchers",
-    "title": "Contact",
-    "section": "Students and Early-Career Researchers",
-    "text": "Students and Early-Career Researchers\nI am happy to hear from motivated students and postdoctoral researchers whose interests align with the areas above. When reaching out, please include:\n\nA CV (PDF)\nA brief statement (1–2 paragraphs) outlining your interests and research goals\n(Optional) a writing sample or code repository\n\n\nPossible opportunities\n\nMSc thesis supervision\n\nPhD positions (subject to availability and funding)\n\nVisiting research stays\n\nFellowship-based positions (see below)"
-  },
-  {
-    "objectID": "join.html#fellowship-opportunities",
-    "href": "join.html#fellowship-opportunities",
-    "title": "Contact",
-    "section": "Fellowship Opportunities",
-    "text": "Fellowship Opportunities\nProspective applicants are encouraged to consider external funding schemes. Examples include:\n\nJSPS Postdoctoral Fellowship (PD)\nhttps://www.jsps.go.jp/english/e-pd/\nJSPS Overseas Research Fellowship (海外特別研究員)\nhttps://www.jsps.go.jp/english/e-ab/\nOverseas fellowships (non-Japanese applicants to Japan)\nI can host applicants at Nagasaki University under relevant fellowship schemes.\n(For example: JSPS Invitational / institutional programs depending on year.)\nMarie Skłodowska-Curie Postdoctoral Fellowships (MSCA PF)\nhttps://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships\n\nIf you are considering applying for a fellowship with me as host or collaborator, please contact me well in advance of the deadline."
+    "text": "I am an Assistant Professor at Leiden University Medical Center (LUMC) and Nagasaki University, Japan.\nMy work focuses on understanding how transmission processes unfold across heterogeneous populations and how epidemic theory can inform practical and timely control strategies."
   },
   {
     "objectID": "resources/training_resources.html",
@@ -126,6 +105,20 @@
     "text": "Data and maintenance\nThe source of truth is data/training_resources.csv. To update the page, edit the CSV and render the site again.\nSuggested maintenance rules:\n\nkeep one resource per row;\nupdate last_checked whenever an entry is reviewed;\nuse official course pages as URLs whenever possible;\nkeep notes short;\ndo not delete past courses immediately if they are likely to recur;\nuse status = unknown when the current status is unclear.\n\nInclusion in this list does not imply endorsement by any affiliated institution."
   },
   {
+    "objectID": "resources/overview.html",
+    "href": "resources/overview.html",
+    "title": "Resources (for students)",
+    "section": "",
+    "text": "This section collects materials for current and prospective students: short notes, reading lists, and practical guidance."
+  },
+  {
+    "objectID": "resources/overview.html#quick-links",
+    "href": "resources/overview.html#quick-links",
+    "title": "Resources (for students)",
+    "section": "Quick links",
+    "text": "Quick links\n\nWriting\nTraining resources\nTraining resources database"
+  },
+  {
     "objectID": "research.html",
     "href": "research.html",
     "title": "Research",
@@ -168,32 +161,109 @@
     "text": "Full list\n\n…"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Fuminari (Fumi) Miura",
     "section": "",
-    "text": "I am a Senior Researcher at the Dutch National Institute for Public Health and the Environment (RIVM), jointly appointed with Nagasaki University, Japan.\nMy work focuses on understanding how transmission processes unfold across heterogeneous populations and how epidemic theory can inform practical and timely control strategies."
+    "text": "I am a Senior Researcher at the Dutch National Institute for Public Health and the Environment (RIVM), and an Assistant Professor at Leiden University Medical Center in the Netherlands and Nagasaki University in Japan.\nMy research bridges epidemic theory, data, and public health response to support decision-making under uncertainty in infectious disease control."
   },
   {
-    "objectID": "cv.html",
-    "href": "cv.html",
-    "title": "CV",
+    "objectID": "index.html#about",
+    "href": "index.html#about",
+    "title": "Fuminari (Fumi) Miura",
     "section": "",
-    "text": "Short Bio\nFumi Miura is a Senior researcher at the National Institute for Public Health and the Environment (RIVM) in the Netherlands and is jointly affiliated with Nagasaki University in Japan. His research focuses on infectious disease modelling, with particular emphasis on transmission heterogeneity, contact networks, and the use of epidemiological and alternative non-epidemiological data to inform targeted intervention strategies.\n\n\nFull CV\n\nDownload CV (PDF)\n\n\n\nPositions\n\n2023 - Present: Senior researcher\n\nCenter for Infectious Disease Control, The National Institute for Public Health and the Environment (RIVM), The Netherlands (with Prof. Jacco Wallinga)\n\nUnit for infectious disease modelling\n\n\n2020 - 2023: Postdoctoral Research Fellow (funded by JSPS Postdoctoral Research Fellow SPD/CPD)\n\nCenter for Infectious Disease Control, The National Institute for Public Health and the Environment (RIVM), The Netherlands (with Prof. Jacco Wallinga)\nCenter for Marine Environmental Studies (CMES), Ehime University, Japan (with Prof. Kozo Watanabe)\n\n2017 - 2020: Doctoral Research Fellow (funded by JSPS Doctoral Research Fellow DC1)\n\nUniversity of Tokyo, Graduate School of Engineering (with Prof. Kensuke Fukushi)\n\n2016 - 2017: Visiting researcher\n\nHokkaido University, Graduate School of Medicine (with Prof. Hiroshi Nishiura)\n\n2016: Internship researcher\n\nWorld Health Organization (Geneva)\nWater, Sanitation, Hygiene and Health, Department of Public Health, Social and Environmental Determinants of Health\n\n2015 - 2016: Adjunct Research Fellow\n\nResearch Institute of Capital Formation, Development bank of Japan\n\n\n\n\nEducation\n\nPh.D (Engineering), University of Tokyo, 2017 - 2020\nM.S. (Urban Engineering), University of Tokyo, 2014 - 2017\nB.S. (Urban Engineering), University of Tokyo, 2010 - 2014"
+    "text": "I am a Senior Researcher at the Dutch National Institute for Public Health and the Environment (RIVM), and an Assistant Professor at Leiden University Medical Center in the Netherlands and Nagasaki University in Japan.\nMy research bridges epidemic theory, data, and public health response to support decision-making under uncertainty in infectious disease control."
   },
   {
-    "objectID": "resources/overview.html",
-    "href": "resources/overview.html",
-    "title": "Resources (for students)",
+    "objectID": "join.html",
+    "href": "join.html",
+    "title": "Contact",
     "section": "",
-    "text": "This section collects materials for current and prospective students: short notes, reading lists, and practical guidance."
+    "text": "I welcome discussions on potential collaborative research projects, including academic partnerships and research collaborations with public institutions or industry. For an overview of my current research interests and agenda, please see the Research page."
   },
   {
-    "objectID": "resources/overview.html#quick-links",
-    "href": "resources/overview.html#quick-links",
-    "title": "Resources (for students)",
-    "section": "Quick links",
-    "text": "Quick links\n\nWriting\nTraining resources\nTraining resources database"
+    "objectID": "join.html#collaboration",
+    "href": "join.html#collaboration",
+    "title": "Contact",
+    "section": "",
+    "text": "I welcome discussions on potential collaborative research projects, including academic partnerships and research collaborations with public institutions or industry. For an overview of my current research interests and agenda, please see the Research page."
+  },
+  {
+    "objectID": "join.html#students-and-early-career-researchers",
+    "href": "join.html#students-and-early-career-researchers",
+    "title": "Contact",
+    "section": "Students and Early-Career Researchers",
+    "text": "Students and Early-Career Researchers\nI am happy to hear from motivated students and postdoctoral researchers whose interests align with the areas above. When reaching out, please include:\n\nA CV (PDF)\nA brief statement (1–2 paragraphs) outlining your interests and research goals\n(Optional) a writing sample or code repository\n\n\nPossible opportunities\n\nMSc thesis supervision\n\nPhD positions (subject to availability and funding)\n\nVisiting research stays\n\nFellowship-based positions (see below)"
+  },
+  {
+    "objectID": "join.html#fellowship-opportunities",
+    "href": "join.html#fellowship-opportunities",
+    "title": "Contact",
+    "section": "Fellowship Opportunities",
+    "text": "Fellowship Opportunities\nProspective applicants are encouraged to consider external funding schemes. Examples include:\n\nJSPS Postdoctoral Fellowship (PD)\nhttps://www.jsps.go.jp/english/e-pd/\nJSPS Overseas Research Fellowship (海外特別研究員)\nhttps://www.jsps.go.jp/english/e-ab/\nOverseas fellowships (non-Japanese applicants to Japan)\nI can host applicants at Nagasaki University under relevant fellowship schemes.\n(For example: JSPS Invitational / institutional programs depending on year.)\nMarie Skłodowska-Curie Postdoctoral Fellowships (MSCA PF)\nhttps://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships\n\nIf you are considering applying for a fellowship with me as host or collaborator, please contact me well in advance of the deadline."
+  },
+  {
+    "objectID": "resources/training_resources-csv-full.html",
+    "href": "resources/training_resources-csv-full.html",
+    "title": "Training resources",
+    "section": "",
+    "text": "This page lists selected courses, summer schools, online materials, textbooks, and tutorials for infectious disease modelling, epidemiological statistics, mathematical epidemiology, stochastic processes, and network science.\nThe list is manually curated. Course dates, fees, eligibility, and application deadlines may change; always check the official page. The last_checked field records when I last reviewed each entry."
+  },
+  {
+    "objectID": "resources/training_resources-csv-full.html#suggested-routes",
+    "href": "resources/training_resources-csv-full.html#suggested-routes",
+    "title": "Training resources",
+    "section": "Suggested routes",
+    "text": "Suggested routes\nThese routes are subjective and intended as quick orientation rather than a formal curriculum.\n\n\n\n\n\n\n\nGoal\nSuggested resources\n\n\n\n\nRegression and epidemiological statistics\nImperial/Coursera public-health R specialization; Nahhas book; Wageningen Advanced Analytical Epidemiology\n\n\nBasic infectious disease modelling\nFUN-MOOC or Imperial/Coursera Infectious Disease Modelling; LSHTM introduction course\n\n\nImplementing transmission models\nLSHTM Modern Techniques in Infectious Disease Modelling\n\n\nFitting infectious disease dynamic models\nStatistical Rethinking; LSHTM Model Fitting and Inference\n\n\nMathematical epidemiology\nDiekmann, Heesterbeek & Britton; Keeling & Rohani\n\n\nStochastic epidemic models\nESPIDAM stochastic epidemic models course; Allen primer; Britton notes\n\n\nNetwork and contact-pattern modelling\nUtrecht Network Science; ESPIDAM Networks and contact patterns; SISMID Network Modeling for Epidemics\n\n\nStochastic-process foundations\nMIT OCW Introduction to Stochastic Processes; MITx Probability"
+  },
+  {
+    "objectID": "resources/training_resources-csv-full.html#epidemiological-statistics-and-regression",
+    "href": "resources/training_resources-csv-full.html#epidemiological-statistics-and-regression",
+    "title": "Training resources",
+    "section": "Epidemiological statistics and regression",
+    "text": "Epidemiological statistics and regression\n\n\n\n\n\n\n\n\nResource\nProvider\nMode\nLevel\nStatus\nRelevance\nTopics\nNotes\nLast checked\n\n\n\n\n[Introduction to Regression Methods for Public Health Using R](https://bookdown.org/rwnahhas/RMPH/)\nRyan Nahhas / bookdown\nself-study\nbeginner\nself-paced\ncore\nlinear regression; logistic regression; Cox regression; R; public health datasets\nFree online textbook; useful as a companion to public-health regression courses.\n2026-07-03\n\n\n[Statistical Analysis with R for Public Health](https://www.coursera.org/specializations/statistical-analysis-r-public-health)\nImperial College London / Coursera\nonline\nbeginner\nself-paced\ncore\nR; linear regression; logistic regression; survival analysis; public health data\nGood first course for learning regression in public health and epidemiology.\n2026-07-03\n\n\n[Statistical Rethinking](https://github.com/rmcelreath/stat_rethinking_2026)\nRichard McElreath\nself-study\nintermediate\nself-paced\ncore\nBayesian regression; hierarchical models; causal models; model checking\nExcellent foundation for Bayesian workflow and generative modelling.\n2026-07-03\n\n\n[Advanced Analytical Epidemiology](https://www.wur.nl/en/education/for-professionals/programmes-and-courses/advanced-analytical-epidemiology)\nWageningen University & Research\nonline\nintermediate\nrecurring\nrecommended\nlogistic regression; Cox models; mixed models; confounding; effect modification\nFormal online course in the Netherlands; requires some R and epidemiological background.\n2026-07-03\n\n\n[Biostatistics in Public Health](https://www.coursera.org/specializations/biostatistics-public-health)\nJohns Hopkins University / Coursera\nonline\nbeginner\nself-paced\nrecommended\nbiostatistics; inference; regression; public health\nUseful foundation for reading and conducting epidemiological analyses.\n2026-07-03\n\n\n[Introductory Course in Epidemiology & Medical Statistics](https://www.lshtm.ac.uk/study/courses/short-courses/epidemiology-statistics)\nLSHTM\nhybrid\nbeginner\nrecurring\nrecommended\nepidemiology; medical statistics; regression; confounding; study design\nBroad foundation course in epidemiology and medical statistics.\n2026-07-03\n\n\n[Multiple Regression Analysis in Public Health](https://www.coursera.org/learn/multiple-regression-analysis-public-health)\nJohns Hopkins University / Coursera\nonline\nintermediate\nself-paced\nrecommended\nmultiple linear regression; logistic regression; Cox regression; splines; adjustment\nGood follow-up course after basic regression.\n2026-07-03\n\n\n[Statistical Modelling for Epidemiology](https://www.drps.ed.ac.uk/26-27/dpt/cxpuhr11064.htm)\nUniversity of Edinburgh\nonline\nintermediate\nunknown\nrecommended\nlinear regression; logistic regression; survival analysis; diagnostics; model building\nMSc module; availability for external single-course enrolment should be checked.\n2026-07-03\n\n\n[GAM resources](https://github.com/noamross/gam-resources)\nNoam Ross / GitHub\nself-study\nintermediate\nself-paced\nspecialized\nGAM; mgcv; nonlinear smooths; seasonality; time-varying effects\nUseful for modelling seasonality, nonlinear covariate effects, and smooth temporal trends.\n2026-07-03\n\n\n[Statistical Practice in Epidemiology using R](https://bendixcarstensen.com/SPE/)\nBendix Carstensen\nin-person\nintermediate\nrecurring\nspecialized\nlogistic regression; Poisson regression; survival analysis; multistate models; causal inference\nStrong option for classical epidemiological statistics and follow-up data analysis.\n2026-07-03"
+  },
+  {
+    "objectID": "resources/training_resources-csv-full.html#infectious-disease-modelling-and-outbreak-analytics",
+    "href": "resources/training_resources-csv-full.html#infectious-disease-modelling-and-outbreak-analytics",
+    "title": "Training resources",
+    "section": "Infectious disease modelling and outbreak analytics",
+    "text": "Infectious disease modelling and outbreak analytics\n\n\n\n\n\n\n\n\nResource\nProvider\nMode\nLevel\nStatus\nRelevance\nTopics\nNotes\nLast checked\n\n\n\n\n[Infectious Disease Modelling Specialization](https://www.coursera.org/specializations/infectious-disease-modelling)\nImperial College London / Coursera\nonline\nbeginner\nself-paced\ncore\nSIR; R implementation; calibration; interventions; stochastic and deterministic models\nGood entry point for SIR modelling and calibration in R.\n2026-07-03\n\n\n[Model Fitting and Inference for Infectious Disease Dynamics](https://www.lshtm.ac.uk/study/courses/short-courses/infectious-diseases-dynamics)\nLSHTM\nin-person\nadvanced\nrecurring\ncore\nMCMC; particle filters; ABC; observation models; stochastic models\nDirectly relevant for fitting stochastic infectious disease models.\n2026-07-03\n\n\n[Modern Techniques in Infectious Disease Modelling](https://www.lshtm.ac.uk/study/courses/short-courses/modern-techniques-disease-modelling)\nLSHTM\nhybrid\nintermediate\nrecurring\ncore\nODE; stochastic models; metapopulation; network Reed-Frost; sensitivity analysis\nPractical course for implementing deterministic and stochastic transmission models in R.\n2026-07-03\n\n\n[Introduction to Infectious Disease Modelling and its Applications](https://www.lshtm.ac.uk/study/courses/short-courses/infectious-disease-modelling)\nLSHTM\nhybrid\nbeginner\nrecurring\nrecommended\ninfectious disease modelling; theory; applications; simple models\nProfessional short course for foundational infectious disease modelling.\n2026-07-03\n\n\n[Modeling of Infectious Diseases](https://www.fun-mooc.fr/en/courses/modeling-infectious-diseases/)\nFUN-MOOC\nonline\nbeginner\nself-paced\nrecommended\nSIR; R0; effective R; interventions; ODE modelling\nAccessible introductory course for mathematical infectious disease modelling.\n2026-07-03\n\n\n[Outbreak Analytics and Applied Modelling in R](https://www.lshtm.ac.uk/study/courses/short-courses/outbreaks-analytics-R)\nLSHTM\nonline\nintermediate\nrecurring\nrecommended\nlinelist; Rt; severity; forecasting; scenario modelling; outbreak analytics\nGood practical course for real-time outbreak analytics workflows.\n2026-07-03\n\n\n[Pasteur Course: Modeling of Infectious Diseases](https://research.pasteur.fr/en/course/pasteur-course-modeling-of-infectious-diseases/)\nInstitut Pasteur\nin-person\nintermediate\nrecurring\nrecommended\nmathematical infectious disease modelling; public health applications\nOne-week course in Paris; next edition should be checked on the official page.\n2026-07-03\n\n\n[Epiverse-TRACE learning materials](https://epiverse-trace.github.io/learn.html)\nEpiverse-TRACE\nself-study\nintermediate\nself-paced\nreference\noutbreak data cleaning; real-time analysis; forecasting; scenario modelling\nUseful free tutorials for outbreak analytics; some materials may still be under active development.\n2026-07-03\n\n\n[Infectious Disease Modeling in Practice](https://www.coursera.org/learn/infectious-disease-modeling-in-practice)\nJohns Hopkins University / Coursera\nonline\nbeginner\nself-paced\nreference\nmodelling use cases; assumptions; public-health decision-making\nConceptual course on how infectious disease models are used in practice.\n2026-07-03\n\n\n[Infectious Disease Transmission Models for Decision-Makers](https://www.coursera.org/learn/infectious-disease-transmission-models-for-decision-makers)\nJohns Hopkins University / Coursera\nonline\nbeginner\nself-paced\nreference\nmodel types; model use; model limitations; policy interpretation\nSuitable for non-modellers who need to understand transmission model outputs.\n2026-07-03"
+  },
+  {
+    "objectID": "resources/training_resources-csv-full.html#mathematical-epidemiology-and-stochastic-epidemic-models",
+    "href": "resources/training_resources-csv-full.html#mathematical-epidemiology-and-stochastic-epidemic-models",
+    "title": "Training resources",
+    "section": "Mathematical epidemiology and stochastic epidemic models",
+    "text": "Mathematical epidemiology and stochastic epidemic models\n\n\n\n\n\n\n\n\nResource\nProvider\nMode\nLevel\nStatus\nRelevance\nTopics\nNotes\nLast checked\n\n\n\n\n[European Summer Program in Infectious Disease Analysis and Modelling](https://www.su.se/english/divisions/department-of-mathematics/research/conferences-and-seminars/espidam-the-european-summer-program-in-infectious-disease-analysis-and-modelling)\nStockholm University\nin-person\nintermediate\nrecurring\ncore\nstochastic models; networks; forecasting; phylodynamics; infectious disease data analysis\nOne of the most relevant European summer programmes for infectious disease modelling.\n2026-07-03\n\n\n[Networks and contact patterns in infectious disease models](https://kurser.math.su.se/course/view.php?id=1788&lang=en)\nESPIDAM / Stockholm University\nin-person\nadvanced\nrecurring\ncore\ncontact patterns; mobility networks; sexual networks; dynamic networks; metapopulation models\nHighly relevant for contact matrices, sexual networks, mobility, and metapopulation models.\n2026-07-03\n\n\n[Stochastic epidemic models with inference](https://kurser.math.su.se/course/view.php?id=1784&lang=en)\nESPIDAM / Stockholm University\nin-person\nadvanced\nrecurring\ncore\nstochastic epidemic models; SEIR; multitype models; household models; network epidemics; R0; Rt; inference\nDirectly relevant for stochastic epidemic theory and inference.\n2026-07-03\n\n\n[Infectious disease data analysis](https://kurser.math.su.se/course/view.php?id=1787&lang=en)\nESPIDAM / Stockholm University\nin-person\nadvanced\nrecurring\nrecommended\nBayesian inference; transmission model calibration; serology; infectious disease data analysis\nGood bridge between transmission models and data analysis.\n2026-07-03\n\n\n[Network Modeling for Epidemics](https://epimodel.github.io/sismid/)\nSISMID / EpiModel\nin-person\nadvanced\nrecurring\nspecialized\nERGM; TERGM; dynamic networks; stochastic simulation; epidemic modelling\nStrong course for network epidemic simulation; eligibility may depend on location and format.\n2026-07-03\n\n\n[SISMID](https://sismid.sph.emory.edu/)\nEmory University\nhybrid\nadvanced\nrecurring\nspecialized\nstatistics; infectious disease modelling; inference; network modelling\nModular short-course institute; online eligibility may be restricted.\n2026-07-03"
+  },
+  {
+    "objectID": "resources/training_resources-csv-full.html#probability-and-stochastic-processes",
+    "href": "resources/training_resources-csv-full.html#probability-and-stochastic-processes",
+    "title": "Training resources",
+    "section": "Probability and stochastic processes",
+    "text": "Probability and stochastic processes\n\n\n\n\n\n\n\n\nResource\nProvider\nMode\nLevel\nStatus\nRelevance\nTopics\nNotes\nLast checked\n\n\n\n\n[Introduction to Stochastic Processes](https://ocw.mit.edu/courses/18-445-introduction-to-stochastic-processes-spring-2015/)\nMIT OpenCourseWare\nself-study\nadvanced\nself-paced\ncore\nMarkov chains; random walks; martingales; Galton-Watson trees\nUseful foundation for branching processes and stochastic epidemic theory.\n2026-07-03\n\n\n[Probability — The Science of Uncertainty and Data](https://www.edx.org/learn/probability/massachusetts-institute-of-technology-probability-the-science-of-uncertainty-and-data)\nMITx / edX\nonline\nbeginner\nself-paced\nrecommended\nprobability; inference; Markov chains; uncertainty\nGood prerequisite if probability theory needs strengthening before stochastic processes.\n2026-07-03\n\n\n[Discrete Stochastic Processes](https://ocw.mit.edu/courses/6-262-discrete-stochastic-processes-spring-2011/)\nMIT OpenCourseWare\nself-study\nadvanced\nself-paced\nreference\ndiscrete stochastic processes; renewal processes; Markov chains; queueing\nApplied probability course with useful background for stochastic modelling.\n2026-07-03\n\n\n[Discrete-Time Markov Chains and Monte Carlo Methods](https://www.coursera.org/learn/discrete-time-markov-chains-monte-carlo-methods)\nCoursera\nonline\nbeginner\nself-paced\nreference\ntransition matrices; absorbing states; limiting distributions; Monte Carlo\nIntroductory option for discrete-time Markov chains.\n2026-07-03"
+  },
+  {
+    "objectID": "resources/training_resources-csv-full.html#network-science-complex-systems-and-abm",
+    "href": "resources/training_resources-csv-full.html#network-science-complex-systems-and-abm",
+    "title": "Training resources",
+    "section": "Network science, complex systems, and ABM",
+    "text": "Network science, complex systems, and ABM\n\n\n\n\n\n\n\n\nResource\nProvider\nMode\nLevel\nStatus\nRelevance\nTopics\nNotes\nLast checked\n\n\n\n\n[Data Science: Network Science](https://utrechtsummerschool.nl/courses/data-science/data-science-network-science)\nUtrecht Summer School\nin-person\nintermediate\nrecurring\ncore\nnetwork science; community detection; link prediction; network inference; contagion\nMost direct short course in the Netherlands for network science.\n2026-07-03\n\n\n[Dutch NetSci Summer Symposium](https://www.universiteitleiden.nl/en/events/2026/06/dutch-netsci-summer-symposium-2026)\nLeiden University\nin-person\nall levels\nrecurring\nrecommended\nnetwork science; complex networks; social network analysis\nResearch networking event rather than a course.\n2026-07-03\n\n\n[ECPR Methods School](https://ecpr.eu/MethodsSchool)\nECPR\nin-person\nbeginner\nrecurring\nrecommended\nsocial network analysis; R; social science methods\nSocial-science-oriented SNA training.\n2026-07-03\n\n\n[Introduction to Complex Systems](https://utrechtsummerschool.nl/courses/science/introduction-to-complex-systems)\nUtrecht Summer School\nin-person\nbeginner\nrecurring\nrecommended\nnonlinear dynamics; self-organization; networks; complex systems\nBroader complex-systems course; less specific than a network science course.\n2026-07-03\n\n\n[MethodsNET Summer School with CEU](https://methodsnet.org/summer-school/methodsnet-summer-school-with-ceu-2026/)\nMethodsNET / CEU\nin-person\nintermediate\nrecurring\nrecommended\napplied social network analysis; discourse network analysis; inferential network analysis\nUseful for social-network-analysis methodology rather than physical network science.\n2026-07-03\n\n\n[Networks and Complex Systems](https://bse.eu/summer-school/complexity-and-emergence-in-economic-and-social-systems/networks-and-emergence-in-complex-systems)\nBarcelona School of Economics\nin-person\nintermediate\nrecurring\nrecommended\nrandom graphs; percolation; contagion; diffusion; resilience\nNetwork and complex-systems course with an economic and social-systems orientation.\n2026-07-03\n\n\n[Network Science Education in the Netherlands](https://www.netsci.nl/education/)\nDutch Network Science Society\nreference\nall levels\nself-paced\nreference\nnetwork science; complex systems; Dutch university courses\nUseful directory for finding Dutch network-science and complex-systems courses.\n2026-07-03\n\n\n[BEHAVE Summer School on Agent-Based Modelling](https://www.comses.net/events/?tags=Behave+Summer+School)\nBEHAVE / CoMSES\nhybrid\nbeginner\nrecurring\nspecialized\nagent-based modelling; simulation; NetLogo; hands-on project\nAdjacent option for simulation-based epidemic and behavioural modelling.\n2026-07-03\n\n\n[Complex Networks: Theory, Methods, and Applications](https://ntml.lakecomoschool.org/)\nLake Como School\nin-person\nadvanced\nrecurring\nspecialized\ncomplex networks; higher-order networks; temporal networks; contagion; mobility\nAdvanced European summer-school option for complex networks.\n2026-07-03\n\n\n[Complex networks: from socio-economic systems to biology and brain](https://secs26.liparischool.it/)\nLipari School\nin-person\nadvanced\nrecurring\nspecialized\ncomplex networks; socio-economic systems; biology; brain networks\nBroad complex-network summer school.\n2026-07-03\n\n\n[EUSN Workshops](https://www.insna.org/events/the-8th-european-conference-on-social-networks-eusn-2026)\nEuropean Conference on Social Networks / INSNA\nin-person\nintermediate\nrecurring\nspecialized\nRSiena; multiplex networks; two-mode networks; relational event models\nUseful for method-specific social network analysis workshops.\n2026-07-03\n\n\n[POLNET School on Social Network Analysis](https://ecpr.eu/Events/357)\nUniversität Konstanz / ECPR\nin-person\nintermediate\nrecurring\nspecialized\npolitical networks; ERGM; REM; discourse networks; ABM\nPolitical and social-network-analysis school with strong methodological content.\n2026-07-03"
+  },
+  {
+    "objectID": "resources/training_resources-csv-full.html#books-papers-and-reference-materials",
+    "href": "resources/training_resources-csv-full.html#books-papers-and-reference-materials",
+    "title": "Training resources",
+    "section": "Books, papers, and reference materials",
+    "text": "Books, papers, and reference materials\n\n\n\n\n\n\n\n\nResource\nProvider\nMode\nLevel\nStatus\nRelevance\nTopics\nNotes\nLast checked\n\n\n\n\n[Mathematical Tools for Understanding Infectious Disease Dynamics](https://research-portal.uu.nl/en/publications/mathematical-tools-for-understanding-infectious-disease-dynamics/)\nDiekmann, Heesterbeek & Britton\nself-study\nadvanced\nreference\ncore\ndeterministic models; stochastic models; R0; next-generation matrix; model formulation\nCore theoretical reference for mathematical infectious disease dynamics.\n2026-07-03\n\n\n[Modeling Infectious Diseases in Humans and Animals](https://www.jstor.org/stable/j.ctvcm4gk0)\nKeeling & Rohani\nself-study\nintermediate\nreference\ncore\nepidemic models; heterogeneity; multipathogen models; stochastic dynamics; spatial models; control\nBroad applied reference and model catalogue for infectious disease modelling.\n2026-07-03\n\n\n[A primer on stochastic epidemic models](https://www.sciencedirect.com/science/article/pii/S2468042716300495)\nLinda J. S. Allen\nself-study\nintermediate\nreference\nrecommended\nCTMC; SDE; stochastic SIR; outbreak probability\nShort primer on stochastic epidemic models.\n2026-07-03\n\n\n[A primer on the use of probability generating functions in infectious disease modeling](https://arxiv.org/abs/1803.05136)\nJoel C. Miller\nself-study\nintermediate\nreference\nrecommended\nprobability generating functions; early outbreak; epidemic probability; final size\nUseful tutorial for PGF-based reasoning in epidemic models.\n2026-07-03\n\n\n[Introduction to statistical inference for infectious diseases](https://arxiv.org/abs/1411.3138)\nBritton & Giardina\nself-study\nadvanced\nreference\nrecommended\nstochastic epidemic model inference; R0; final size; temporal data\nUseful overview of inference for stochastic epidemic models.\n2026-07-03\n\n\n[Epidemic modelling: aspects where stochasticity matters](https://arxiv.org/abs/0812.3505)\nBritton & Lindenstrand\nself-study\nintermediate\nreference\nreference\nstochasticity; outbreak probability; early growth\nShort piece on when stochasticity matters in epidemic modelling.\n2026-07-03\n\n\n[Stochastic epidemics in a homogeneous community](https://arxiv.org/abs/1808.05350)\nBritton & Pardoux\nself-study\nadvanced\nreference\nspecialized\nstochastic compartmental epidemics; early phase; final size; LLN; CLT\nMathematical lecture notes on stochastic epidemics.\n2026-07-03"
+  },
+  {
+    "objectID": "resources/training_resources-csv-full.html#maintenance-notes",
+    "href": "resources/training_resources-csv-full.html#maintenance-notes",
+    "title": "Training resources",
+    "section": "Maintenance notes",
+    "text": "Maintenance notes\n\ndata/training_resources.csv is the source of truth.\nKeep this .qmd page short; update entries in the CSV rather than editing tables by hand.\nUse status = self-paced for stable online materials and books.\nUse status = recurring for courses that appear to run repeatedly, even when the current year’s edition has passed.\nMove uncertain or outdated entries to status = unknown rather than deleting them immediately.\nUpdate last_checked whenever an entry is reviewed.\nInclusion in this list does not imply endorsement by any affiliated institution."
   },
   {
     "objectID": "resources/writing.html",
@@ -224,10 +294,80 @@
     "text": "Recommended references\n\n(Add 5–10 core references you actually like)"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Fuminari (Fumi) Miura",
+    "objectID": "resources/training_resources-csv.html",
+    "href": "resources/training_resources-csv.html",
+    "title": "Training resources",
     "section": "",
-    "text": "Fuminari (Fumi) Miura\nSenior Researcher at Dutch National Institute for Public Health and the Environment (RIVM)"
+    "text": "This page collects selected courses, summer schools, online materials, textbooks, and tutorials for infectious disease modelling and adjacent methods.\nThe list is manually curated. Course dates, fees, eligibility, and application deadlines may change; always check the official page. The last_checked field in the CSV records when each entry was last reviewed."
+  },
+  {
+    "objectID": "resources/training_resources-csv.html#suggested-routes",
+    "href": "resources/training_resources-csv.html#suggested-routes",
+    "title": "Training resources",
+    "section": "Suggested routes",
+    "text": "Suggested routes\n\n\n\n\n\n\n\nGoal\nSuggested resources\n\n\n\n\nRegression and epidemiological statistics\nImperial/Coursera public-health R specialization; Nahhas book; Wageningen Advanced Analytical Epidemiology\n\n\nBasic infectious disease modelling\nFUN-MOOC or Imperial/Coursera Infectious Disease Modelling; LSHTM introduction course\n\n\nImplementing transmission models\nLSHTM Modern Techniques in Infectious Disease Modelling\n\n\nFitting infectious disease dynamic models\nStatistical Rethinking; LSHTM Model Fitting and Inference\n\n\nMathematical epidemiology\nDiekmann, Heesterbeek & Britton; Keeling & Rohani\n\n\nStochastic epidemic models\nESPIDAM stochastic epidemic models course; Allen primer; Britton notes\n\n\nNetwork and contact-pattern modelling\nUtrecht Network Science; ESPIDAM Networks and contact patterns; SISMID Network Modeling for Epidemics\n\n\nStochastic-process foundations\nMIT OCW Introduction to Stochastic Processes; MITx Probability"
+  },
+  {
+    "objectID": "resources/training_resources-csv.html#epidemiological-statistics-and-regression",
+    "href": "resources/training_resources-csv.html#epidemiological-statistics-and-regression",
+    "title": "Training resources",
+    "section": "Epidemiological statistics and regression",
+    "text": "Epidemiological statistics and regression\n\n\n\nResource\nProvider\nLevel\nStatus\nFocus\n\n\n\n\nIntroduction to Regression Methods for Public Health Using R\nRyan Nahhas / bookdown\nbeginner\nself-paced\nlinear regression; logistic regression; Cox regression; R; …\n\n\nStatistical Analysis with R for Public Health\nImperial College London / Coursera\nbeginner\nself-paced\nR; linear regression; logistic regression; survival analysis; …\n\n\nStatistical Rethinking\nRichard McElreath\nintermediate\nself-paced\nBayesian regression; hierarchical models; causal models; model checking\n\n\nAdvanced Analytical Epidemiology\nWageningen University & Research\nintermediate\nrecurring\nlogistic regression; Cox models; mixed models; confounding; …\n\n\nBiostatistics in Public Health\nJohns Hopkins University / Coursera\nbeginner\nself-paced\nbiostatistics; inference; regression; public health\n\n\nIntroductory Course in Epidemiology & Medical Statistics\nLSHTM\nbeginner\nrecurring\nepidemiology; medical statistics; regression; confounding; …\n\n\nMultiple Regression Analysis in Public Health\nJohns Hopkins University / Coursera\nintermediate\nself-paced\nmultiple linear regression; logistic regression; Cox regression; splines; …\n\n\nStatistical Modelling for Epidemiology\nUniversity of Edinburgh\nintermediate\nunknown\nlinear regression; logistic regression; survival analysis; diagnostics; …\n\n\nGAM resources\nNoam Ross / GitHub\nintermediate\nself-paced\nGAM; mgcv; nonlinear smooths; seasonality; …\n\n\nStatistical Practice in Epidemiology using R\nBendix Carstensen\nintermediate\nrecurring\nlogistic regression; Poisson regression; survival analysis; multistate models; …"
+  },
+  {
+    "objectID": "resources/training_resources-csv.html#infectious-disease-modelling-and-outbreak-analytics",
+    "href": "resources/training_resources-csv.html#infectious-disease-modelling-and-outbreak-analytics",
+    "title": "Training resources",
+    "section": "Infectious disease modelling and outbreak analytics",
+    "text": "Infectious disease modelling and outbreak analytics\n\n\n\nResource\nProvider\nLevel\nStatus\nFocus\n\n\n\n\nInfectious Disease Modelling Specialization\nImperial College London / Coursera\nbeginner\nself-paced\nSIR; R implementation; calibration; interventions; …\n\n\nModel Fitting and Inference for Infectious Disease Dynamics\nLSHTM\nadvanced\nrecurring\nMCMC; particle filters; ABC; observation models; …\n\n\nModern Techniques in Infectious Disease Modelling\nLSHTM\nintermediate\nrecurring\nODE; stochastic models; metapopulation; network Reed-Frost; …\n\n\nIntroduction to Infectious Disease Modelling and its Applications\nLSHTM\nbeginner\nrecurring\ninfectious disease modelling; theory; applications; simple models\n\n\nModeling of Infectious Diseases\nFUN-MOOC\nbeginner\nself-paced\nSIR; R0; effective R; interventions; …\n\n\nOutbreak Analytics and Applied Modelling in R\nLSHTM\nintermediate\nrecurring\nlinelist; Rt; severity; forecasting; …\n\n\nPasteur Course: Modeling of Infectious Diseases\nInstitut Pasteur\nintermediate\nrecurring\nmathematical infectious disease modelling; public health applications\n\n\nEpiverse-TRACE learning materials\nEpiverse-TRACE\nintermediate\nself-paced\noutbreak data cleaning; real-time analysis; forecasting; scenario modelling\n\n\nInfectious Disease Modeling in Practice\nJohns Hopkins University / Coursera\nbeginner\nself-paced\nmodelling use cases; assumptions; public-health decision-making\n\n\nInfectious Disease Transmission Models for Decision-Makers\nJohns Hopkins University / Coursera\nbeginner\nself-paced\nmodel types; model use; model limitations; policy interpretation"
+  },
+  {
+    "objectID": "resources/training_resources-csv.html#mathematical-epidemiology-and-stochastic-epidemic-models",
+    "href": "resources/training_resources-csv.html#mathematical-epidemiology-and-stochastic-epidemic-models",
+    "title": "Training resources",
+    "section": "Mathematical epidemiology and stochastic epidemic models",
+    "text": "Mathematical epidemiology and stochastic epidemic models\n\n\n\nResource\nProvider\nLevel\nStatus\nFocus\n\n\n\n\nEuropean Summer Program in Infectious Disease Analysis and Modelling\nStockholm University\nintermediate\nrecurring\nstochastic models; networks; forecasting; phylodynamics; …\n\n\nNetworks and contact patterns in infectious disease models\nESPIDAM / Stockholm University\nadvanced\nrecurring\ncontact patterns; mobility networks; sexual networks; dynamic networks; …\n\n\nStochastic epidemic models with inference\nESPIDAM / Stockholm University\nadvanced\nrecurring\nstochastic epidemic models; SEIR; multitype models; household models; …\n\n\nInfectious disease data analysis\nESPIDAM / Stockholm University\nadvanced\nrecurring\nBayesian inference; transmission model calibration; serology; infectious disease data analysis\n\n\nNetwork Modeling for Epidemics\nSISMID / EpiModel\nadvanced\nrecurring\nERGM; TERGM; dynamic networks; stochastic simulation; …\n\n\nSISMID\nEmory University\nadvanced\nrecurring\nstatistics; infectious disease modelling; inference; network modelling"
+  },
+  {
+    "objectID": "resources/training_resources-csv.html#probability-and-stochastic-processes",
+    "href": "resources/training_resources-csv.html#probability-and-stochastic-processes",
+    "title": "Training resources",
+    "section": "Probability and stochastic processes",
+    "text": "Probability and stochastic processes\n\n\n\nResource\nProvider\nLevel\nStatus\nFocus\n\n\n\n\nIntroduction to Stochastic Processes\nMIT OpenCourseWare\nadvanced\nself-paced\nMarkov chains; random walks; martingales; Galton-Watson trees\n\n\nProbability — The Science of Uncertainty and Data\nMITx / edX\nbeginner\nself-paced\nprobability; inference; Markov chains; uncertainty\n\n\nDiscrete Stochastic Processes\nMIT OpenCourseWare\nadvanced\nself-paced\ndiscrete stochastic processes; renewal processes; Markov chains; queueing\n\n\nDiscrete-Time Markov Chains and Monte Carlo Methods\nCoursera\nbeginner\nself-paced\ntransition matrices; absorbing states; limiting distributions; Monte Carlo"
+  },
+  {
+    "objectID": "resources/training_resources-csv.html#network-science-complex-systems-and-abm",
+    "href": "resources/training_resources-csv.html#network-science-complex-systems-and-abm",
+    "title": "Training resources",
+    "section": "Network science, complex systems, and ABM",
+    "text": "Network science, complex systems, and ABM\n\n\n\nResource\nProvider\nLevel\nStatus\nFocus\n\n\n\n\nData Science: Network Science\nUtrecht Summer School\nintermediate\nrecurring\nnetwork science; community detection; link prediction; network inference; …\n\n\nDutch NetSci Summer Symposium\nLeiden University\nall levels\nrecurring\nnetwork science; complex networks; social network analysis\n\n\nECPR Methods School\nECPR\nbeginner\nrecurring\nsocial network analysis; R; social science methods\n\n\nIntroduction to Complex Systems\nUtrecht Summer School\nbeginner\nrecurring\nnonlinear dynamics; self-organization; networks; complex systems\n\n\nMethodsNET Summer School with CEU\nMethodsNET / CEU\nintermediate\nrecurring\napplied social network analysis; discourse network analysis; inferential network analysis\n\n\nNetworks and Complex Systems\nBarcelona School of Economics\nintermediate\nrecurring\nrandom graphs; percolation; contagion; diffusion; …\n\n\nBEHAVE Summer School on Agent-Based Modelling\nBEHAVE / CoMSES\nbeginner\nrecurring\nagent-based modelling; simulation; NetLogo; hands-on project\n\n\nComplex networks: from socio-economic systems to biology and brain\nLipari School\nadvanced\nrecurring\ncomplex networks; socio-economic systems; biology; brain networks\n\n\nComplex Networks: Theory, Methods, and Applications\nLake Como School\nadvanced\nrecurring\ncomplex networks; higher-order networks; temporal networks; contagion; …\n\n\nEUSN Workshops\nEuropean Conference on Social Networks / INSNA\nintermediate\nrecurring\nRSiena; multiplex networks; two-mode networks; relational event models\n\n\nPOLNET School on Social Network Analysis\nUniversität Konstanz / ECPR\nintermediate\nrecurring\npolitical networks; ERGM; REM; discourse networks; …\n\n\nNetwork Science Education in the Netherlands\nDutch Network Science Society\nall levels\nself-paced\nnetwork science; complex systems; Dutch university courses"
+  },
+  {
+    "objectID": "resources/training_resources-csv.html#books-papers-and-reference-materials",
+    "href": "resources/training_resources-csv.html#books-papers-and-reference-materials",
+    "title": "Training resources",
+    "section": "Books, papers, and reference materials",
+    "text": "Books, papers, and reference materials\n\n\n\nResource\nProvider\nLevel\nStatus\nFocus\n\n\n\n\nMathematical Tools for Understanding Infectious Disease Dynamics\nDiekmann, Heesterbeek & Britton\nadvanced\nreference\ndeterministic models; stochastic models; R0; next-generation matrix; …\n\n\nModeling Infectious Diseases in Humans and Animals\nKeeling & Rohani\nintermediate\nreference\nepidemic models; heterogeneity; multipathogen models; stochastic dynamics; …\n\n\nA primer on stochastic epidemic models\nLinda J. S. Allen\nintermediate\nreference\nCTMC; SDE; stochastic SIR; outbreak probability\n\n\nA primer on the use of probability generating functions in infectious disease modeling\nJoel C. Miller\nintermediate\nreference\nprobability generating functions; early outbreak; epidemic probability; final size\n\n\nIntroduction to statistical inference for infectious diseases\nBritton & Giardina\nadvanced\nreference\nstochastic epidemic model inference; R0; final size; temporal data\n\n\nStochastic epidemics in a homogeneous community\nBritton & Pardoux\nadvanced\nreference\nstochastic compartmental epidemics; early phase; final size; LLN; …\n\n\nEpidemic modelling: aspects where stochasticity matters\nBritton & Lindenstrand\nintermediate\nreference\nstochasticity; outbreak probability; early growth"
+  },
+  {
+    "objectID": "resources/training_resources-csv.html#notes-on-status-and-relevance",
+    "href": "resources/training_resources-csv.html#notes-on-status-and-relevance",
+    "title": "Training resources",
+    "section": "Notes on status and relevance",
+    "text": "Notes on status and relevance\n\n\n\n\n\n\n\nField\nMeaning\n\n\n\n\ncore\nStrongly useful for training in infectious disease modelling or epidemiological methods\n\n\nrecommended\nBroadly useful, but not necessarily essential\n\n\nspecialized\nHighly useful for a specific topic or method\n\n\nreference\nUseful as supporting material or self-study\n\n\nself-paced\nStable online material, book, or tutorial\n\n\nrecurring\nCourse or event appears to run repeatedly, although details may change\n\n\nunknown\nStatus should be checked again"
+  },
+  {
+    "objectID": "resources/training_resources-csv.html#maintenance",
+    "href": "resources/training_resources-csv.html#maintenance",
+    "title": "Training resources",
+    "section": "Maintenance",
+    "text": "Maintenance\nThe source of truth is data/training_resources.csv. To update the page, edit the CSV and render the site again.\nSuggested maintenance rules:\n\nkeep one resource per row;\nupdate last_checked whenever an entry is reviewed;\nuse official course pages as URLs whenever possible;\nkeep notes short;\ndo not delete past courses immediately if they are likely to recur;\nuse status = unknown when the current status is unclear.\n\nInclusion in this list does not imply endorsement by any affiliated institution."
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
+    "section": "",
+    "text": "Short Bio\nFumi Miura is a Senior researcher at the National Institute for Public Health and the Environment (RIVM) in the Netherlands and is jointly affiliated with Nagasaki University in Japan. His research focuses on infectious disease modelling, with particular emphasis on transmission heterogeneity, contact networks, and the use of epidemiological and alternative non-epidemiological data to inform targeted intervention strategies.\n\n\nFull CV\n\nDownload CV (PDF)\n\n\n\nPositions\n\n2023 - Present: Senior researcher\n\nCenter for Infectious Disease Control, The National Institute for Public Health and the Environment (RIVM), The Netherlands (with Prof. Jacco Wallinga)\n\nUnit for infectious disease modelling\n\n\n2020 - 2023: Postdoctoral Research Fellow (funded by JSPS Postdoctoral Research Fellow SPD/CPD)\n\nCenter for Infectious Disease Control, The National Institute for Public Health and the Environment (RIVM), The Netherlands (with Prof. Jacco Wallinga)\nCenter for Marine Environmental Studies (CMES), Ehime University, Japan (with Prof. Kozo Watanabe)\n\n2017 - 2020: Doctoral Research Fellow (funded by JSPS Doctoral Research Fellow DC1)\n\nUniversity of Tokyo, Graduate School of Engineering (with Prof. Kensuke Fukushi)\n\n2016 - 2017: Visiting researcher\n\nHokkaido University, Graduate School of Medicine (with Prof. Hiroshi Nishiura)\n\n2016: Internship researcher\n\nWorld Health Organization (Geneva)\nWater, Sanitation, Hygiene and Health, Department of Public Health, Social and Environmental Determinants of Health\n\n2015 - 2016: Adjunct Research Fellow\n\nResearch Institute of Capital Formation, Development bank of Japan\n\n\n\n\nEducation\n\nPh.D (Engineering), University of Tokyo, 2017 - 2020\nM.S. (Urban Engineering), University of Tokyo, 2014 - 2017\nB.S. (Urban Engineering), University of Tokyo, 2010 - 2014"
   }
 ]

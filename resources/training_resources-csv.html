@@ -6,10 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2026-07-03">
-<meta name="description" content="A curated list of courses, summer schools, online materials, textbooks, and tutorials for epidemiological statistics, infectious disease modelling, mathematical epidemiology, stochastic processes, and network science.">
+<meta name="description" content="Curated courses and learning materials for infectious disease modelling, epidemiological statistics, mathematical epidemiology, stochastic processes, and network science.">
 
-<title>Training resources for infectious disease modelling – Fuminari Miura</title>
+<title>Training resources – Fuminari Miura</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -78,40 +77,11 @@ ul.task-list li input[type="checkbox"] {
 <style>html{ scroll-behavior: smooth; }</style>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -174,34 +144,18 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#how-to-use-this-page" id="toc-how-to-use-this-page" class="nav-link active" data-scroll-target="#how-to-use-this-page">How to use this page</a></li>
-  <li><a href="#recommended-training-routes" id="toc-recommended-training-routes" class="nav-link" data-scroll-target="#recommended-training-routes">Recommended training routes</a></li>
-  <li><a href="#epidemiological-statistics-and-regression" id="toc-epidemiological-statistics-and-regression" class="nav-link" data-scroll-target="#epidemiological-statistics-and-regression">Epidemiological statistics and regression</a></li>
-  <li><a href="#infectious-disease-modelling-outbreak-analytics-and-model-fitting" id="toc-infectious-disease-modelling-outbreak-analytics-and-model-fitting" class="nav-link" data-scroll-target="#infectious-disease-modelling-outbreak-analytics-and-model-fitting">Infectious disease modelling, outbreak analytics, and model fitting</a></li>
-  <li><a href="#mathematical-epidemiology-and-stochastic-epidemic-models" id="toc-mathematical-epidemiology-and-stochastic-epidemic-models" class="nav-link" data-scroll-target="#mathematical-epidemiology-and-stochastic-epidemic-models">Mathematical epidemiology and stochastic epidemic models</a></li>
-  <li><a href="#probability-and-stochastic-processes-foundations" id="toc-probability-and-stochastic-processes-foundations" class="nav-link" data-scroll-target="#probability-and-stochastic-processes-foundations">Probability and stochastic processes foundations</a></li>
-  <li><a href="#network-science-complex-systems-social-networks-and-abm" id="toc-network-science-complex-systems-social-networks-and-abm" class="nav-link" data-scroll-target="#network-science-complex-systems-social-networks-and-abm">Network science, complex systems, social networks, and ABM</a></li>
-  <li><a href="#books-papers-and-reference-materials" id="toc-books-papers-and-reference-materials" class="nav-link" data-scroll-target="#books-papers-and-reference-materials">Books, papers, and reference materials</a></li>
-  <li><a href="#maintenance-notes" id="toc-maintenance-notes" class="nav-link" data-scroll-target="#maintenance-notes">Maintenance notes</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Training resources for infectious disease modelling</h1>
+<h1 class="title">Training resources</h1>
 </div>
 
 <div>
   <div class="description">
-    A curated list of courses, summer schools, online materials, textbooks, and tutorials for epidemiological statistics, infectious disease modelling, mathematical epidemiology, stochastic processes, and network science.
+    Curated courses and learning materials for infectious disease modelling, epidemiological statistics, mathematical epidemiology, stochastic processes, and network science.
   </div>
 </div>
 
@@ -209,12 +163,6 @@ window.Quarto = {
 <div class="quarto-title-meta">
 
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">July 3, 2026</p>
-    </div>
-  </div>
   
     
   </div>
@@ -224,70 +172,10 @@ window.Quarto = {
 </header>
 
 
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>This page is a curated resource list for students, PhD candidates, postdocs, and collaborators interested in infectious disease modelling, epidemiological statistics, mathematical epidemiology, stochastic epidemic models, model fitting, outbreak analytics, and network science.</p>
-<p>Course dates, fees, eligibility rules, and application deadlines change frequently. Always check the official course page before applying. The selections and notes are personal and do not represent any affiliated institution.</p>
-</div>
-</div>
-<p><strong>Last manually checked:</strong> 2026-07-03<br>
-<strong>Maintainer:</strong> Fuminari Miura</p>
-<section id="how-to-use-this-page" class="level2">
-<h2 class="anchored" data-anchor-id="how-to-use-this-page">How to use this page</h2>
-<p>The resources below are grouped by training purpose rather than by institution. A practical learning route is:</p>
-<ol type="1">
-<li>start with epidemiological statistics and regression;</li>
-<li>learn basic infectious disease modelling;</li>
-<li>add mathematical epidemiology and stochastic epidemic models;</li>
-<li>learn model fitting and inference;</li>
-<li>specialize into network science, outbreak analytics, or agent-based modelling.</li>
-</ol>
-<p>The labels in the notes are informal:</p>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 50%">
-<col style="width: 50%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Label</th>
-<th>Meaning</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Core</td>
-<td>Strongly relevant for infectious disease modelling training.</td>
-</tr>
-<tr class="even">
-<td>Recommended</td>
-<td>Broadly useful for students or researchers.</td>
-</tr>
-<tr class="odd">
-<td>Specialized</td>
-<td>Highly useful for a specific modelling subfield.</td>
-</tr>
-<tr class="even">
-<td>Reference</td>
-<td>Best used as self-study or supplementary material.</td>
-</tr>
-<tr class="odd">
-<td>Archived / recurring</td>
-<td>Past or recurring event worth tracking for future editions.</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="recommended-training-routes" class="level2">
-<h2 class="anchored" data-anchor-id="recommended-training-routes">Recommended training routes</h2>
+<p>This page collects selected courses, summer schools, online materials, textbooks, and tutorials for infectious disease modelling and adjacent methods.</p>
+<p>The list is manually curated. Course dates, fees, eligibility, and application deadlines may change; always check the official page. The <code>last_checked</code> field in the CSV records when each entry was last reviewed.</p>
+<section id="suggested-routes" class="level2">
+<h2 class="anchored" data-anchor-id="suggested-routes">Suggested routes</h2>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 50%">
@@ -296,33 +184,41 @@ Note
 <thead>
 <tr class="header">
 <th>Goal</th>
-<th>Suggested route</th>
+<th>Suggested resources</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Epidemiological regression from the basics</td>
-<td>Imperial public-health R course → Nahhas regression book → WUR or Johns Hopkins regression/biostatistics</td>
+<td>Regression and epidemiological statistics</td>
+<td>Imperial/Coursera public-health R specialization; Nahhas book; Wageningen Advanced Analytical Epidemiology</td>
 </tr>
 <tr class="even">
 <td>Basic infectious disease modelling</td>
-<td>Imperial infectious disease modelling specialization → LSHTM introduction or FUN-MOOC → Keeling &amp; Rohani</td>
+<td>FUN-MOOC or Imperial/Coursera Infectious Disease Modelling; LSHTM introduction course</td>
+</tr>
+<tr class="odd">
+<td>Implementing transmission models</td>
+<td>LSHTM Modern Techniques in Infectious Disease Modelling</td>
+</tr>
+<tr class="even">
+<td>Fitting infectious disease dynamic models</td>
+<td>Statistical Rethinking; LSHTM Model Fitting and Inference</td>
 </tr>
 <tr class="odd">
 <td>Mathematical epidemiology</td>
-<td>Diekmann, Heesterbeek &amp; Britton → ESPIDAM stochastic epidemic models → selected stochastic-process material</td>
+<td>Diekmann, Heesterbeek &amp; Britton; Keeling &amp; Rohani</td>
 </tr>
 <tr class="even">
 <td>Stochastic epidemic models</td>
-<td>Allen primer → branching-process / CTMC material → ESPIDAM stochastic epidemic models → LSHTM model fitting</td>
+<td>ESPIDAM stochastic epidemic models course; Allen primer; Britton notes</td>
 </tr>
 <tr class="odd">
-<td>Model fitting and inference</td>
-<td>Statistical Rethinking → LSHTM model fitting and inference → Epiverse/outbreak analytics material</td>
+<td>Network and contact-pattern modelling</td>
+<td>Utrecht Network Science; ESPIDAM Networks and contact patterns; SISMID Network Modeling for Epidemics</td>
 </tr>
 <tr class="even">
-<td>Network/contact modelling</td>
-<td>Utrecht network science → ESPIDAM networks/contact patterns → EpiModel/SISMID network modelling</td>
+<td>Stochastic-process foundations</td>
+<td>MIT OCW Introduction to Stochastic Processes; MITx Probability</td>
 </tr>
 </tbody>
 </table>
@@ -333,168 +229,168 @@ Note
 <thead>
 <tr class="header">
 <th>Resource</th>
-<th>Provider / format</th>
+<th>Provider</th>
 <th>Level</th>
-<th>Main topics</th>
-<th>Notes</th>
+<th>Status</th>
+<th>Focus</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="https://www.coursera.org/specializations/statistical-analysis-r-public-health">Statistical Analysis with R for Public Health</a></td>
-<td>Imperial College London / Coursera</td>
-<td>Beginner to intermediate</td>
-<td>R, statistical thinking, linear regression, logistic regression, survival analysis, public-health datasets</td>
-<td><strong>Core.</strong> Good first course for epidemiological regression in R.</td>
+<td><a href="https://bookdown.org/rwnahhas/RMPH/">Introduction to Regression Methods for Public Health Using R</a></td>
+<td>Ryan Nahhas / bookdown</td>
+<td>beginner</td>
+<td>self-paced</td>
+<td>linear regression; logistic regression; Cox regression; R; …</td>
 </tr>
 <tr class="even">
+<td><a href="https://www.coursera.org/specializations/statistical-analysis-r-public-health">Statistical Analysis with R for Public Health</a></td>
+<td>Imperial College London / Coursera</td>
+<td>beginner</td>
+<td>self-paced</td>
+<td>R; linear regression; logistic regression; survival analysis; …</td>
+</tr>
+<tr class="odd">
+<td><a href="https://github.com/rmcelreath/stat_rethinking_2026">Statistical Rethinking</a></td>
+<td>Richard McElreath</td>
+<td>intermediate</td>
+<td>self-paced</td>
+<td>Bayesian regression; hierarchical models; causal models; model checking</td>
+</tr>
+<tr class="even">
+<td><a href="https://www.wur.nl/en/education/for-professionals/programmes-and-courses/advanced-analytical-epidemiology">Advanced Analytical Epidemiology</a></td>
+<td>Wageningen University &amp; Research</td>
+<td>intermediate</td>
+<td>recurring</td>
+<td>logistic regression; Cox models; mixed models; confounding; …</td>
+</tr>
+<tr class="odd">
 <td><a href="https://www.coursera.org/specializations/biostatistics-public-health">Biostatistics in Public Health</a></td>
-<td>Johns Hopkins / Coursera</td>
-<td>Beginner to intermediate</td>
-<td>Biostatistics, regression, inference, public-health applications</td>
-<td><strong>Recommended.</strong> Useful for reading and conducting epidemiological analyses.</td>
+<td>Johns Hopkins University / Coursera</td>
+<td>beginner</td>
+<td>self-paced</td>
+<td>biostatistics; inference; regression; public health</td>
+</tr>
+<tr class="even">
+<td><a href="https://www.lshtm.ac.uk/study/courses/short-courses/epidemiology-statistics">Introductory Course in Epidemiology &amp; Medical Statistics</a></td>
+<td>LSHTM</td>
+<td>beginner</td>
+<td>recurring</td>
+<td>epidemiology; medical statistics; regression; confounding; …</td>
 </tr>
 <tr class="odd">
 <td><a href="https://www.coursera.org/learn/multiple-regression-analysis-public-health">Multiple Regression Analysis in Public Health</a></td>
-<td>Johns Hopkins / Coursera</td>
-<td>Intermediate</td>
-<td>Multiple linear regression, logistic regression, Cox regression, splines, adjustment, effect modification</td>
-<td><strong>Recommended.</strong> More focused regression course within the Johns Hopkins sequence.</td>
-</tr>
-<tr class="even">
-<td><a href="https://bookdown.org/rwnahhas/RMPH/">Introduction to Regression Methods for Public Health Using R</a></td>
-<td>Ryan Nahhas / online book</td>
-<td>Beginner to intermediate</td>
-<td>Linear, logistic, and survival regression; public-health examples; R implementation</td>
-<td><strong>Core reference.</strong> Good companion to any regression course.</td>
-</tr>
-<tr class="odd">
-<td><a href="https://www.wur.nl/en/education/for-professionals/programmes-and-courses/advanced-analytical-epidemiology">Advanced Analytical Epidemiology</a></td>
-<td>Wageningen University &amp; Research / online course</td>
-<td>Intermediate</td>
-<td>Logistic regression, generalized linear models, mixed models, Cox models, confounding, effect modification</td>
-<td><strong>Recommended.</strong> Formal epidemiological analysis course in the Netherlands.</td>
+<td>Johns Hopkins University / Coursera</td>
+<td>intermediate</td>
+<td>self-paced</td>
+<td>multiple linear regression; logistic regression; Cox regression; splines; …</td>
 </tr>
 <tr class="even">
 <td><a href="https://www.drps.ed.ac.uk/26-27/dpt/cxpuhr11064.htm">Statistical Modelling for Epidemiology</a></td>
-<td>University of Edinburgh / online MSc module</td>
-<td>Intermediate</td>
-<td>Linear regression, logistic regression, survival analysis, diagnostics, model building</td>
-<td><strong>Recommended.</strong> Check whether single-course enrolment is possible.</td>
+<td>University of Edinburgh</td>
+<td>intermediate</td>
+<td>unknown</td>
+<td>linear regression; logistic regression; survival analysis; diagnostics; …</td>
 </tr>
 <tr class="odd">
-<td><a href="https://www.lshtm.ac.uk/study/courses/short-courses/epidemiology-statistics">Introductory Course in Epidemiology &amp; Medical Statistics</a></td>
-<td>LSHTM / short course</td>
-<td>Beginner to intermediate</td>
-<td>Epidemiology, medical statistics, regression, confounding, study design, infectious disease epidemiology</td>
-<td><strong>Recommended.</strong> Broad professional-training course.</td>
+<td><a href="https://github.com/noamross/gam-resources">GAM resources</a></td>
+<td>Noam Ross / GitHub</td>
+<td>intermediate</td>
+<td>self-paced</td>
+<td>GAM; mgcv; nonlinear smooths; seasonality; …</td>
 </tr>
 <tr class="even">
 <td><a href="https://bendixcarstensen.com/SPE/">Statistical Practice in Epidemiology using R</a></td>
-<td>Bendix Carstensen and collaborators / short course</td>
-<td>Intermediate</td>
-<td>Logistic regression, Poisson regression, survival analysis, multistate models, causal inference, R</td>
-<td><strong>Specialized.</strong> Strong for classical epidemiological statistics in R.</td>
-</tr>
-<tr class="odd">
-<td><a href="https://github.com/rmcelreath/stat_rethinking_2026">Statistical Rethinking 2026</a></td>
-<td>Richard McElreath / open course material</td>
-<td>Intermediate to advanced</td>
-<td>Bayesian regression, hierarchical models, causal models, posterior predictive checks, scientific modelling workflow</td>
-<td><strong>Core reference.</strong> Especially useful before Bayesian infectious disease model fitting.</td>
-</tr>
-<tr class="even">
-<td><a href="https://github.com/noamross/gam-resources">GAM resources</a></td>
-<td>Noam Ross / curated resources</td>
-<td>Intermediate</td>
-<td>Generalized additive models, <code>mgcv</code>, smooth terms, nonlinear effects, seasonality</td>
-<td><strong>Specialized.</strong> Useful for seasonality, humidity effects, nonlinear time trends, and surveillance models.</td>
+<td>Bendix Carstensen</td>
+<td>intermediate</td>
+<td>recurring</td>
+<td>logistic regression; Poisson regression; survival analysis; multistate models; …</td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="infectious-disease-modelling-outbreak-analytics-and-model-fitting" class="level2">
-<h2 class="anchored" data-anchor-id="infectious-disease-modelling-outbreak-analytics-and-model-fitting">Infectious disease modelling, outbreak analytics, and model fitting</h2>
+<section id="infectious-disease-modelling-and-outbreak-analytics" class="level2">
+<h2 class="anchored" data-anchor-id="infectious-disease-modelling-and-outbreak-analytics">Infectious disease modelling and outbreak analytics</h2>
 <table class="caption-top table">
 <thead>
 <tr class="header">
 <th>Resource</th>
-<th>Provider / format</th>
+<th>Provider</th>
 <th>Level</th>
-<th>Main topics</th>
-<th>Notes</th>
+<th>Status</th>
+<th>Focus</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><a href="https://www.coursera.org/specializations/infectious-disease-modelling">Infectious Disease Modelling Specialization</a></td>
 <td>Imperial College London / Coursera</td>
-<td>Beginner to intermediate</td>
-<td>SIR models, R implementation, interventions, calibration, stochastic and deterministic models</td>
-<td><strong>Core.</strong> Good bridge from regression/statistics to transmission models.</td>
-</tr>
-<tr class="even">
-<td><a href="https://www.lshtm.ac.uk/study/courses/short-courses/infectious-disease-modelling">Introduction to Infectious Disease Modelling and its Applications</a></td>
-<td>LSHTM / short course</td>
-<td>Beginner to intermediate</td>
-<td>Infectious disease modelling theory, simple dynamic models, public-health applications</td>
-<td><strong>Recommended.</strong> Professional-training style introduction.</td>
-</tr>
-<tr class="odd">
-<td><a href="https://www.lshtm.ac.uk/study/courses/short-courses/modern-techniques-disease-modelling">Modern Techniques in Infectious Disease Modelling</a></td>
-<td>LSHTM / short course</td>
-<td>Intermediate</td>
-<td>R, ODEs, <code>deSolve</code>, stochastic models, metapopulation models, network Reed–Frost models, sensitivity analysis</td>
-<td><strong>Core.</strong> Practical course for implementing deterministic and stochastic models.</td>
+<td>beginner</td>
+<td>self-paced</td>
+<td>SIR; R implementation; calibration; interventions; …</td>
 </tr>
 <tr class="even">
 <td><a href="https://www.lshtm.ac.uk/study/courses/short-courses/infectious-diseases-dynamics">Model Fitting and Inference for Infectious Disease Dynamics</a></td>
-<td>LSHTM / short course</td>
-<td>Advanced</td>
-<td>MCMC, particle filters, ABC, observation models, model checking, stochastic dynamic models</td>
-<td><strong>Core.</strong> Directly relevant to fitting stochastic transmission models.</td>
+<td>LSHTM</td>
+<td>advanced</td>
+<td>recurring</td>
+<td>MCMC; particle filters; ABC; observation models; …</td>
 </tr>
 <tr class="odd">
-<td><a href="https://www.lshtm.ac.uk/study/courses/short-courses/outbreaks-analytics-R">Outbreak Analytics and Applied Modelling in R</a></td>
-<td>LSHTM / short course</td>
-<td>Intermediate</td>
-<td>Linelist processing, Rt estimation, severity estimation, forecasting, scenario modelling, outbreak analytics R packages</td>
-<td><strong>Recommended.</strong> Good for public-health outbreak analytics workflows.</td>
+<td><a href="https://www.lshtm.ac.uk/study/courses/short-courses/modern-techniques-disease-modelling">Modern Techniques in Infectious Disease Modelling</a></td>
+<td>LSHTM</td>
+<td>intermediate</td>
+<td>recurring</td>
+<td>ODE; stochastic models; metapopulation; network Reed-Frost; …</td>
 </tr>
 <tr class="even">
-<td><a href="https://epiverse-trace.github.io/learn.html">Epiverse-TRACE learning materials</a></td>
-<td>Epiverse-TRACE / online tutorials</td>
-<td>Beginner to intermediate</td>
-<td>Outbreak data cleaning, real-time analysis, forecasting, scenario modelling, R workflows</td>
-<td><strong>Reference.</strong> Useful open material for applied outbreak analytics.</td>
+<td><a href="https://www.lshtm.ac.uk/study/courses/short-courses/infectious-disease-modelling">Introduction to Infectious Disease Modelling and its Applications</a></td>
+<td>LSHTM</td>
+<td>beginner</td>
+<td>recurring</td>
+<td>infectious disease modelling; theory; applications; simple models</td>
 </tr>
 <tr class="odd">
 <td><a href="https://www.fun-mooc.fr/en/courses/modeling-infectious-diseases/">Modeling of Infectious Diseases</a></td>
-<td>FUN-MOOC / online course</td>
-<td>Beginner</td>
-<td>SIR models, <span class="math inline">\(R_0\)</span>, effective reproduction number, interventions, ODE modelling</td>
-<td><strong>Recommended.</strong> Accessible mathematical modelling introduction.</td>
+<td>FUN-MOOC</td>
+<td>beginner</td>
+<td>self-paced</td>
+<td>SIR; R0; effective R; interventions; …</td>
 </tr>
 <tr class="even">
+<td><a href="https://www.lshtm.ac.uk/study/courses/short-courses/outbreaks-analytics-R">Outbreak Analytics and Applied Modelling in R</a></td>
+<td>LSHTM</td>
+<td>intermediate</td>
+<td>recurring</td>
+<td>linelist; Rt; severity; forecasting; …</td>
+</tr>
+<tr class="odd">
 <td><a href="https://research.pasteur.fr/en/course/pasteur-course-modeling-of-infectious-diseases/">Pasteur Course: Modeling of Infectious Diseases</a></td>
-<td>Institut Pasteur / short course</td>
-<td>Beginner to intermediate</td>
-<td>Mathematical modelling of infectious diseases, public-health applications</td>
-<td><strong>Recommended / recurring.</strong> Track for future editions.</td>
+<td>Institut Pasteur</td>
+<td>intermediate</td>
+<td>recurring</td>
+<td>mathematical infectious disease modelling; public health applications</td>
+</tr>
+<tr class="even">
+<td><a href="https://epiverse-trace.github.io/learn.html">Epiverse-TRACE learning materials</a></td>
+<td>Epiverse-TRACE</td>
+<td>intermediate</td>
+<td>self-paced</td>
+<td>outbreak data cleaning; real-time analysis; forecasting; scenario modelling</td>
 </tr>
 <tr class="odd">
 <td><a href="https://www.coursera.org/learn/infectious-disease-modeling-in-practice">Infectious Disease Modeling in Practice</a></td>
-<td>Johns Hopkins / Coursera</td>
-<td>Beginner</td>
-<td>Model use cases, assumptions, interpretation, public-health decisions</td>
-<td><strong>Reference.</strong> Good for non-specialists and collaborators.</td>
+<td>Johns Hopkins University / Coursera</td>
+<td>beginner</td>
+<td>self-paced</td>
+<td>modelling use cases; assumptions; public-health decision-making</td>
 </tr>
 <tr class="even">
 <td><a href="https://www.coursera.org/learn/infectious-disease-transmission-models-for-decision-makers">Infectious Disease Transmission Models for Decision-Makers</a></td>
-<td>Johns Hopkins / Coursera</td>
-<td>Beginner</td>
-<td>Model types, assumptions, limitations, policy interpretation</td>
-<td><strong>Reference.</strong> Best for decision-makers or non-modellers.</td>
+<td>Johns Hopkins University / Coursera</td>
+<td>beginner</td>
+<td>self-paced</td>
+<td>model types; model use; model limitations; policy interpretation</td>
 </tr>
 </tbody>
 </table>
@@ -505,198 +401,198 @@ Note
 <thead>
 <tr class="header">
 <th>Resource</th>
-<th>Provider / format</th>
+<th>Provider</th>
 <th>Level</th>
-<th>Main topics</th>
-<th>Notes</th>
+<th>Status</th>
+<th>Focus</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="https://www.su.se/english/divisions/department-of-mathematics/research/conferences-and-seminars/espidam-the-european-summer-program-in-infectious-disease-analysis-and-modelling">ESPIDAM: European Summer Program in Infectious Disease Analysis and Modelling</a></td>
-<td>Stockholm University / summer programme</td>
-<td>Intermediate to advanced</td>
-<td>Stochastic epidemic models, networks, data analysis, forecasting, AI/control, phylodynamics</td>
-<td><strong>Core / recurring.</strong> One of the strongest European options for infectious disease modelling training.</td>
+<td><a href="https://www.su.se/english/divisions/department-of-mathematics/research/conferences-and-seminars/espidam-the-european-summer-program-in-infectious-disease-analysis-and-modelling">European Summer Program in Infectious Disease Analysis and Modelling</a></td>
+<td>Stockholm University</td>
+<td>intermediate</td>
+<td>recurring</td>
+<td>stochastic models; networks; forecasting; phylodynamics; …</td>
 </tr>
 <tr class="even">
-<td><a href="https://kurser.math.su.se/course/view.php?id=1784&amp;lang=en">Stochastic epidemic models with inference</a></td>
-<td>ESPIDAM / course module</td>
-<td>Advanced</td>
-<td>Basic stochastic epidemic models, SEIR extensions, multitype models, household models, network epidemics, inference</td>
-<td><strong>Core.</strong> Directly relevant to stochastic epidemic theory.</td>
+<td><a href="https://kurser.math.su.se/course/view.php?id=1788&amp;lang=en">Networks and contact patterns in infectious disease models</a></td>
+<td>ESPIDAM / Stockholm University</td>
+<td>advanced</td>
+<td>recurring</td>
+<td>contact patterns; mobility networks; sexual networks; dynamic networks; …</td>
 </tr>
 <tr class="odd">
-<td><a href="https://kurser.math.su.se/course/view.php?id=1788&amp;lang=en">Networks and contact patterns in infectious disease models</a></td>
-<td>ESPIDAM / course module</td>
-<td>Intermediate to advanced</td>
-<td>Contact patterns, mobility networks, sexual networks, dynamic networks, metapopulation models</td>
-<td><strong>Core for network/contact modelling.</strong> Highly relevant to contact matrices, STI, mpox, and mobility.</td>
+<td><a href="https://kurser.math.su.se/course/view.php?id=1784&amp;lang=en">Stochastic epidemic models with inference</a></td>
+<td>ESPIDAM / Stockholm University</td>
+<td>advanced</td>
+<td>recurring</td>
+<td>stochastic epidemic models; SEIR; multitype models; household models; …</td>
 </tr>
 <tr class="even">
 <td><a href="https://kurser.math.su.se/course/view.php?id=1787&amp;lang=en">Infectious disease data analysis</a></td>
-<td>ESPIDAM / course module</td>
-<td>Intermediate to advanced</td>
-<td>Bayesian inference, transmission model calibration, serological data, reconstruction of pathogen circulation</td>
-<td><strong>Recommended.</strong> Strong model-data integration component.</td>
+<td>ESPIDAM / Stockholm University</td>
+<td>advanced</td>
+<td>recurring</td>
+<td>Bayesian inference; transmission model calibration; serology; infectious disease data analysis</td>
 </tr>
 <tr class="odd">
 <td><a href="https://epimodel.github.io/sismid/">Network Modeling for Epidemics</a></td>
-<td>SISMID / EpiModel course material</td>
-<td>Intermediate to advanced</td>
-<td>ERGM, TERGM, dynamic networks, stochastic network simulation, EpiModel</td>
-<td><strong>Specialized.</strong> Useful for network-based epidemic simulation.</td>
+<td>SISMID / EpiModel</td>
+<td>advanced</td>
+<td>recurring</td>
+<td>ERGM; TERGM; dynamic networks; stochastic simulation; …</td>
 </tr>
 <tr class="even">
 <td><a href="https://sismid.sph.emory.edu/">SISMID</a></td>
-<td>Emory University / modular summer institute</td>
-<td>Intermediate to advanced</td>
-<td>Statistics and modelling in infectious diseases, network modelling, transmission dynamics, inference</td>
-<td><strong>Specialized / recurring.</strong> Check eligibility and location restrictions.</td>
+<td>Emory University</td>
+<td>advanced</td>
+<td>recurring</td>
+<td>statistics; infectious disease modelling; inference; network modelling</td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="probability-and-stochastic-processes-foundations" class="level2">
-<h2 class="anchored" data-anchor-id="probability-and-stochastic-processes-foundations">Probability and stochastic processes foundations</h2>
+<section id="probability-and-stochastic-processes" class="level2">
+<h2 class="anchored" data-anchor-id="probability-and-stochastic-processes">Probability and stochastic processes</h2>
 <table class="caption-top table">
 <thead>
 <tr class="header">
 <th>Resource</th>
-<th>Provider / format</th>
+<th>Provider</th>
 <th>Level</th>
-<th>Main topics</th>
-<th>Notes</th>
+<th>Status</th>
+<th>Focus</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><a href="https://ocw.mit.edu/courses/18-445-introduction-to-stochastic-processes-spring-2015/">Introduction to Stochastic Processes</a></td>
 <td>MIT OpenCourseWare</td>
-<td>Advanced undergraduate / graduate</td>
-<td>Markov chains, random walks, martingales, Galton–Watson trees</td>
-<td><strong>Core reference.</strong> Useful for branching-process approximations and extinction probabilities.</td>
+<td>advanced</td>
+<td>self-paced</td>
+<td>Markov chains; random walks; martingales; Galton-Watson trees</td>
 </tr>
 <tr class="even">
-<td><a href="https://ocw.mit.edu/courses/6-262-discrete-stochastic-processes-spring-2011/">Discrete Stochastic Processes</a></td>
-<td>MIT OpenCourseWare</td>
-<td>Advanced undergraduate / graduate</td>
-<td>Discrete stochastic processes, renewal processes, Markov chains, queueing</td>
-<td><strong>Reference.</strong> More engineering/applied-probability oriented.</td>
+<td><a href="https://www.edx.org/learn/probability/massachusetts-institute-of-technology-probability-the-science-of-uncertainty-and-data">Probability — The Science of Uncertainty and Data</a></td>
+<td>MITx / edX</td>
+<td>beginner</td>
+<td>self-paced</td>
+<td>probability; inference; Markov chains; uncertainty</td>
 </tr>
 <tr class="odd">
-<td><a href="https://www.edx.org/learn/probability/massachusetts-institute-of-technology-probability-the-science-of-uncertainty-and-data">Probability – The Science of Uncertainty and Data</a></td>
-<td>MITx / edX</td>
-<td>Beginner to intermediate</td>
-<td>Probability, uncertainty, inference, Markov chains</td>
-<td><strong>Recommended.</strong> Good prerequisite if probability theory needs strengthening.</td>
+<td><a href="https://ocw.mit.edu/courses/6-262-discrete-stochastic-processes-spring-2011/">Discrete Stochastic Processes</a></td>
+<td>MIT OpenCourseWare</td>
+<td>advanced</td>
+<td>self-paced</td>
+<td>discrete stochastic processes; renewal processes; Markov chains; queueing</td>
 </tr>
 <tr class="even">
 <td><a href="https://www.coursera.org/learn/discrete-time-markov-chains-monte-carlo-methods">Discrete-Time Markov Chains and Monte Carlo Methods</a></td>
 <td>Coursera</td>
-<td>Beginner to intermediate</td>
-<td>Transition matrices, absorbing states, limiting distributions, Monte Carlo methods</td>
-<td><strong>Reference.</strong> Useful entry point for Markov-chain intuition.</td>
+<td>beginner</td>
+<td>self-paced</td>
+<td>transition matrices; absorbing states; limiting distributions; Monte Carlo</td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="network-science-complex-systems-social-networks-and-abm" class="level2">
-<h2 class="anchored" data-anchor-id="network-science-complex-systems-social-networks-and-abm">Network science, complex systems, social networks, and ABM</h2>
+<section id="network-science-complex-systems-and-abm" class="level2">
+<h2 class="anchored" data-anchor-id="network-science-complex-systems-and-abm">Network science, complex systems, and ABM</h2>
 <table class="caption-top table">
 <thead>
 <tr class="header">
 <th>Resource</th>
-<th>Provider / format</th>
+<th>Provider</th>
 <th>Level</th>
-<th>Main topics</th>
-<th>Notes</th>
+<th>Status</th>
+<th>Focus</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><a href="https://utrechtsummerschool.nl/courses/data-science/data-science-network-science">Data Science: Network Science</a></td>
-<td>Utrecht Summer School / short course</td>
-<td>Intermediate</td>
-<td>Network representation, community detection, link prediction, network inference, contagion, R/Python practicals</td>
-<td><strong>Core.</strong> Most direct short-course option in the Netherlands.</td>
+<td>Utrecht Summer School</td>
+<td>intermediate</td>
+<td>recurring</td>
+<td>network science; community detection; link prediction; network inference; …</td>
 </tr>
 <tr class="even">
-<td><a href="https://www.universiteitleiden.nl/en/events/2026/06/dutch-netsci-summer-symposium-2026">Dutch NetSci Summer Symposium 2026</a></td>
-<td>Leiden University / symposium</td>
-<td>All levels</td>
-<td>Dutch network science community, research presentations, networking</td>
-<td><strong>Networking.</strong> Symposium rather than a course.</td>
+<td><a href="https://www.universiteitleiden.nl/en/events/2026/06/dutch-netsci-summer-symposium-2026">Dutch NetSci Summer Symposium</a></td>
+<td>Leiden University</td>
+<td>all levels</td>
+<td>recurring</td>
+<td>network science; complex networks; social network analysis</td>
 </tr>
 <tr class="odd">
+<td><a href="https://ecpr.eu/MethodsSchool">ECPR Methods School</a></td>
+<td>ECPR</td>
+<td>beginner</td>
+<td>recurring</td>
+<td>social network analysis; R; social science methods</td>
+</tr>
+<tr class="even">
 <td><a href="https://utrechtsummerschool.nl/courses/science/introduction-to-complex-systems">Introduction to Complex Systems</a></td>
-<td>Utrecht Summer School / short course</td>
-<td>Beginner to intermediate</td>
-<td>Nonlinearity, self-organization, networks, complex systems, programming practicals</td>
-<td><strong>Recommended.</strong> Broader than network science.</td>
-</tr>
-<tr class="even">
-<td><a href="https://ntml.lakecomoschool.org/">Complex Networks: Theory, Methods, and Applications</a></td>
-<td>Lake Como School / summer school</td>
-<td>Intermediate to advanced</td>
-<td>Complex networks, higher-order networks, temporal networks, contagion, mobility, applications</td>
-<td><strong>Specialized / recurring.</strong> Strong European complex-networks option.</td>
-</tr>
-<tr class="odd">
-<td><a href="https://secs26.liparischool.it/">Complex networks: from socio-economic systems to biology and brain</a></td>
-<td>Lipari School / summer school</td>
-<td>Intermediate to advanced</td>
-<td>Complex networks, socio-economic systems, biology, brain networks</td>
-<td><strong>Specialized / recurring.</strong> Broad complex-networks training.</td>
-</tr>
-<tr class="even">
-<td><a href="https://bse.eu/summer-school/complexity-and-emergence-in-economic-and-social-systems/networks-and-emergence-in-complex-systems">Networks and Complex Systems</a></td>
-<td>Barcelona School of Economics / summer school</td>
-<td>Intermediate</td>
-<td>Random graphs, percolation, contagion, diffusion, resilience, complex systems</td>
-<td><strong>Specialized.</strong> Economic and social systems orientation.</td>
+<td>Utrecht Summer School</td>
+<td>beginner</td>
+<td>recurring</td>
+<td>nonlinear dynamics; self-organization; networks; complex systems</td>
 </tr>
 <tr class="odd">
 <td><a href="https://methodsnet.org/summer-school/methodsnet-summer-school-with-ceu-2026/">MethodsNET Summer School with CEU</a></td>
-<td>MethodsNET / CEU summer school</td>
-<td>Beginner to advanced</td>
-<td>Applied social network analysis, discourse network analysis, inferential network analysis</td>
-<td><strong>Recommended.</strong> Social-science network methods.</td>
+<td>MethodsNET / CEU</td>
+<td>intermediate</td>
+<td>recurring</td>
+<td>applied social network analysis; discourse network analysis; inferential network analysis</td>
 </tr>
 <tr class="even">
-<td><a href="https://ecpr.eu/MethodsSchool">ECPR Methods School</a></td>
-<td>ECPR / methods school</td>
-<td>Beginner to advanced</td>
-<td>Social network analysis, quantitative methods, qualitative methods, research design</td>
-<td><strong>Recommended.</strong> Useful for SNA and social-science methods.</td>
-</tr>
-<tr class="odd">
-<td><a href="https://ecpr.eu/Events/357">POLNET School on Social Network Analysis</a></td>
-<td>Universität Konstanz / summer school</td>
-<td>Intermediate to advanced</td>
-<td>Political network research, ERGM, relational event models, discourse networks, ABM</td>
-<td><strong>Specialized.</strong> Political and social network modelling.</td>
-</tr>
-<tr class="even">
-<td><a href="https://www.insna.org/events/the-8th-european-conference-on-social-networks-eusn-2026">EUSN 2026 Workshops</a></td>
-<td>European Conference on Social Networks / workshops</td>
-<td>Beginner to advanced</td>
-<td>RSiena, multiplex networks, two-mode networks, relational event models, R for SNA</td>
-<td><strong>Specialized.</strong> Method-specific workshops.</td>
+<td><a href="https://bse.eu/summer-school/complexity-and-emergence-in-economic-and-social-systems/networks-and-emergence-in-complex-systems">Networks and Complex Systems</a></td>
+<td>Barcelona School of Economics</td>
+<td>intermediate</td>
+<td>recurring</td>
+<td>random graphs; percolation; contagion; diffusion; …</td>
 </tr>
 <tr class="odd">
 <td><a href="https://www.comses.net/events/?tags=Behave+Summer+School">BEHAVE Summer School on Agent-Based Modelling</a></td>
-<td>BEHAVE / summer school</td>
-<td>Beginner to intermediate</td>
-<td>Agent-based modelling, NetLogo, simulation, hands-on projects</td>
-<td><strong>Specialized.</strong> Adjacent to network epidemic simulation and intervention modelling.</td>
+<td>BEHAVE / CoMSES</td>
+<td>beginner</td>
+<td>recurring</td>
+<td>agent-based modelling; simulation; NetLogo; hands-on project</td>
+</tr>
+<tr class="even">
+<td><a href="https://secs26.liparischool.it/">Complex networks: from socio-economic systems to biology and brain</a></td>
+<td>Lipari School</td>
+<td>advanced</td>
+<td>recurring</td>
+<td>complex networks; socio-economic systems; biology; brain networks</td>
+</tr>
+<tr class="odd">
+<td><a href="https://ntml.lakecomoschool.org/">Complex Networks: Theory, Methods, and Applications</a></td>
+<td>Lake Como School</td>
+<td>advanced</td>
+<td>recurring</td>
+<td>complex networks; higher-order networks; temporal networks; contagion; …</td>
+</tr>
+<tr class="even">
+<td><a href="https://www.insna.org/events/the-8th-european-conference-on-social-networks-eusn-2026">EUSN Workshops</a></td>
+<td>European Conference on Social Networks / INSNA</td>
+<td>intermediate</td>
+<td>recurring</td>
+<td>RSiena; multiplex networks; two-mode networks; relational event models</td>
+</tr>
+<tr class="odd">
+<td><a href="https://ecpr.eu/Events/357">POLNET School on Social Network Analysis</a></td>
+<td>Universität Konstanz / ECPR</td>
+<td>intermediate</td>
+<td>recurring</td>
+<td>political networks; ERGM; REM; discourse networks; …</td>
 </tr>
 <tr class="even">
 <td><a href="https://www.netsci.nl/education/">Network Science Education in the Netherlands</a></td>
-<td>Dutch Network Science Society / course list</td>
-<td>Mixed</td>
-<td>Network science, complex systems, university course listings in the Netherlands</td>
-<td><strong>Reference.</strong> Useful for finding regular university courses.</td>
+<td>Dutch Network Science Society</td>
+<td>all levels</td>
+<td>self-paced</td>
+<td>network science; complex systems; Dutch university courses</td>
 </tr>
 </tbody>
 </table>
@@ -707,110 +603,123 @@ Note
 <thead>
 <tr class="header">
 <th>Resource</th>
-<th>Type</th>
+<th>Provider</th>
 <th>Level</th>
-<th>Main topics</th>
-<th>Notes</th>
+<th>Status</th>
+<th>Focus</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><a href="https://research-portal.uu.nl/en/publications/mathematical-tools-for-understanding-infectious-disease-dynamics/">Mathematical Tools for Understanding Infectious Disease Dynamics</a></td>
-<td>Textbook</td>
-<td>Intermediate to advanced</td>
-<td>Deterministic and stochastic infectious disease dynamics, <span class="math inline">\(R_0\)</span>, next-generation matrices, model formulation</td>
-<td><strong>Core.</strong> Main theoretical reference for mathematical epidemiology.</td>
+<td>Diekmann, Heesterbeek &amp; Britton</td>
+<td>advanced</td>
+<td>reference</td>
+<td>deterministic models; stochastic models; R0; next-generation matrix; …</td>
 </tr>
 <tr class="even">
 <td><a href="https://www.jstor.org/stable/j.ctvcm4gk0">Modeling Infectious Diseases in Humans and Animals</a></td>
-<td>Textbook</td>
-<td>Intermediate</td>
-<td>Epidemic models, heterogeneity, multi-pathogen and multi-host models, stochastic dynamics, spatial models, control</td>
-<td><strong>Core reference.</strong> Strong applied model catalogue.</td>
+<td>Keeling &amp; Rohani</td>
+<td>intermediate</td>
+<td>reference</td>
+<td>epidemic models; heterogeneity; multipathogen models; stochastic dynamics; …</td>
 </tr>
 <tr class="odd">
 <td><a href="https://www.sciencedirect.com/science/article/pii/S2468042716300495">A primer on stochastic epidemic models</a></td>
-<td>Primer paper</td>
-<td>Intermediate</td>
-<td>CTMC, SDE, stochastic SIR, host-vector models, outbreak probability</td>
-<td><strong>Core reference.</strong> Short entry point to stochastic epidemic models.</td>
+<td>Linda J. S. Allen</td>
+<td>intermediate</td>
+<td>reference</td>
+<td>CTMC; SDE; stochastic SIR; outbreak probability</td>
 </tr>
 <tr class="even">
 <td><a href="https://arxiv.org/abs/1803.05136">A primer on the use of probability generating functions in infectious disease modeling</a></td>
-<td>Tutorial paper</td>
-<td>Intermediate</td>
-<td>Probability generating functions, early outbreak, epidemic probability, final size</td>
-<td><strong>Specialized.</strong> Useful for branching-process and PGF intuition.</td>
+<td>Joel C. Miller</td>
+<td>intermediate</td>
+<td>reference</td>
+<td>probability generating functions; early outbreak; epidemic probability; final size</td>
 </tr>
 <tr class="odd">
 <td><a href="https://arxiv.org/abs/1411.3138">Introduction to statistical inference for infectious diseases</a></td>
-<td>Tutorial / review</td>
-<td>Intermediate to advanced</td>
-<td>Stochastic epidemic inference, <span class="math inline">\(R_0\)</span>, final size, temporal data</td>
-<td><strong>Reference.</strong> Good overview of inference for stochastic epidemic models.</td>
+<td>Britton &amp; Giardina</td>
+<td>advanced</td>
+<td>reference</td>
+<td>stochastic epidemic model inference; R0; final size; temporal data</td>
 </tr>
 <tr class="even">
 <td><a href="https://arxiv.org/abs/1808.05350">Stochastic epidemics in a homogeneous community</a></td>
-<td>Lecture notes</td>
-<td>Advanced</td>
-<td>Stochastic compartmental epidemics, early phase, final size, law of large numbers, central limit theorem</td>
-<td><strong>Specialized.</strong> Mathematical treatment of stochastic epidemics.</td>
+<td>Britton &amp; Pardoux</td>
+<td>advanced</td>
+<td>reference</td>
+<td>stochastic compartmental epidemics; early phase; final size; LLN; …</td>
 </tr>
 <tr class="odd">
 <td><a href="https://arxiv.org/abs/0812.3505">Epidemic modelling: aspects where stochasticity matters</a></td>
-<td>Perspective / short paper</td>
-<td>Intermediate</td>
-<td>When stochasticity matters, outbreak probability, early epidemic growth</td>
-<td><strong>Reference.</strong> Useful conceptual note on stochasticity in epidemic models.</td>
+<td>Britton &amp; Lindenstrand</td>
+<td>intermediate</td>
+<td>reference</td>
+<td>stochasticity; outbreak probability; early growth</td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="maintenance-notes" class="level2">
-<h2 class="anchored" data-anchor-id="maintenance-notes">Maintenance notes</h2>
-<p>Suggested update cycle:</p>
-<ul>
-<li>January: update spring and summer schools.</li>
-<li>July: update autumn and winter courses, archive past events, and refresh deadlines.</li>
-<li>Keep past events if they are recurring or useful as a future reference.</li>
-<li>Prefer official course pages over secondary announcements.</li>
-<li>Record a <code>last_checked</code> date whenever a major update is made.</li>
-</ul>
-<p>Suggested status labels for future maintenance:</p>
+<section id="notes-on-status-and-relevance" class="level2">
+<h2 class="anchored" data-anchor-id="notes-on-status-and-relevance">Notes on status and relevance</h2>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
 <thead>
 <tr class="header">
-<th>Status</th>
+<th>Field</th>
 <th>Meaning</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>open</td>
-<td>Currently accepting applications.</td>
+<td><code>core</code></td>
+<td>Strongly useful for training in infectious disease modelling or epidemiological methods</td>
 </tr>
 <tr class="even">
-<td>closed</td>
-<td>Application deadline has passed, but the course may recur.</td>
+<td><code>recommended</code></td>
+<td>Broadly useful, but not necessarily essential</td>
 </tr>
 <tr class="odd">
-<td>past</td>
-<td>Event has passed and next edition is unknown.</td>
+<td><code>specialized</code></td>
+<td>Highly useful for a specific topic or method</td>
 </tr>
 <tr class="even">
-<td>self-paced</td>
-<td>Available as online self-study material.</td>
+<td><code>reference</code></td>
+<td>Useful as supporting material or self-study</td>
 </tr>
 <tr class="odd">
-<td>recurring</td>
-<td>Offered repeatedly, often annually.</td>
+<td><code>self-paced</code></td>
+<td>Stable online material, book, or tutorial</td>
 </tr>
 <tr class="even">
-<td>unknown</td>
-<td>Status not recently checked.</td>
+<td><code>recurring</code></td>
+<td>Course or event appears to run repeatedly, although details may change</td>
+</tr>
+<tr class="odd">
+<td><code>unknown</code></td>
+<td>Status should be checked again</td>
 </tr>
 </tbody>
 </table>
+</section>
+<section id="maintenance" class="level2">
+<h2 class="anchored" data-anchor-id="maintenance">Maintenance</h2>
+<p>The source of truth is <a href="data/training_resources.csv"><code>data/training_resources.csv</code></a>. To update the page, edit the CSV and render the site again.</p>
+<p>Suggested maintenance rules:</p>
+<ul>
+<li>keep one resource per row;</li>
+<li>update <code>last_checked</code> whenever an entry is reviewed;</li>
+<li>use official course pages as URLs whenever possible;</li>
+<li>keep <code>notes</code> short;</li>
+<li>do not delete past courses immediately if they are likely to recur;</li>
+<li>use <code>status = unknown</code> when the current status is unclear.</li>
+</ul>
+<p>Inclusion in this list does not imply endorsement by any affiliated institution.</p>
 
 
 </section>
