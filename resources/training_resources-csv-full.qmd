@@ -1,0 +1,143 @@
+---
+title: "Training resources"
+description: "Curated courses and learning materials for infectious disease modelling, epidemiological statistics, mathematical epidemiology, stochastic processes, and network science."
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    code-fold: true
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+This page lists selected courses, summer schools, online materials, textbooks, and tutorials for infectious disease modelling, epidemiological statistics, mathematical epidemiology, stochastic processes, and network science.
+
+The list is manually curated. Course dates, fees, eligibility, and application deadlines may change; always check the official page. The `last_checked` field records when I last reviewed each entry.
+
+```{r}
+library(readr)
+library(dplyr)
+library(gt)
+library(stringr)
+
+resources <- read_csv("data/training_resources.csv", show_col_types = FALSE)
+
+make_resource_table <- function(data) {
+  data |>
+    transmute(
+      Resource = md(str_glue("[{title}]({url})")),
+      Provider = provider,
+      Mode = mode,
+      Level = level,
+      Status = status,
+      Relevance = relevance,
+      Topics = topics,
+      Notes = notes,
+      `Last checked` = last_checked
+    ) |>
+    gt() |>
+    tab_options(
+      table.font.size = px(13),
+      data_row.padding = px(6)
+    ) |>
+    cols_width(
+      Resource ~ px(250),
+      Provider ~ px(180),
+      Mode ~ px(90),
+      Level ~ px(100),
+      Status ~ px(100),
+      Relevance ~ px(110),
+      Topics ~ px(280),
+      Notes ~ px(320),
+      `Last checked` ~ px(110)
+    )
+}
+
+category_order <- c(
+  "Epidemiological statistics and regression",
+  "Infectious disease modelling and outbreak analytics",
+  "Mathematical epidemiology and stochastic epidemic models",
+  "Probability and stochastic processes",
+  "Network science, complex systems, and ABM",
+  "Books, papers, and reference materials"
+)
+
+resources <- resources |>
+  mutate(category = factor(category, levels = category_order)) |>
+  arrange(category, relevance, title)
+```
+
+## Suggested routes
+
+These routes are subjective and intended as quick orientation rather than a formal curriculum.
+
+| Goal | Suggested resources |
+|---|---|
+| Regression and epidemiological statistics | Imperial/Coursera public-health R specialization; Nahhas book; Wageningen Advanced Analytical Epidemiology |
+| Basic infectious disease modelling | FUN-MOOC or Imperial/Coursera Infectious Disease Modelling; LSHTM introduction course |
+| Implementing transmission models | LSHTM Modern Techniques in Infectious Disease Modelling |
+| Fitting infectious disease dynamic models | Statistical Rethinking; LSHTM Model Fitting and Inference |
+| Mathematical epidemiology | Diekmann, Heesterbeek & Britton; Keeling & Rohani |
+| Stochastic epidemic models | ESPIDAM stochastic epidemic models course; Allen primer; Britton notes |
+| Network and contact-pattern modelling | Utrecht Network Science; ESPIDAM Networks and contact patterns; SISMID Network Modeling for Epidemics |
+| Stochastic-process foundations | MIT OCW Introduction to Stochastic Processes; MITx Probability |
+
+## Epidemiological statistics and regression
+
+```{r}
+resources |>
+  filter(category == "Epidemiological statistics and regression") |>
+  make_resource_table()
+```
+
+## Infectious disease modelling and outbreak analytics
+
+```{r}
+resources |>
+  filter(category == "Infectious disease modelling and outbreak analytics") |>
+  make_resource_table()
+```
+
+## Mathematical epidemiology and stochastic epidemic models
+
+```{r}
+resources |>
+  filter(category == "Mathematical epidemiology and stochastic epidemic models") |>
+  make_resource_table()
+```
+
+## Probability and stochastic processes
+
+```{r}
+resources |>
+  filter(category == "Probability and stochastic processes") |>
+  make_resource_table()
+```
+
+## Network science, complex systems, and ABM
+
+```{r}
+resources |>
+  filter(category == "Network science, complex systems, and ABM") |>
+  make_resource_table()
+```
+
+## Books, papers, and reference materials
+
+```{r}
+resources |>
+  filter(category == "Books, papers, and reference materials") |>
+  make_resource_table()
+```
+
+## Maintenance notes
+
+- `data/training_resources.csv` is the source of truth.
+- Keep this `.qmd` page short; update entries in the CSV rather than editing tables by hand.
+- Use `status = self-paced` for stable online materials and books.
+- Use `status = recurring` for courses that appear to run repeatedly, even when the current year's edition has passed.
+- Move uncertain or outdated entries to `status = unknown` rather than deleting them immediately.
+- Update `last_checked` whenever an entry is reviewed.
+- Inclusion in this list does not imply endorsement by any affiliated institution.

@@ -1,0 +1,148 @@
+---
+title: "Training resources"
+description: "Curated courses and learning materials for infectious disease modelling, epidemiological statistics, mathematical epidemiology, stochastic processes, and network science."
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+This page collects selected courses, summer schools, online materials, textbooks, and tutorials for infectious disease modelling and adjacent methods.
+
+The list is manually curated. Course dates, fees, eligibility, and application deadlines may change; always check the official page. The `last_checked` field in the CSV records when each entry was last reviewed.
+
+## Suggested routes
+
+| Goal | Suggested resources |
+|---|---|
+| Regression and epidemiological statistics | Imperial/Coursera public-health R specialization; Nahhas book; Wageningen Advanced Analytical Epidemiology |
+| Basic infectious disease modelling | FUN-MOOC or Imperial/Coursera Infectious Disease Modelling; LSHTM introduction course |
+| Implementing transmission models | LSHTM Modern Techniques in Infectious Disease Modelling |
+| Fitting infectious disease dynamic models | Statistical Rethinking; LSHTM Model Fitting and Inference |
+| Mathematical epidemiology | Diekmann, Heesterbeek & Britton; Keeling & Rohani |
+| Stochastic epidemic models | ESPIDAM stochastic epidemic models course; Allen primer; Britton notes |
+| Network and contact-pattern modelling | Utrecht Network Science; ESPIDAM Networks and contact patterns; SISMID Network Modeling for Epidemics |
+| Stochastic-process foundations | MIT OCW Introduction to Stochastic Processes; MITx Probability |
+
+```{r}
+# Helpers -----------------------------------------------------------------
+
+csv_candidates <- c(
+  "data/training_resources.csv",
+  "resources/data/training_resources.csv"
+)
+
+csv_path <- csv_candidates[file.exists(csv_candidates)][1]
+
+if (is.na(csv_path)) {
+  stop("Could not find data/training_resources.csv. Place it in resources/data/training_resources.csv.")
+}
+
+resources <- read.csv(
+  csv_path,
+  stringsAsFactors = FALSE,
+  check.names = FALSE,
+  encoding = "UTF-8"
+)
+
+category_order <- c(
+  "Epidemiological statistics and regression",
+  "Infectious disease modelling and outbreak analytics",
+  "Mathematical epidemiology and stochastic epidemic models",
+  "Probability and stochastic processes",
+  "Network science, complex systems, and ABM",
+  "Books, papers, and reference materials"
+)
+
+relevance_order <- c("core", "recommended", "specialized", "reference", "archived")
+
+resources$category <- factor(resources$category, levels = category_order)
+resources$relevance_rank <- match(resources$relevance, relevance_order)
+resources <- resources[order(resources$category, resources$relevance_rank, resources$title), ]
+
+md_escape <- function(x) {
+  x <- ifelse(is.na(x), "", x)
+  x <- gsub("\\|", "\\\\|", x)
+  x <- gsub("\n", " ", x)
+  x
+}
+
+short_topics <- function(x, n = 4) {
+  x <- ifelse(is.na(x), "", x)
+  parts <- trimws(strsplit(x, ";", fixed = TRUE)[[1]])
+  parts <- parts[nzchar(parts)]
+  if (length(parts) <= n) {
+    paste(parts, collapse = "; ")
+  } else {
+    paste0(paste(parts[seq_len(n)], collapse = "; "), "; …")
+  }
+}
+
+render_category <- function(category_name) {
+  d <- resources[as.character(resources$category) == category_name, ]
+
+  cat("\n## ", category_name, "\n\n", sep = "")
+
+  if (nrow(d) == 0) {
+    cat("_No entries._\n\n")
+    return(invisible(NULL))
+  }
+
+  cat("| Resource | Provider | Level | Status | Focus |\n")
+  cat("|---|---|---|---|---|\n")
+
+  for (i in seq_len(nrow(d))) {
+    title <- md_escape(d$title[i])
+    url <- d$url[i]
+    provider <- md_escape(d$provider[i])
+    level <- md_escape(d$level[i])
+    status <- md_escape(d$status[i])
+    focus <- md_escape(short_topics(d$topics[i]))
+
+    cat(
+      "| [", title, "](", url, ") ",
+      "| ", provider,
+      " | ", level,
+      " | ", status,
+      " | ", focus,
+      " |\n",
+      sep = ""
+    )
+  }
+
+  cat("\n")
+}
+```
+
+```{r, results='asis'}
+for (cat_name in category_order) {
+  render_category(cat_name)
+}
+```
+
+## Notes on status and relevance
+
+| Field | Meaning |
+|---|---|
+| `core` | Strongly useful for training in infectious disease modelling or epidemiological methods |
+| `recommended` | Broadly useful, but not necessarily essential |
+| `specialized` | Highly useful for a specific topic or method |
+| `reference` | Useful as supporting material or self-study |
+| `self-paced` | Stable online material, book, or tutorial |
+| `recurring` | Course or event appears to run repeatedly, although details may change |
+| `unknown` | Status should be checked again |
+
+## Maintenance
+
+The source of truth is [`data/training_resources.csv`](data/training_resources.csv). To update the page, edit the CSV and render the site again.
+
+Suggested maintenance rules:
+
+- keep one resource per row;
+- update `last_checked` whenever an entry is reviewed;
+- use official course pages as URLs whenever possible;
+- keep `notes` short;
+- do not delete past courses immediately if they are likely to recur;
+- use `status = unknown` when the current status is unclear.
+
+Inclusion in this list does not imply endorsement by any affiliated institution.
