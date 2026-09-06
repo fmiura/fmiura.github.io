@@ -3,6 +3,7 @@ title: ""
 ---
 
 # Fuminari (Fumi) Miura
+Infectious disease modeller. My research bridges epidemic theory, data, and public health response to support decision-making under uncertainty in infectious disease control.
 
 <div class="contact-icons">
   <a href="mailto:fuminari.miura@rivm.nl">
@@ -20,14 +21,16 @@ title: ""
 </div>
 
 <div class="about-image">
-  <img src="images/profile_RIVM.jpg" alt="Fuminari Miura">
+  <img src="images/profile_rijkslib.jpg" alt="Fuminari Miura"/>
 </div>
 
 ## About
 
-I am a Senior Researcher at the Dutch National Institute for Public Health and the Environment (RIVM), and an Assistant Professor at Leiden University Medical Center in the Netherlands and Nagasaki University in Japan.
+Fuminari (Fumi) Miura is a Senior Researcher at the Dutch National Institute for Public Health and the Environment (RIVM) and an Assistant Professor at Leiden University Medical Center (LUMC) and Nagasaki University. His work focuses on infectious disease epidemiology and mathematical modelling, with a particular interest in real-time outbreak analytics, transmission heterogeneity, and decision-relevant epidemic theory.
 
-My research bridges epidemic theory, data, and public health response to support decision-making under uncertainty in infectious disease control.
+At RIVM, he works closely with public health teams on infectious disease modelling and outbreak response. His academic appointments at LUMC and Nagasaki University support research, supervision, and international collaboration across epidemic modelling, statistical methods, and public health practice.
+
+His publications are listed on Google Scholar and ORCID. A full CV is available below.
 
 ```{=html}
 <!--
