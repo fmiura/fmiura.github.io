@@ -24,7 +24,7 @@ website:
           - href: resources/training_resources-database.qmd
             text: Training resources database
       - href: join.qmd
-        text: Contact
+        text: Join / Contact
   page-footer: ""
 
 format:

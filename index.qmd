@@ -6,7 +6,7 @@ title: ""
 Infectious disease modeller. My research bridges epidemic theory, data, and public health response to support decision-making under uncertainty in infectious disease control.
 
 <div class="contact-icons">
-  <a href="mailto:fuminari.miura@rivm.nl">
+  <a class="protected-email" href="#" data-local="fuminari.miura" data-domain="rivm" data-tld="nl" aria-label="Email Fumi Miura">
     <i class="bi bi-envelope"></i>
   </a>
   <a href="https://github.com/fmiura" target="_blank">
@@ -19,6 +19,13 @@ Infectious disease modeller. My research bridges epidemic theory, data, and publ
     <i class="bi bi-linkedin"></i>
   </a>
 </div>
+
+<script>
+document.querySelectorAll(".protected-email").forEach(function(link) {
+  var address = link.dataset.local + "@" + link.dataset.domain + "." + link.dataset.tld;
+  link.href = "mailto:" + address;
+});
+</script>
 
 <div class="about-image">
   <img src="images/profile_rijkslib.jpg" alt="Fuminari Miura"/>
