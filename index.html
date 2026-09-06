@@ -130,7 +130,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
   <li class="nav-item">
     <a class="nav-link" href="./join.html"> 
-<span class="menu-text">Contact</span></a>
+<span class="menu-text">Join / Contact</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -154,8 +154,14 @@ ul.task-list li input[type="checkbox"] {
 <h1>Fuminari (Fumi) Miura</h1>
 <p>Infectious disease modeller. My research bridges epidemic theory, data, and public health response to support decision-making under uncertainty in infectious disease control.</p>
 <div class="contact-icons">
-<p><a href="mailto:fuminari.miura@rivm.nl"> <i class="bi bi-envelope"></i> </a> <a href="https://github.com/fmiura" target="_blank"> <i class="bi bi-github"></i> </a> <a href="https://scholar.google.com/citations?hl=en&amp;user=Ns1zkzAAAAAJ" target="_blank"> <i class="bi bi-mortarboard"></i> </a> <a href="https://www.linkedin.com/in/fuminari-miura/" target="_blank"> <i class="bi bi-linkedin"></i> </a></p>
+<p><a class="protected-email" href="#" data-local="fuminari.miura" data-domain="rivm" data-tld="nl" aria-label="Email Fumi Miura"> <i class="bi bi-envelope"></i> </a> <a href="https://github.com/fmiura" target="_blank"> <i class="bi bi-github"></i> </a> <a href="https://scholar.google.com/citations?hl=en&amp;user=Ns1zkzAAAAAJ" target="_blank"> <i class="bi bi-mortarboard"></i> </a> <a href="https://www.linkedin.com/in/fuminari-miura/" target="_blank"> <i class="bi bi-linkedin"></i> </a></p>
 </div>
+<script>
+document.querySelectorAll(".protected-email").forEach(function(link) {
+  var address = link.dataset.local + "@" + link.dataset.domain + "." + link.dataset.tld;
+  link.href = "mailto:" + address;
+});
+</script>
 <div class="about-image">
 <p><img src="images/profile_rijkslib.jpg" alt="Fuminari Miura"></p>
 </div>

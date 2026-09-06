@@ -165,7 +165,7 @@
     "href": "index.html",
     "title": "Fuminari (Fumi) Miura",
     "section": "",
-    "text": "Infectious disease modeller. My research bridges epidemic theory, data, and public health response to support decision-making under uncertainty in infectious disease control.\n\n           \n\n\n\n\n\n\nFuminari (Fumi) Miura is a Senior Researcher at the Dutch National Institute for Public Health and the Environment (RIVM) and an Assistant Professor at Leiden University Medical Center (LUMC) and Nagasaki University. His work focuses on infectious disease epidemiology and mathematical modelling, with a particular interest in real-time outbreak analytics, transmission heterogeneity, and decision-relevant epidemic theory.\nAt RIVM, he works closely with public health teams on infectious disease modelling and outbreak response. His academic appointments at LUMC and Nagasaki University support research, supervision, and international collaboration across epidemic modelling, statistical methods, and public health practice.\nHis publications are listed on Google Scholar and ORCID. A full CV is available below."
+    "text": "Infectious disease modeller. My research bridges epidemic theory, data, and public health response to support decision-making under uncertainty in infectious disease control.\n\n           \n\n\n\n\n\n\n\nFuminari (Fumi) Miura is a Senior Researcher at the Dutch National Institute for Public Health and the Environment (RIVM) and an Assistant Professor at Leiden University Medical Center (LUMC) and Nagasaki University. His work focuses on infectious disease epidemiology and mathematical modelling, with a particular interest in real-time outbreak analytics, transmission heterogeneity, and decision-relevant epidemic theory.\nAt RIVM, he works closely with public health teams on infectious disease modelling and outbreak response. His academic appointments at LUMC and Nagasaki University support research, supervision, and international collaboration across epidemic modelling, statistical methods, and public health practice.\nHis publications are listed on Google Scholar and ORCID. A full CV is available below."
   },
   {
     "objectID": "index.html#about",
@@ -177,30 +177,44 @@
   {
     "objectID": "join.html",
     "href": "join.html",
-    "title": "Contact",
+    "title": "Join / Contact",
     "section": "",
     "text": "I welcome discussions on potential collaborative research projects, including academic partnerships and research collaborations with public institutions or industry. For an overview of my current research interests and agenda, please see the Research page."
   },
   {
     "objectID": "join.html#collaboration",
     "href": "join.html#collaboration",
-    "title": "Contact",
+    "title": "Join / Contact",
     "section": "",
     "text": "I welcome discussions on potential collaborative research projects, including academic partnerships and research collaborations with public institutions or industry. For an overview of my current research interests and agenda, please see the Research page."
   },
   {
     "objectID": "join.html#students-and-early-career-researchers",
     "href": "join.html#students-and-early-career-researchers",
-    "title": "Contact",
+    "title": "Join / Contact",
     "section": "Students and Early-Career Researchers",
-    "text": "Students and Early-Career Researchers\nI am happy to hear from motivated students and postdoctoral researchers whose interests align with the areas above. When reaching out, please include:\n\nA CV (PDF)\nA brief statement (1–2 paragraphs) outlining your interests and research goals\n(Optional) a writing sample or code repository\n\n\nPossible opportunities\n\nMSc thesis supervision\n\nPhD positions (subject to availability and funding)\n\nVisiting research stays\n\nFellowship-based positions (see below)"
+    "text": "Students and Early-Career Researchers\nI am happy to hear from motivated students and postdoctoral researchers whose interests align with the areas above. When reaching out, please include:\n\nA CV (PDF)\nA brief statement (1–2 paragraphs) outlining your interests and research goals\n(Optional) a writing sample or code repository"
+  },
+  {
+    "objectID": "join.html#possible-opportunities",
+    "href": "join.html#possible-opportunities",
+    "title": "Join / Contact",
+    "section": "Possible Opportunities",
+    "text": "Possible Opportunities\n\nMSc thesis supervision (LUMC) and internship (RIVM)\nPhD positions (subject to availability and funding)\nVisiting research stays\n\nFellowship-based positions (see below)"
   },
   {
     "objectID": "join.html#fellowship-opportunities",
     "href": "join.html#fellowship-opportunities",
-    "title": "Contact",
+    "title": "Join / Contact",
     "section": "Fellowship Opportunities",
-    "text": "Fellowship Opportunities\nProspective applicants are encouraged to consider external funding schemes. Examples include:\n\nJSPS Postdoctoral Fellowship (PD)\nhttps://www.jsps.go.jp/english/e-pd/\nJSPS Overseas Research Fellowship (海外特別研究員)\nhttps://www.jsps.go.jp/english/e-ab/\nOverseas fellowships (non-Japanese applicants to Japan)\nI can host applicants at Nagasaki University under relevant fellowship schemes.\n(For example: JSPS Invitational / institutional programs depending on year.)\nMarie Skłodowska-Curie Postdoctoral Fellowships (MSCA PF)\nhttps://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships\n\nIf you are considering applying for a fellowship with me as host or collaborator, please contact me well in advance of the deadline."
+    "text": "Fellowship Opportunities\nProspective applicants are encouraged to consider external funding schemes. Examples include:\n\nJSPS Postdoctoral Fellowship (PD)\nJSPS Overseas Research Fellowship (海外特別研究員)\nOverseas fellowships (non-Japanese applicants to Japan)\nI can host applicants at Nagasaki University under relevant fellowship schemes.\n(For example: JSPS Invitational / institutional programs depending on year.)\nMarie Skłodowska-Curie Postdoctoral Fellowships (MSCA PF)\n\nIf you are considering applying for a fellowship with me as host or collaborator, please contact me well in advance of the deadline."
+  },
+  {
+    "objectID": "join.html#contact",
+    "href": "join.html#contact",
+    "title": "Join / Contact",
+    "section": "Contact",
+    "text": "Contact\nFor collaboration, supervision, or fellowship enquiries, please use this email link:\nEmail Fumi Miura"
   },
   {
     "objectID": "resources/training_resources-csv-full.html",
