@@ -15,7 +15,7 @@ When reaching out, please include:
 - A brief statement (1–2 paragraphs) outlining your interests and research goals
 - (Optional) a writing sample or code repository
 
-## Possible Opportunities
+## Possible Ways to Join
 
 - MSc thesis supervision (LUMC) and internship (RIVM) 
 - PhD positions (subject to availability and funding) 
@@ -26,24 +26,29 @@ When reaching out, please include:
 
 Prospective applicants are encouraged to consider external funding schemes. Examples include:
 
-- [JSPS Postdoctoral Fellowship (PD)](https://www.jsps.go.jp/english/e-pd/)
+- [Marie Skłodowska-Curie Postdoctoral Fellowships (MSCA PF)](https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships)  
+  For postdoctoral researchers applying to work in Europe. This may be relevant for applicants considering LUMC or RIVM as a host environment.
 
-- [JSPS Overseas Research Fellowship (海外特別研究員)](https://www.jsps.go.jp/english/e-ab/)
+- [EMBO Postdoctoral Fellowships](https://www.embo.org/funding/fellowships-grants-and-career-support/postdoctoral-fellowships/)  
+  For internationally mobile postdoctoral researchers in Europe and around the world. This may be relevant for applicants whose proposed project fits within the life sciences.
 
-- **Overseas fellowships (non-Japanese applicants to Japan)**  
-  I can host applicants at Nagasaki University under relevant fellowship schemes.  
-  (For example: JSPS Invitational / institutional programs depending on year.)
+- [HFSP Postdoctoral Fellowships](https://www.hfsp.org/funding/hfsp-funding/postdoctoral-fellowships)  
+  For internationally mobile postdoctoral researchers proposing frontier, interdisciplinary life-science projects. This may be especially relevant for applicants moving between quantitative, computational, or engineering backgrounds and infectious disease research.
+  
+- [JSPS Postdoctoral Fellowship (学振PD)](https://www.jsps.go.jp/english/e-pd/)  
+  For postdoctoral researchers applying to work in Japan. This may be relevant for applicants considering a stay at Nagasaki University. Remote working may be negotiable, with Nagasaki University as the host institution.
 
-- [Marie Skłodowska-Curie Postdoctoral Fellowships (MSCA PF)](https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships)
+- [JSPS Overseas Research Fellowship (海外特別研究員)](https://www.jsps.go.jp/english/e-ab/)  
+  For Japan-based early-career researchers seeking overseas research experience. This may be relevant for applicants considering a stay at LUMC or RIVM.
 
 If you are considering applying for a fellowship with me as host or collaborator, please contact me well in advance of the deadline.
 
 ## Contact
 
-For collaboration, supervision, or fellowship enquiries, please use this email link:
+For collaboration, student opportunities, or fellowship enquiries, please use this email link:
 
 ```{=html}
-<a class="protected-email" href="#" data-local="fuminari.miura" data-domain="rivm" data-tld="nl">Email Fumi Miura</a>
+<a class="protected-email" href="#" data-local="fuminari.miura" data-domain="rivm" data-tld="nl">Email: Fumi Miura</a>
 <script>
 document.querySelectorAll(".protected-email").forEach(function(link) {
   var address = link.dataset.local + "@" + link.dataset.domain + "." + link.dataset.tld;
