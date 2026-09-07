@@ -10,36 +10,41 @@ The next pandemic will bring a new pathogen, but many intervention strategies, p
 
 Although pathogens differ biologically, epidemics often share recurring structures and scientific questions. By learning across past and ongoing outbreaks, we aim to identify transferable principles that can inform future epidemic response and strengthen pandemic preparedness, resilience, and biosecurity.
 
+## Research themes
+
 ### Heterogeneity and selective transmission
 
-#### How does variation between individuals shape epidemic dynamics and what we infer from them?
+**How does variation between individuals shape epidemic dynamics and what we infer from them?**
 
 We study how differences in susceptibility, infectiousness, and contact patterns shape transmission at the population level. Our work examines how these sources of heterogeneity can be quantified from experimental and epidemiological data, how selective transmission changes the composition of susceptible populations over time, and when such heterogeneity is consequential enough to matter for epidemic inference and prediction.
 
-**Selected work**
-  - Susceptibility heterogeneity — Quantifying variation in individual susceptibility to infection under controlled exposure and its implications for population-level transmission. ([Miura et al. (2024) Epidemiology](https://doi.org/10.1097/EDE.0000000000001679); [Miura et al. (2023) medRxiv](https://www.medrxiv.org/content/10.1101/2023.09.24.23296054v1))
-  - Infectiousness heterogeneity — Showing how variation in infectiousness can alter the effectiveness and design of isolation and treatment strategies. ([Jeong et al. (2024) Nature Communications](https://www.nature.com/articles/s41467-024-51143-w); [Nishiyama, Miura et al. (2025) Science Translational Medicine](https://www.science.org/doi/10.1126/scitranslmed.ads4773))
-  - Contact heterogeneity and selective transmission — Examining how heterogeneous sexual contact networks shape epidemic size and which individuals or groups are preferentially reached by transmission. ([Jung & Miura et al. (2025) Journal of Infectious Diseases](https://doi.org/10.1093/infdis/jiae433))
+#### Selected work
+
+- Susceptibility heterogeneity — Quantifying variation in individual susceptibility to infection under controlled exposure and its implications for population-level transmission. ([Miura et al. (2024) Epidemiology](https://doi.org/10.1097/EDE.0000000000001679); [Miura et al. (2023) medRxiv](https://www.medrxiv.org/content/10.1101/2023.09.24.23296054v1))
+- Infectiousness heterogeneity — Showing how variation in infectiousness can alter the effectiveness and design of isolation and treatment strategies. ([Jeong et al. (2024) Nature Communications](https://www.nature.com/articles/s41467-024-51143-w); [Nishiyama, Miura et al. (2025) Science Translational Medicine](https://www.science.org/doi/10.1126/scitranslmed.ads4773))
+- Contact heterogeneity and selective transmission — Examining how heterogeneous sexual contact networks shape epidemic size and which individuals or groups are preferentially reached by transmission. ([Jung & Miura et al. (2025) Journal of Infectious Diseases](https://doi.org/10.1093/infdis/jiae433))
 
 ### Epidemic intelligence from imperfect signals
 
-#### What can we reliably learn about an epidemic from incomplete observations across diverse data streams?
+**What can we reliably learn about an epidemic from incomplete observations across diverse data streams?**
 
 We develop statistical and mechanistic approaches to extract information on transmission dynamics from imperfect surveillance and emerging data streams. Our work examines how observation processes, under-ascertainment, and differences across data sources affect epidemiological inference, with the aim of developing monitoring systems that combine conventional surveillance with alternative data while making uncertainty and identifiability explicit.
 
-**Selected work**
-  - Inferring effective reproduction number $R_t$ and epidemic trends using wastewater data ([Miyazawa et al. (2024) Eurosurveillance](https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2024.29.8.2300277); [van Boven et al. (2023) Eurosurveillance](https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2023.28.25.2200700))
-  - Nowcasting (e.g., [mpox](https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2023.28.12.2200772)) and short-term forecasting (see our contribution to [RespiCast, ECDC forecasting platform](https://respicast.ecdc.europa.eu/) and a preprint [Gozzi et al. (2026) medRxiv](https://www.medrxiv.org/content/10.1101/2025.10.30.25339155v2))
+#### Selected work
+
+- Inferring effective reproduction number $R_t$ and epidemic trends using wastewater data ([Miyazawa et al. (2024) Eurosurveillance](https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2024.29.8.2300277); [van Boven et al. (2023) Eurosurveillance](https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2023.28.25.2200700))
+- Nowcasting (e.g., [mpox](https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2023.28.12.2200772)) and short-term forecasting (see our contribution to [RespiCast, ECDC forecasting platform](https://respicast.ecdc.europa.eu/) and a preprint [Gozzi et al. (2026) medRxiv](https://www.medrxiv.org/content/10.1101/2025.10.30.25339155v2))
 
 ### Targeted and adaptive epidemic control
 
-#### How should intervention strategies change across populations, epidemic phases, and policy objectives?
+**How should intervention strategies change across populations, epidemic phases, and policy objectives?**
 
 We propose analytical frameworks to identify whom, when, and how to target during an epidemic. Our work examines how population structure, transmission routes, epidemic phase, and policy objectives alter the expected impact of interventions, with the longer-term aim of developing adaptive strategies that update as epidemics and evidence evolve.
 
-**Selected work**
-  - Optimal allocation of limited vaccines across age groups according to different policy objectives ([Miura et al. (2021) PLOS Computational Biology](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009697))
-  - Dynamic shift in epidemiologically important groups and transmission routes in structured mpox epidemics ([Miura & Leung et al. (2026) Science Advances](https://www.science.org/doi/10.1126/sciadv.aec1931))
+#### Selected work
+
+- Optimal allocation of limited vaccines across age groups according to different policy objectives ([Miura et al. (2021) PLOS Computational Biology](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009697))
+- Dynamic shift in epidemiologically important groups and transmission routes in structured mpox epidemics ([Miura & Leung et al. (2026) Science Advances](https://www.science.org/doi/10.1126/sciadv.aec1931))
 
 ## Relevant ongoing projects
 - [JST PRESTO](https://www.jst.go.jp/kisoken/presto/en/project/1112103/1112103_2023.html#anchor-10)
