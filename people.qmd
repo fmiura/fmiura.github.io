@@ -1,0 +1,20 @@
+---
+title: "People"
+---
+
+This page lists students and visiting researchers I work with closely. Some PhD projects are formally hosted or funded through RIVM, with senior colleagues as formal promoters.
+
+## Current
+
+- Pauline Bakker (PhD student, RIVM/LUMC)
+- Ward Spee (PhD student, RIVM/LUMC)
+- Daiki Tatematsu (Visiting PhD student from Nagoya University)
+- Kaho Shinozaki (Visiting researcher from JIHS, Japan)
+
+## Alumni
+
+- Ezra Hulleman (MSc thesis project from Utrecht University)
+
+## Recruitment
+
+Interested in working with us? For possible ways to join, fellowship-based routes, and contact details, please see [Join / Contact](join.html).
