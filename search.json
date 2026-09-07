@@ -123,21 +123,14 @@
     "href": "research.html",
     "title": "Research",
     "section": "",
-    "text": "My recent research themes include:"
+    "text": "The next pandemic will bring a new pathogen, but many intervention strategies, policy questions, and analytical challenges will not be new. Our core research question is: which features of epidemic structure matter enough to change what we infer, predict, and do? We are currently addressing this question through three research themes:\nAlthough pathogens differ biologically, epidemics often share recurring structures and scientific questions. By learning across past and ongoing outbreaks, we aim to identify transferable principles that can inform future epidemic response and strengthen pandemic preparedness, resilience, and biosecurity."
   },
   {
-    "objectID": "research.html#detailed-topics",
-    "href": "research.html#detailed-topics",
+    "objectID": "research.html#relevant-ongoing-projects",
+    "href": "research.html#relevant-ongoing-projects",
     "title": "Research",
-    "section": "Detailed topics",
-    "text": "Detailed topics\n\nEpidemic modelling for decision making\n\nDesigning targeted control strategies\n\nOptimal vaccine allocation using approximated next-generation matrices (Miura et al. (2021) Plos Comp Bio)\nTemporal shift in the dominant transmission route for mpox clade Ib (Miura and Leung et al. (2026) Sci Adv)\n\nIndividual-level heterogeneity\n\nSusceptibility\nInfectiousness\n\nPolicy evaluation\n\nScenario analysis\nEffectiveness of control measures\n\n\n\n\nReal-time outbreak analytics\n\nEstimating key epidemiological parameters (e.g., incubation period, serial interval)\nMonitoring epidemic trends\n\nNowcasting (e.g., mpox)\nEffective reproduction number \\(R_t\\) using wastewater data (see Miyazawa et al. and van Boven et al.)\nShort-term forecasting (see our contribution to RespiCast, ECDC forecasting platform and a preprint Gozzi et al. (2026) medRxiv)\n\n\n\n\nPandemic reslience, biosecurity\n\nEpidemiological archetypes\nDisease X framework"
-  },
-  {
-    "objectID": "research.html#projects",
-    "href": "research.html#projects",
-    "title": "Research",
-    "section": "Projects",
-    "text": "Projects\n\nJST PRESTO\nESCAPE (Horizon Europe, WP4 Analytics & Tools)"
+    "section": "Relevant ongoing projects",
+    "text": "Relevant ongoing projects\n\nJST PRESTO\nESCAPE (Horizon Europe, WP4 Analytics & Tools)"
   },
   {
     "objectID": "publications.html",
@@ -165,14 +158,42 @@
     "href": "index.html",
     "title": "Fuminari (Fumi) Miura",
     "section": "",
-    "text": "Infectious disease modeller. My research bridges epidemic theory, data, and public health response to support decision-making under uncertainty in infectious disease control.\n\n           \n\n\n\n\n\n\n\nFuminari (Fumi) Miura is a Senior Researcher at the Dutch National Institute for Public Health and the Environment (RIVM) and an Assistant Professor at Leiden University Medical Center (LUMC) and Nagasaki University. His work focuses on infectious disease epidemiology and mathematical modelling, with a particular interest in real-time outbreak analytics, transmission heterogeneity, and decision-relevant epidemic theory.\nAt RIVM, he works closely with public health teams on infectious disease modelling and outbreak response. His academic appointments at LUMC and Nagasaki University support research, supervision, and international collaboration across epidemic modelling, statistical methods, and public health practice.\nHis publications are listed on Google Scholar and ORCID. A full CV is available below."
+    "text": "Infectious disease modeller. My research bridges epidemic theory, data, and public health response to support decision-making under uncertainty in infectious disease control.\n\n           \n\n\n\n\n\n\n\nFuminari (Fumi) Miura is a Senior Researcher at the Dutch National Institute for Public Health and the Environment (RIVM) and an Assistant Professor at Leiden University Medical Center (LUMC) and Nagasaki University. His work focuses on infectious disease epidemiology and mathematical modelling, with a particular interest in real-time outbreak analytics, transmission heterogeneity, and decision-relevant epidemic theory.\nAt RIVM, he works closely with public health teams on infectious disease modelling and outbreak response. His academic appointments at LUMC and Nagasaki University support research, supervision, and international collaboration across epidemic modelling, statistical methods, and public health practice.\nHis publications are listed on Google Scholar. A full CV is available below."
   },
   {
     "objectID": "index.html#about",
     "href": "index.html#about",
     "title": "Fuminari (Fumi) Miura",
     "section": "",
-    "text": "Fuminari (Fumi) Miura is a Senior Researcher at the Dutch National Institute for Public Health and the Environment (RIVM) and an Assistant Professor at Leiden University Medical Center (LUMC) and Nagasaki University. His work focuses on infectious disease epidemiology and mathematical modelling, with a particular interest in real-time outbreak analytics, transmission heterogeneity, and decision-relevant epidemic theory.\nAt RIVM, he works closely with public health teams on infectious disease modelling and outbreak response. His academic appointments at LUMC and Nagasaki University support research, supervision, and international collaboration across epidemic modelling, statistical methods, and public health practice.\nHis publications are listed on Google Scholar and ORCID. A full CV is available below."
+    "text": "Fuminari (Fumi) Miura is a Senior Researcher at the Dutch National Institute for Public Health and the Environment (RIVM) and an Assistant Professor at Leiden University Medical Center (LUMC) and Nagasaki University. His work focuses on infectious disease epidemiology and mathematical modelling, with a particular interest in real-time outbreak analytics, transmission heterogeneity, and decision-relevant epidemic theory.\nAt RIVM, he works closely with public health teams on infectious disease modelling and outbreak response. His academic appointments at LUMC and Nagasaki University support research, supervision, and international collaboration across epidemic modelling, statistical methods, and public health practice.\nHis publications are listed on Google Scholar. A full CV is available below."
+  },
+  {
+    "objectID": "people.html",
+    "href": "people.html",
+    "title": "People",
+    "section": "",
+    "text": "This page lists students and visiting researchers I work with closely. Some PhD projects are formally hosted or funded through RIVM, with senior colleagues as formal promoters."
+  },
+  {
+    "objectID": "people.html#current",
+    "href": "people.html#current",
+    "title": "People",
+    "section": "Current",
+    "text": "Current\n\nPauline Bakker (PhD student, RIVM/LUMC)\nWard Spee (PhD student, RIVM/LUMC)\nDaiki Tatematsu (Visiting PhD student from Nagoya University)\nKaho Shinozaki (Visiting researcher from JIHS, Japan)"
+  },
+  {
+    "objectID": "people.html#alumni",
+    "href": "people.html#alumni",
+    "title": "People",
+    "section": "Alumni",
+    "text": "Alumni\n\nEzra Hulleman (MSc thesis project from Utrecht University)"
+  },
+  {
+    "objectID": "people.html#recruitment",
+    "href": "people.html#recruitment",
+    "title": "People",
+    "section": "Recruitment",
+    "text": "Recruitment\nInterested in working with us? For possible ways to join, fellowship-based routes, and contact details, please see Join / Contact."
   },
   {
     "objectID": "join.html",
