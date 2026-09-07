@@ -23,8 +23,7 @@ jobs:
 
       - name: Install R packages
         run: |
-          Rscript -e 'install.packages(c("knitr", "rmarkdown", "readr", "dplyr", "gt", "stringr"), repos = Sys.getenv("RSPM"))'
-          Rscript -e 'stopifnot(requireNamespace("knitr", quietly = TRUE), requireNamespace("rmarkdown", quietly = TRUE), requireNamespace("readr", quietly = TRUE), requireNamespace("dplyr", quietly = TRUE), requireNamespace("gt", quietly = TRUE), requireNamespace("stringr", quietly = TRUE))'
+          Rscript -e 'pkgs <- c("knitr", "rmarkdown", "readr", "dplyr", "gt", "stringr"); install.packages(pkgs, repos = Sys.getenv("RSPM")); missing <- pkgs[!vapply(pkgs, requireNamespace, logical(1), quietly = TRUE)]; if (length(missing)) install.packages(missing, repos = "https://cloud.r-project.org"); stopifnot(all(vapply(pkgs, requireNamespace, logical(1), quietly = TRUE)))'
 
       - uses: quarto-dev/quarto-actions/setup@v2
 
