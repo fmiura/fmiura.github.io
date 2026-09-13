@@ -3,7 +3,7 @@ project:
 
 website:
   title: "Fuminari Miura"
-  google-analytics: "G-XXXXXXXXXX"
+  google-analytics: "G-KH4K12NVVV"
   navbar:
     left:
       - href: index.qmd
