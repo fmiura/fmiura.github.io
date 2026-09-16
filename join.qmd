@@ -19,7 +19,7 @@ When reaching out, please include:
 
 - MSc thesis supervision (LUMC) and internship (RIVM) 
 - PhD positions (subject to availability and funding) 
-- Visiting research stays  
+- Visiting research stays
 - Fellowship-based positions (see below)
 
 ## Fellowship Opportunities
@@ -48,7 +48,7 @@ If you are considering applying for a fellowship with me as host or collaborator
 For collaboration, student opportunities, or fellowship enquiries, please use this email link:
 
 ```{=html}
-<a class="protected-email" href="#" data-local="fuminari.miura" data-domain="rivm" data-tld="nl">Email: Fumi Miura</a>
+<a class="protected-email" href="#" data-local="fuminari.miura" data-domain="rivm" data-tld="nl">Email</a>
 <script>
 document.querySelectorAll(".protected-email").forEach(function(link) {
   var address = link.dataset.local + "@" + link.dataset.domain + "." + link.dataset.tld;

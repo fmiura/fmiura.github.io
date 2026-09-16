@@ -28,7 +28,7 @@ document.querySelectorAll(".protected-email").forEach(function(link) {
 </script>
 
 <div class="about-image">
-  <img src="images/profile_rijkslib.jpg" alt="Fuminari Miura"/>
+  <img src="images/profile_rijkslib-toned.jpg" alt="Fuminari Miura"/>
 </div>
 
 ## About
@@ -37,7 +37,7 @@ Fuminari (Fumi) Miura is a Senior Researcher at the Dutch National Institute for
 
 At RIVM, he works closely with public health teams on infectious disease modelling and outbreak response. His academic appointments at LUMC and Nagasaki University support research, supervision, and international collaboration across epidemic modelling, statistical methods, and public health practice.
 
-His publications are listed on [Google Scholar](https://scholar.google.com/citations?hl=en&user=Ns1zkzAAAAAJ). A full CV is available below.
+His publications are listed on [Google Scholar](https://scholar.google.com/citations?hl=en&user=Ns1zkzAAAAAJ).
 
 ```{=html}
 <!--
